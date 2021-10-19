@@ -15,5 +15,18 @@ namespace PocThomasMVVMCross.Core.ViewModels
             set { _firstName = value; RaiseAllPropertiesChanged(); }
         }
 
+        private string _lastName;
+
+        public string LastName
+        {
+            get { return _lastName; }
+            set { _lastName = value; RaiseAllPropertiesChanged(); }
+        }
+
+        public string FullName
+        {
+            get { return string.Format("{0} {1}", _firstName, _lastName); }
+        }
+
     }
 }
