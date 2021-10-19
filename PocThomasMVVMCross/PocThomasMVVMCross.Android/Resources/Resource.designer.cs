@@ -25,6 +25,2934 @@ namespace PocThomasMVVMCross.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::MvvmCross.Resource.Animation.abc_fade_in = global::PocThomasMVVMCross.Android.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Resource.Animation.abc_fade_out = global::PocThomasMVVMCross.Android.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Resource.Animation.abc_grow_fade_in_from_bottom = global::PocThomasMVVMCross.Android.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Resource.Animation.abc_popup_enter = global::PocThomasMVVMCross.Android.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Resource.Animation.abc_popup_exit = global::PocThomasMVVMCross.Android.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PocThomasMVVMCross.Android.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_in_bottom = global::PocThomasMVVMCross.Android.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_in_top = global::PocThomasMVVMCross.Android.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Resource.Animation.abc_slide_out_bottom = global::PocThomasMVVMCross.Android.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Resource.Animation.abc_slide_out_top = global::PocThomasMVVMCross.Android.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Resource.Animation.abc_tooltip_enter = global::PocThomasMVVMCross.Android.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Resource.Animation.abc_tooltip_exit = global::PocThomasMVVMCross.Android.Resource.Animation.abc_tooltip_exit;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::MvvmCross.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::MvvmCross.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::PocThomasMVVMCross.Android.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Resource.Animation.design_bottom_sheet_slide_in = global::PocThomasMVVMCross.Android.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Resource.Animation.design_bottom_sheet_slide_out = global::PocThomasMVVMCross.Android.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Resource.Animation.design_snackbar_in = global::PocThomasMVVMCross.Android.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Resource.Animation.design_snackbar_out = global::PocThomasMVVMCross.Android.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Resource.Animation.fragment_close_enter = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_close_enter;
+			global::MvvmCross.Resource.Animation.fragment_close_exit = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_close_exit;
+			global::MvvmCross.Resource.Animation.fragment_fade_enter = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_fade_enter;
+			global::MvvmCross.Resource.Animation.fragment_fade_exit = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_fade_exit;
+			global::MvvmCross.Resource.Animation.fragment_fast_out_extra_slow_in = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::MvvmCross.Resource.Animation.fragment_open_enter = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_open_enter;
+			global::MvvmCross.Resource.Animation.fragment_open_exit = global::PocThomasMVVMCross.Android.Resource.Animation.fragment_open_exit;
+			global::MvvmCross.Resource.Animator.design_appbar_state_list_animator = global::PocThomasMVVMCross.Android.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Resource.Animator.design_fab_hide_motion_spec = global::PocThomasMVVMCross.Android.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Resource.Animator.design_fab_show_motion_spec = global::PocThomasMVVMCross.Android.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_btn_state_list_anim = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_chip_state_list_anim = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Resource.Animator.mtrl_fab_hide_motion_spec = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_show_motion_spec = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::PocThomasMVVMCross.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::MvvmCross.Resource.Attribute.actionBarDivider = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Resource.Attribute.actionBarItemBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Resource.Attribute.actionBarPopupTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Resource.Attribute.actionBarSize = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Resource.Attribute.actionBarSplitStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Resource.Attribute.actionBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTabTextStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Resource.Attribute.actionBarTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Resource.Attribute.actionBarWidgetTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Resource.Attribute.actionButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionDropDownStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Resource.Attribute.actionLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.actionLayout;
+			global::MvvmCross.Resource.Attribute.actionMenuTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Resource.Attribute.actionMenuTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Resource.Attribute.actionModeBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Resource.Attribute.actionModeCloseButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionModeCloseDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeCopyDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeCutDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeFindDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Resource.Attribute.actionModePasteDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Resource.Attribute.actionModePopupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Resource.Attribute.actionModeSelectAllDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeShareDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Resource.Attribute.actionModeSplitBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Resource.Attribute.actionModeStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Resource.Attribute.actionModeWebSearchDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Resource.Attribute.actionOverflowButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Resource.Attribute.actionOverflowMenuStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Resource.Attribute.actionProviderClass = global::PocThomasMVVMCross.Android.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Resource.Attribute.actionViewClass = global::PocThomasMVVMCross.Android.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Resource.Attribute.activityChooserViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Resource.Attribute.adjustable = global::PocThomasMVVMCross.Android.Resource.Attribute.adjustable;
+			global::MvvmCross.Resource.Attribute.alertDialogButtonGroupStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Resource.Attribute.alertDialogCenterButtons = global::PocThomasMVVMCross.Android.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Resource.Attribute.alertDialogStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Resource.Attribute.alertDialogTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Resource.Attribute.allowDividerAbove = global::PocThomasMVVMCross.Android.Resource.Attribute.allowDividerAbove;
+			global::MvvmCross.Resource.Attribute.allowDividerAfterLastItem = global::PocThomasMVVMCross.Android.Resource.Attribute.allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Attribute.allowDividerBelow = global::PocThomasMVVMCross.Android.Resource.Attribute.allowDividerBelow;
+			global::MvvmCross.Resource.Attribute.allowStacking = global::PocThomasMVVMCross.Android.Resource.Attribute.allowStacking;
+			global::MvvmCross.Resource.Attribute.alpha = global::PocThomasMVVMCross.Android.Resource.Attribute.alpha;
+			global::MvvmCross.Resource.Attribute.alphabeticModifiers = global::PocThomasMVVMCross.Android.Resource.Attribute.alphabeticModifiers;
+			global::MvvmCross.Resource.Attribute.arrowHeadLength = global::PocThomasMVVMCross.Android.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Resource.Attribute.arrowShaftLength = global::PocThomasMVVMCross.Android.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Resource.Attribute.autoCompleteTextViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Resource.Attribute.autoSizeMaxTextSize = global::PocThomasMVVMCross.Android.Resource.Attribute.autoSizeMaxTextSize;
+			global::MvvmCross.Resource.Attribute.autoSizeMinTextSize = global::PocThomasMVVMCross.Android.Resource.Attribute.autoSizeMinTextSize;
+			global::MvvmCross.Resource.Attribute.autoSizePresetSizes = global::PocThomasMVVMCross.Android.Resource.Attribute.autoSizePresetSizes;
+			global::MvvmCross.Resource.Attribute.autoSizeStepGranularity = global::PocThomasMVVMCross.Android.Resource.Attribute.autoSizeStepGranularity;
+			global::MvvmCross.Resource.Attribute.autoSizeTextType = global::PocThomasMVVMCross.Android.Resource.Attribute.autoSizeTextType;
+			global::MvvmCross.Resource.Attribute.background = global::PocThomasMVVMCross.Android.Resource.Attribute.background;
+			global::MvvmCross.Resource.Attribute.backgroundSplit = global::PocThomasMVVMCross.Android.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Resource.Attribute.backgroundStacked = global::PocThomasMVVMCross.Android.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Resource.Attribute.backgroundTint = global::PocThomasMVVMCross.Android.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Resource.Attribute.backgroundTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Resource.Attribute.barLength = global::PocThomasMVVMCross.Android.Resource.Attribute.barLength;
+			global::MvvmCross.Resource.Attribute.behavior_autoHide = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Resource.Attribute.behavior_fitToContents = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_fitToContents;
+			global::MvvmCross.Resource.Attribute.behavior_hideable = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Resource.Attribute.behavior_overlapTop = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Resource.Attribute.behavior_peekHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Resource.Attribute.behavior_skipCollapsed = global::PocThomasMVVMCross.Android.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.Resource.Attribute.borderlessButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Resource.Attribute.borderWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.borderWidth;
+			global::MvvmCross.Resource.Attribute.bottomAppBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Resource.Attribute.bottomNavigationStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.bottomNavigationStyle;
+			global::MvvmCross.Resource.Attribute.bottomSheetDialogTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Attribute.bottomSheetStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Resource.Attribute.boxBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Resource.Attribute.boxBackgroundMode = global::PocThomasMVVMCross.Android.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Resource.Attribute.boxCollapsedPaddingTop = global::PocThomasMVVMCross.Android.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusBottomEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusBottomStart = global::PocThomasMVVMCross.Android.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusTopEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Resource.Attribute.boxCornerRadiusTopStart = global::PocThomasMVVMCross.Android.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Resource.Attribute.boxStrokeColor = global::PocThomasMVVMCross.Android.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Resource.Attribute.boxStrokeWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.boxStrokeWidth;
+			global::MvvmCross.Resource.Attribute.buttonBarButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarNegativeButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarNeutralButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarPositiveButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Resource.Attribute.buttonBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Resource.Attribute.buttonCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonCompat;
+			global::MvvmCross.Resource.Attribute.buttonGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Resource.Attribute.buttonIconDimen = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonIconDimen;
+			global::MvvmCross.Resource.Attribute.buttonPanelSideLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Resource.Attribute.buttonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Resource.Attribute.buttonStyleSmall = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Resource.Attribute.buttonTint = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonTint;
+			global::MvvmCross.Resource.Attribute.buttonTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Resource.Attribute.cardBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Resource.Attribute.cardCornerRadius = global::PocThomasMVVMCross.Android.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Resource.Attribute.cardElevation = global::PocThomasMVVMCross.Android.Resource.Attribute.cardElevation;
+			global::MvvmCross.Resource.Attribute.cardMaxElevation = global::PocThomasMVVMCross.Android.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Resource.Attribute.cardPreventCornerOverlap = global::PocThomasMVVMCross.Android.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Resource.Attribute.cardUseCompatPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Resource.Attribute.cardViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.cardViewStyle;
+			global::MvvmCross.Resource.Attribute.checkBoxPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.checkBoxPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.checkboxStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Resource.Attribute.checkedChip = global::PocThomasMVVMCross.Android.Resource.Attribute.checkedChip;
+			global::MvvmCross.Resource.Attribute.checkedIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Resource.Attribute.checkedIconEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Resource.Attribute.checkedIconVisible = global::PocThomasMVVMCross.Android.Resource.Attribute.checkedIconVisible;
+			global::MvvmCross.Resource.Attribute.checkedTextViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Resource.Attribute.chipBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Resource.Attribute.chipCornerRadius = global::PocThomasMVVMCross.Android.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Resource.Attribute.chipEndPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Resource.Attribute.chipGroupStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Resource.Attribute.chipIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.chipIcon;
+			global::MvvmCross.Resource.Attribute.chipIconEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Resource.Attribute.chipIconSize = global::PocThomasMVVMCross.Android.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Resource.Attribute.chipIconTint = global::PocThomasMVVMCross.Android.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Resource.Attribute.chipIconVisible = global::PocThomasMVVMCross.Android.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Resource.Attribute.chipMinHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Resource.Attribute.chipSpacing = global::PocThomasMVVMCross.Android.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Resource.Attribute.chipSpacingHorizontal = global::PocThomasMVVMCross.Android.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Resource.Attribute.chipSpacingVertical = global::PocThomasMVVMCross.Android.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Resource.Attribute.chipStandaloneStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Resource.Attribute.chipStartPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Resource.Attribute.chipStrokeColor = global::PocThomasMVVMCross.Android.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Resource.Attribute.chipStrokeWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Resource.Attribute.chipStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.chipStyle;
+			global::MvvmCross.Resource.Attribute.closeIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIcon;
+			global::MvvmCross.Resource.Attribute.closeIconEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Resource.Attribute.closeIconEndPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Resource.Attribute.closeIconSize = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Resource.Attribute.closeIconStartPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Resource.Attribute.closeIconTint = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Resource.Attribute.closeIconVisible = global::PocThomasMVVMCross.Android.Resource.Attribute.closeIconVisible;
+			global::MvvmCross.Resource.Attribute.closeItemLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Resource.Attribute.collapseContentDescription = global::PocThomasMVVMCross.Android.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Resource.Attribute.collapsedTitleGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Resource.Attribute.collapsedTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.collapseIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Resource.Attribute.color = global::PocThomasMVVMCross.Android.Resource.Attribute.color;
+			global::MvvmCross.Resource.Attribute.colorAccent = global::PocThomasMVVMCross.Android.Resource.Attribute.colorAccent;
+			global::MvvmCross.Resource.Attribute.colorBackgroundFloating = global::PocThomasMVVMCross.Android.Resource.Attribute.colorBackgroundFloating;
+			global::MvvmCross.Resource.Attribute.colorButtonNormal = global::PocThomasMVVMCross.Android.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Resource.Attribute.colorControlActivated = global::PocThomasMVVMCross.Android.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Resource.Attribute.colorControlHighlight = global::PocThomasMVVMCross.Android.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Resource.Attribute.colorControlNormal = global::PocThomasMVVMCross.Android.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Resource.Attribute.colorError = global::PocThomasMVVMCross.Android.Resource.Attribute.colorError;
+			global::MvvmCross.Resource.Attribute.colorPrimary = global::PocThomasMVVMCross.Android.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Resource.Attribute.colorPrimaryDark = global::PocThomasMVVMCross.Android.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Resource.Attribute.colorSecondary = global::PocThomasMVVMCross.Android.Resource.Attribute.colorSecondary;
+			global::MvvmCross.Resource.Attribute.colorSwitchThumbNormal = global::PocThomasMVVMCross.Android.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Resource.Attribute.commitIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.commitIcon;
+			global::MvvmCross.Resource.Attribute.contentDescription = global::PocThomasMVVMCross.Android.Resource.Attribute.contentDescription;
+			global::MvvmCross.Resource.Attribute.contentInsetEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Resource.Attribute.contentInsetEndWithActions = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetEndWithActions;
+			global::MvvmCross.Resource.Attribute.contentInsetLeft = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Resource.Attribute.contentInsetRight = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Resource.Attribute.contentInsetStart = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Resource.Attribute.contentInsetStartWithNavigation = global::PocThomasMVVMCross.Android.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Attribute.contentPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.contentPadding;
+			global::MvvmCross.Resource.Attribute.contentPaddingBottom = global::PocThomasMVVMCross.Android.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Resource.Attribute.contentPaddingLeft = global::PocThomasMVVMCross.Android.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Resource.Attribute.contentPaddingRight = global::PocThomasMVVMCross.Android.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Resource.Attribute.contentPaddingTop = global::PocThomasMVVMCross.Android.Resource.Attribute.contentPaddingTop;
+			global::MvvmCross.Resource.Attribute.contentScrim = global::PocThomasMVVMCross.Android.Resource.Attribute.contentScrim;
+			global::MvvmCross.Resource.Attribute.controlBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.controlBackground;
+			global::MvvmCross.Resource.Attribute.coordinatorLayoutStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Resource.Attribute.cornerRadius = global::PocThomasMVVMCross.Android.Resource.Attribute.cornerRadius;
+			global::MvvmCross.Resource.Attribute.counterEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Resource.Attribute.counterMaxLength = global::PocThomasMVVMCross.Android.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Resource.Attribute.counterOverflowTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Resource.Attribute.counterTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Resource.Attribute.customNavigationLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Resource.Attribute.defaultQueryHint = global::PocThomasMVVMCross.Android.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Resource.Attribute.defaultValue = global::PocThomasMVVMCross.Android.Resource.Attribute.defaultValue;
+			global::MvvmCross.Resource.Attribute.dependency = global::PocThomasMVVMCross.Android.Resource.Attribute.dependency;
+			global::MvvmCross.Resource.Attribute.dialogCornerRadius = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogCornerRadius;
+			global::MvvmCross.Resource.Attribute.dialogIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogIcon;
+			global::MvvmCross.Resource.Attribute.dialogLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogLayout;
+			global::MvvmCross.Resource.Attribute.dialogMessage = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogMessage;
+			global::MvvmCross.Resource.Attribute.dialogPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.dialogPreferredPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Resource.Attribute.dialogTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Resource.Attribute.dialogTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.dialogTitle;
+			global::MvvmCross.Resource.Attribute.disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Attribute.disableDependentsState;
+			global::MvvmCross.Resource.Attribute.displayOptions = global::PocThomasMVVMCross.Android.Resource.Attribute.displayOptions;
+			global::MvvmCross.Resource.Attribute.divider = global::PocThomasMVVMCross.Android.Resource.Attribute.divider;
+			global::MvvmCross.Resource.Attribute.dividerHorizontal = global::PocThomasMVVMCross.Android.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Resource.Attribute.dividerPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Resource.Attribute.dividerVertical = global::PocThomasMVVMCross.Android.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Resource.Attribute.drawableBottomCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableBottomCompat;
+			global::MvvmCross.Resource.Attribute.drawableEndCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableEndCompat;
+			global::MvvmCross.Resource.Attribute.drawableLeftCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableLeftCompat;
+			global::MvvmCross.Resource.Attribute.drawableRightCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableRightCompat;
+			global::MvvmCross.Resource.Attribute.drawableSize = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableSize;
+			global::MvvmCross.Resource.Attribute.drawableStartCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableStartCompat;
+			global::MvvmCross.Resource.Attribute.drawableTint = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableTint;
+			global::MvvmCross.Resource.Attribute.drawableTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableTintMode;
+			global::MvvmCross.Resource.Attribute.drawableTopCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.drawableTopCompat;
+			global::MvvmCross.Resource.Attribute.drawerArrowStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Resource.Attribute.dropdownListPreferredItemHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Resource.Attribute.dropDownListViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Resource.Attribute.dropdownPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.dropdownPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.editTextBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Resource.Attribute.editTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.editTextColor;
+			global::MvvmCross.Resource.Attribute.editTextPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.editTextPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.editTextStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Resource.Attribute.elevation = global::PocThomasMVVMCross.Android.Resource.Attribute.elevation;
+			global::MvvmCross.Resource.Attribute.enableCopying = global::PocThomasMVVMCross.Android.Resource.Attribute.enableCopying;
+			global::MvvmCross.Resource.Attribute.enabled = global::PocThomasMVVMCross.Android.Resource.Attribute.enabled;
+			global::MvvmCross.Resource.Attribute.enforceMaterialTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Resource.Attribute.enforceTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.enforceTextAppearance;
+			global::MvvmCross.Resource.Attribute.entries = global::PocThomasMVVMCross.Android.Resource.Attribute.entries;
+			global::MvvmCross.Resource.Attribute.entryValues = global::PocThomasMVVMCross.Android.Resource.Attribute.entryValues;
+			global::MvvmCross.Resource.Attribute.errorEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Resource.Attribute.errorTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Resource.Attribute.expanded = global::PocThomasMVVMCross.Android.Resource.Attribute.expanded;
+			global::MvvmCross.Resource.Attribute.expandedTitleGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Resource.Attribute.expandedTitleMargin = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginBottom = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginStart = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Resource.Attribute.expandedTitleMarginTop = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Resource.Attribute.expandedTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.fabAlignmentMode = global::PocThomasMVVMCross.Android.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Resource.Attribute.fabCradleMargin = global::PocThomasMVVMCross.Android.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Resource.Attribute.fabCradleRoundedCornerRadius = global::PocThomasMVVMCross.Android.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Resource.Attribute.fabCradleVerticalOffset = global::PocThomasMVVMCross.Android.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Resource.Attribute.fabCustomSize = global::PocThomasMVVMCross.Android.Resource.Attribute.fabCustomSize;
+			global::MvvmCross.Resource.Attribute.fabSize = global::PocThomasMVVMCross.Android.Resource.Attribute.fabSize;
+			global::MvvmCross.Resource.Attribute.fastScrollEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Resource.Attribute.firstBaselineToTopHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Resource.Attribute.floatingActionButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.floatingActionButtonStyle;
+			global::MvvmCross.Resource.Attribute.font = global::PocThomasMVVMCross.Android.Resource.Attribute.font;
+			global::MvvmCross.Resource.Attribute.fontFamily = global::PocThomasMVVMCross.Android.Resource.Attribute.fontFamily;
+			global::MvvmCross.Resource.Attribute.fontProviderAuthority = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Resource.Attribute.fontProviderCerts = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Resource.Attribute.fontProviderFetchStrategy = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Resource.Attribute.fontProviderFetchTimeout = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Resource.Attribute.fontProviderPackage = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Resource.Attribute.fontProviderQuery = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Resource.Attribute.fontStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.fontStyle;
+			global::MvvmCross.Resource.Attribute.fontVariationSettings = global::PocThomasMVVMCross.Android.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.Resource.Attribute.fontWeight = global::PocThomasMVVMCross.Android.Resource.Attribute.fontWeight;
+			global::MvvmCross.Resource.Attribute.foregroundInsidePadding = global::PocThomasMVVMCross.Android.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Resource.Attribute.fragment = global::PocThomasMVVMCross.Android.Resource.Attribute.fragment;
+			global::MvvmCross.Resource.Attribute.gapBetweenBars = global::PocThomasMVVMCross.Android.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Resource.Attribute.goIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.goIcon;
+			global::MvvmCross.Resource.Attribute.headerLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.headerLayout;
+			global::MvvmCross.Resource.Attribute.height = global::PocThomasMVVMCross.Android.Resource.Attribute.height;
+			global::MvvmCross.Resource.Attribute.helperText = global::PocThomasMVVMCross.Android.Resource.Attribute.helperText;
+			global::MvvmCross.Resource.Attribute.helperTextEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Resource.Attribute.helperTextTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Resource.Attribute.hideMotionSpec = global::PocThomasMVVMCross.Android.Resource.Attribute.hideMotionSpec;
+			global::MvvmCross.Resource.Attribute.hideOnContentScroll = global::PocThomasMVVMCross.Android.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Resource.Attribute.hideOnScroll = global::PocThomasMVVMCross.Android.Resource.Attribute.hideOnScroll;
+			global::MvvmCross.Resource.Attribute.hintAnimationEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Resource.Attribute.hintEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Resource.Attribute.hintTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Resource.Attribute.homeAsUpIndicator = global::PocThomasMVVMCross.Android.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Resource.Attribute.homeLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.homeLayout;
+			global::MvvmCross.Resource.Attribute.hoveredFocusedTranslationZ = global::PocThomasMVVMCross.Android.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::MvvmCross.Resource.Attribute.icon = global::PocThomasMVVMCross.Android.Resource.Attribute.icon;
+			global::MvvmCross.Resource.Attribute.iconEndPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Resource.Attribute.iconGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.iconGravity;
+			global::MvvmCross.Resource.Attribute.iconifiedByDefault = global::PocThomasMVVMCross.Android.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Resource.Attribute.iconPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.iconPadding;
+			global::MvvmCross.Resource.Attribute.iconSize = global::PocThomasMVVMCross.Android.Resource.Attribute.iconSize;
+			global::MvvmCross.Resource.Attribute.iconSpaceReserved = global::PocThomasMVVMCross.Android.Resource.Attribute.iconSpaceReserved;
+			global::MvvmCross.Resource.Attribute.iconStartPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.iconStartPadding;
+			global::MvvmCross.Resource.Attribute.iconTint = global::PocThomasMVVMCross.Android.Resource.Attribute.iconTint;
+			global::MvvmCross.Resource.Attribute.iconTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.iconTintMode;
+			global::MvvmCross.Resource.Attribute.imageButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Resource.Attribute.indeterminateProgressStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Resource.Attribute.initialActivityCount = global::PocThomasMVVMCross.Android.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Resource.Attribute.initialExpandedChildrenCount = global::PocThomasMVVMCross.Android.Resource.Attribute.initialExpandedChildrenCount;
+			global::MvvmCross.Resource.Attribute.insetForeground = global::PocThomasMVVMCross.Android.Resource.Attribute.insetForeground;
+			global::MvvmCross.Resource.Attribute.isLightTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Resource.Attribute.isPreferenceVisible = global::PocThomasMVVMCross.Android.Resource.Attribute.isPreferenceVisible;
+			global::MvvmCross.Resource.Attribute.itemBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.itemBackground;
+			global::MvvmCross.Resource.Attribute.itemHorizontalPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Resource.Attribute.itemHorizontalTranslationEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Resource.Attribute.itemIconPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Resource.Attribute.itemIconSize = global::PocThomasMVVMCross.Android.Resource.Attribute.itemIconSize;
+			global::MvvmCross.Resource.Attribute.itemIconTint = global::PocThomasMVVMCross.Android.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Resource.Attribute.itemPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.itemPadding;
+			global::MvvmCross.Resource.Attribute.itemSpacing = global::PocThomasMVVMCross.Android.Resource.Attribute.itemSpacing;
+			global::MvvmCross.Resource.Attribute.itemTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Resource.Attribute.itemTextAppearanceActive = global::PocThomasMVVMCross.Android.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Resource.Attribute.itemTextAppearanceInactive = global::PocThomasMVVMCross.Android.Resource.Attribute.itemTextAppearanceInactive;
+			global::MvvmCross.Resource.Attribute.itemTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Resource.Attribute.key = global::PocThomasMVVMCross.Android.Resource.Attribute.key;
+			global::MvvmCross.Resource.Attribute.keylines = global::PocThomasMVVMCross.Android.Resource.Attribute.keylines;
+			global::MvvmCross.Resource.Attribute.labelVisibilityMode = global::PocThomasMVVMCross.Android.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Resource.Attribute.lastBaselineToBottomHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.lastBaselineToBottomHeight;
+			global::MvvmCross.Resource.Attribute.layout = global::PocThomasMVVMCross.Android.Resource.Attribute.layout;
+			global::MvvmCross.Resource.Attribute.layoutManager = global::PocThomasMVVMCross.Android.Resource.Attribute.layoutManager;
+			global::MvvmCross.Resource.Attribute.layout_anchor = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Resource.Attribute.layout_anchorGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Resource.Attribute.layout_behavior = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Resource.Attribute.layout_collapseMode = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Resource.Attribute.layout_collapseParallaxMultiplier = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Resource.Attribute.layout_dodgeInsetEdges = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Resource.Attribute.layout_insetEdge = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Resource.Attribute.layout_keyline = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Resource.Attribute.layout_scrollFlags = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Resource.Attribute.layout_scrollInterpolator = global::PocThomasMVVMCross.Android.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Resource.Attribute.liftOnScroll = global::PocThomasMVVMCross.Android.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Resource.Attribute.lineHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.lineHeight;
+			global::MvvmCross.Resource.Attribute.lineSpacing = global::PocThomasMVVMCross.Android.Resource.Attribute.lineSpacing;
+			global::MvvmCross.Resource.Attribute.listChoiceBackgroundIndicator = global::PocThomasMVVMCross.Android.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::PocThomasMVVMCross.Android.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::PocThomasMVVMCross.Android.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Resource.Attribute.listDividerAlertDialog = global::PocThomasMVVMCross.Android.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Resource.Attribute.listItemLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Resource.Attribute.listLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.listLayout;
+			global::MvvmCross.Resource.Attribute.listMenuViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.listMenuViewStyle;
+			global::MvvmCross.Resource.Attribute.listPopupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeightLarge = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Resource.Attribute.listPreferredItemHeightSmall = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingLeft = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingRight = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Resource.Attribute.listPreferredItemPaddingStart = global::PocThomasMVVMCross.Android.Resource.Attribute.listPreferredItemPaddingStart;
+			global::MvvmCross.Resource.Attribute.logo = global::PocThomasMVVMCross.Android.Resource.Attribute.logo;
+			global::MvvmCross.Resource.Attribute.logoDescription = global::PocThomasMVVMCross.Android.Resource.Attribute.logoDescription;
+			global::MvvmCross.Resource.Attribute.materialButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Resource.Attribute.materialCardViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.materialCardViewStyle;
+			global::MvvmCross.Resource.Attribute.maxActionInlineWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Resource.Attribute.maxButtonHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Resource.Attribute.maxHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.maxHeight;
+			global::MvvmCross.Resource.Attribute.maxImageSize = global::PocThomasMVVMCross.Android.Resource.Attribute.maxImageSize;
+			global::MvvmCross.Resource.Attribute.maxWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.maxWidth;
+			global::MvvmCross.Resource.Attribute.measureWithLargestChild = global::PocThomasMVVMCross.Android.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Resource.Attribute.menu = global::PocThomasMVVMCross.Android.Resource.Attribute.menu;
+			global::MvvmCross.Resource.Attribute.min = global::PocThomasMVVMCross.Android.Resource.Attribute.min;
+			global::MvvmCross.Resource.Attribute.multiChoiceItemLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Resource.Attribute.MvxBind = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxBind;
+			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxItemTemplate = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxLang = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxLang;
+			global::MvvmCross.Resource.Attribute.MvxTemplate = global::PocThomasMVVMCross.Android.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Resource.Attribute.navigationContentDescription = global::PocThomasMVVMCross.Android.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Resource.Attribute.navigationIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Resource.Attribute.navigationMode = global::PocThomasMVVMCross.Android.Resource.Attribute.navigationMode;
+			global::MvvmCross.Resource.Attribute.navigationViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.navigationViewStyle;
+			global::MvvmCross.Resource.Attribute.negativeButtonText = global::PocThomasMVVMCross.Android.Resource.Attribute.negativeButtonText;
+			global::MvvmCross.Resource.Attribute.numericModifiers = global::PocThomasMVVMCross.Android.Resource.Attribute.numericModifiers;
+			global::MvvmCross.Resource.Attribute.order = global::PocThomasMVVMCross.Android.Resource.Attribute.order;
+			global::MvvmCross.Resource.Attribute.orderingFromXml = global::PocThomasMVVMCross.Android.Resource.Attribute.orderingFromXml;
+			global::MvvmCross.Resource.Attribute.overlapAnchor = global::PocThomasMVVMCross.Android.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Resource.Attribute.paddingBottomNoButtons = global::PocThomasMVVMCross.Android.Resource.Attribute.paddingBottomNoButtons;
+			global::MvvmCross.Resource.Attribute.paddingEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Resource.Attribute.paddingStart = global::PocThomasMVVMCross.Android.Resource.Attribute.paddingStart;
+			global::MvvmCross.Resource.Attribute.paddingTopNoTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.paddingTopNoTitle;
+			global::MvvmCross.Resource.Attribute.panelBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.panelBackground;
+			global::MvvmCross.Resource.Attribute.panelMenuListTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Resource.Attribute.panelMenuListWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Resource.Attribute.passwordToggleContentDescription = global::PocThomasMVVMCross.Android.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.Resource.Attribute.passwordToggleDrawable = global::PocThomasMVVMCross.Android.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.Resource.Attribute.passwordToggleEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.Resource.Attribute.passwordToggleTint = global::PocThomasMVVMCross.Android.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.Resource.Attribute.passwordToggleTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.passwordToggleTintMode;
+			global::MvvmCross.Resource.Attribute.persistent = global::PocThomasMVVMCross.Android.Resource.Attribute.persistent;
+			global::MvvmCross.Resource.Attribute.popupMenuStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Resource.Attribute.popupTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.popupTheme;
+			global::MvvmCross.Resource.Attribute.popupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Resource.Attribute.positiveButtonText = global::PocThomasMVVMCross.Android.Resource.Attribute.positiveButtonText;
+			global::MvvmCross.Resource.Attribute.preferenceCategoryStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceCategoryStyle;
+			global::MvvmCross.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentCompatStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentListStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceFragmentListStyle;
+			global::MvvmCross.Resource.Attribute.preferenceFragmentStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceFragmentStyle;
+			global::MvvmCross.Resource.Attribute.preferenceInformationStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceInformationStyle;
+			global::MvvmCross.Resource.Attribute.preferenceScreenStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceScreenStyle;
+			global::MvvmCross.Resource.Attribute.preferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceStyle;
+			global::MvvmCross.Resource.Attribute.preferenceTheme = global::PocThomasMVVMCross.Android.Resource.Attribute.preferenceTheme;
+			global::MvvmCross.Resource.Attribute.preserveIconSpacing = global::PocThomasMVVMCross.Android.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Resource.Attribute.pressedTranslationZ = global::PocThomasMVVMCross.Android.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Resource.Attribute.progressBarPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Resource.Attribute.progressBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Resource.Attribute.queryBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.queryBackground;
+			global::MvvmCross.Resource.Attribute.queryHint = global::PocThomasMVVMCross.Android.Resource.Attribute.queryHint;
+			global::MvvmCross.Resource.Attribute.radioButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Resource.Attribute.ratingBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Resource.Attribute.ratingBarStyleIndicator = global::PocThomasMVVMCross.Android.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Resource.Attribute.ratingBarStyleSmall = global::PocThomasMVVMCross.Android.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Resource.Attribute.recyclerViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.recyclerViewStyle;
+			global::MvvmCross.Resource.Attribute.reverseLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Resource.Attribute.rippleColor = global::PocThomasMVVMCross.Android.Resource.Attribute.rippleColor;
+			global::MvvmCross.Resource.Attribute.scrimAnimationDuration = global::PocThomasMVVMCross.Android.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Resource.Attribute.scrimBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.scrimBackground;
+			global::MvvmCross.Resource.Attribute.scrimVisibleHeightTrigger = global::PocThomasMVVMCross.Android.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::MvvmCross.Resource.Attribute.searchHintIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Resource.Attribute.searchIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.searchIcon;
+			global::MvvmCross.Resource.Attribute.searchViewStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Resource.Attribute.seekBarIncrement = global::PocThomasMVVMCross.Android.Resource.Attribute.seekBarIncrement;
+			global::MvvmCross.Resource.Attribute.seekBarPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.seekBarPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.seekBarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Resource.Attribute.selectable = global::PocThomasMVVMCross.Android.Resource.Attribute.selectable;
+			global::MvvmCross.Resource.Attribute.selectableItemBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Resource.Attribute.selectableItemBackgroundBorderless = global::PocThomasMVVMCross.Android.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Resource.Attribute.shouldDisableView = global::PocThomasMVVMCross.Android.Resource.Attribute.shouldDisableView;
+			global::MvvmCross.Resource.Attribute.showAsAction = global::PocThomasMVVMCross.Android.Resource.Attribute.showAsAction;
+			global::MvvmCross.Resource.Attribute.showDividers = global::PocThomasMVVMCross.Android.Resource.Attribute.showDividers;
+			global::MvvmCross.Resource.Attribute.showMotionSpec = global::PocThomasMVVMCross.Android.Resource.Attribute.showMotionSpec;
+			global::MvvmCross.Resource.Attribute.showSeekBarValue = global::PocThomasMVVMCross.Android.Resource.Attribute.showSeekBarValue;
+			global::MvvmCross.Resource.Attribute.showText = global::PocThomasMVVMCross.Android.Resource.Attribute.showText;
+			global::MvvmCross.Resource.Attribute.showTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.showTitle;
+			global::MvvmCross.Resource.Attribute.singleChoiceItemLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Resource.Attribute.singleLine = global::PocThomasMVVMCross.Android.Resource.Attribute.singleLine;
+			global::MvvmCross.Resource.Attribute.singleLineTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.singleLineTitle;
+			global::MvvmCross.Resource.Attribute.singleSelection = global::PocThomasMVVMCross.Android.Resource.Attribute.singleSelection;
+			global::MvvmCross.Resource.Attribute.snackbarButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Resource.Attribute.snackbarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.snackbarStyle;
+			global::MvvmCross.Resource.Attribute.spanCount = global::PocThomasMVVMCross.Android.Resource.Attribute.spanCount;
+			global::MvvmCross.Resource.Attribute.spinBars = global::PocThomasMVVMCross.Android.Resource.Attribute.spinBars;
+			global::MvvmCross.Resource.Attribute.spinnerDropDownItemStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Resource.Attribute.spinnerStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Resource.Attribute.splitTrack = global::PocThomasMVVMCross.Android.Resource.Attribute.splitTrack;
+			global::MvvmCross.Resource.Attribute.srcCompat = global::PocThomasMVVMCross.Android.Resource.Attribute.srcCompat;
+			global::MvvmCross.Resource.Attribute.stackFromEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Resource.Attribute.state_above_anchor = global::PocThomasMVVMCross.Android.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Resource.Attribute.state_collapsed = global::PocThomasMVVMCross.Android.Resource.Attribute.state_collapsed;
+			global::MvvmCross.Resource.Attribute.state_collapsible = global::PocThomasMVVMCross.Android.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Resource.Attribute.state_liftable = global::PocThomasMVVMCross.Android.Resource.Attribute.state_liftable;
+			global::MvvmCross.Resource.Attribute.state_lifted = global::PocThomasMVVMCross.Android.Resource.Attribute.state_lifted;
+			global::MvvmCross.Resource.Attribute.statusBarBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Resource.Attribute.statusBarScrim = global::PocThomasMVVMCross.Android.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Resource.Attribute.strokeColor = global::PocThomasMVVMCross.Android.Resource.Attribute.strokeColor;
+			global::MvvmCross.Resource.Attribute.strokeWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.strokeWidth;
+			global::MvvmCross.Resource.Attribute.subMenuArrow = global::PocThomasMVVMCross.Android.Resource.Attribute.subMenuArrow;
+			global::MvvmCross.Resource.Attribute.submitBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.submitBackground;
+			global::MvvmCross.Resource.Attribute.subtitle = global::PocThomasMVVMCross.Android.Resource.Attribute.subtitle;
+			global::MvvmCross.Resource.Attribute.subtitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Resource.Attribute.subtitleTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Resource.Attribute.subtitleTextStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Resource.Attribute.suggestionRowLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Resource.Attribute.summary = global::PocThomasMVVMCross.Android.Resource.Attribute.summary;
+			global::MvvmCross.Resource.Attribute.summaryOff = global::PocThomasMVVMCross.Android.Resource.Attribute.summaryOff;
+			global::MvvmCross.Resource.Attribute.summaryOn = global::PocThomasMVVMCross.Android.Resource.Attribute.summaryOn;
+			global::MvvmCross.Resource.Attribute.switchMinWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Resource.Attribute.switchPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.switchPadding;
+			global::MvvmCross.Resource.Attribute.switchPreferenceCompatStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.switchPreferenceCompatStyle;
+			global::MvvmCross.Resource.Attribute.switchPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.switchPreferenceStyle;
+			global::MvvmCross.Resource.Attribute.switchStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.switchStyle;
+			global::MvvmCross.Resource.Attribute.switchTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Resource.Attribute.switchTextOff = global::PocThomasMVVMCross.Android.Resource.Attribute.switchTextOff;
+			global::MvvmCross.Resource.Attribute.switchTextOn = global::PocThomasMVVMCross.Android.Resource.Attribute.switchTextOn;
+			global::MvvmCross.Resource.Attribute.tabBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.tabBackground;
+			global::MvvmCross.Resource.Attribute.tabContentStart = global::PocThomasMVVMCross.Android.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Resource.Attribute.tabGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.tabGravity;
+			global::MvvmCross.Resource.Attribute.tabIconTint = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Resource.Attribute.tabIconTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Resource.Attribute.tabIndicator = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Resource.Attribute.tabIndicatorAnimationDuration = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::MvvmCross.Resource.Attribute.tabIndicatorColor = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Resource.Attribute.tabIndicatorFullWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Resource.Attribute.tabIndicatorGravity = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicatorGravity;
+			global::MvvmCross.Resource.Attribute.tabIndicatorHeight = global::PocThomasMVVMCross.Android.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Resource.Attribute.tabInlineLabel = global::PocThomasMVVMCross.Android.Resource.Attribute.tabInlineLabel;
+			global::MvvmCross.Resource.Attribute.tabMaxWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Resource.Attribute.tabMinWidth = global::PocThomasMVVMCross.Android.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Resource.Attribute.tabMode = global::PocThomasMVVMCross.Android.Resource.Attribute.tabMode;
+			global::MvvmCross.Resource.Attribute.tabPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.tabPadding;
+			global::MvvmCross.Resource.Attribute.tabPaddingBottom = global::PocThomasMVVMCross.Android.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Resource.Attribute.tabPaddingEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Resource.Attribute.tabPaddingStart = global::PocThomasMVVMCross.Android.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Resource.Attribute.tabPaddingTop = global::PocThomasMVVMCross.Android.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Resource.Attribute.tabRippleColor = global::PocThomasMVVMCross.Android.Resource.Attribute.tabRippleColor;
+			global::MvvmCross.Resource.Attribute.tabSelectedTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Resource.Attribute.tabStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.tabStyle;
+			global::MvvmCross.Resource.Attribute.tabTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Resource.Attribute.tabTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Resource.Attribute.tabUnboundedRipple = global::PocThomasMVVMCross.Android.Resource.Attribute.tabUnboundedRipple;
+			global::MvvmCross.Resource.Attribute.textAllCaps = global::PocThomasMVVMCross.Android.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Resource.Attribute.textAppearanceBody1 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Resource.Attribute.textAppearanceBody2 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Resource.Attribute.textAppearanceButton = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Resource.Attribute.textAppearanceCaption = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline1 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline2 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline3 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline4 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline5 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Resource.Attribute.textAppearanceHeadline6 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceHeadline6;
+			global::MvvmCross.Resource.Attribute.textAppearanceLargePopupMenu = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItem = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItemSecondary = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceListItemSecondary;
+			global::MvvmCross.Resource.Attribute.textAppearanceListItemSmall = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Resource.Attribute.textAppearanceOverline = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceOverline;
+			global::MvvmCross.Resource.Attribute.textAppearancePopupMenuHeader = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::MvvmCross.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Resource.Attribute.textAppearanceSearchResultTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Resource.Attribute.textAppearanceSmallPopupMenu = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Resource.Attribute.textAppearanceSubtitle1 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Resource.Attribute.textAppearanceSubtitle2 = global::PocThomasMVVMCross.Android.Resource.Attribute.textAppearanceSubtitle2;
+			global::MvvmCross.Resource.Attribute.textColorAlertDialogListItem = global::PocThomasMVVMCross.Android.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Resource.Attribute.textColorSearchUrl = global::PocThomasMVVMCross.Android.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Resource.Attribute.textEndPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Resource.Attribute.textInputStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Resource.Attribute.textLocale = global::PocThomasMVVMCross.Android.Resource.Attribute.textLocale;
+			global::MvvmCross.Resource.Attribute.textStartPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.textStartPadding;
+			global::MvvmCross.Resource.Attribute.theme = global::PocThomasMVVMCross.Android.Resource.Attribute.theme;
+			global::MvvmCross.Resource.Attribute.thickness = global::PocThomasMVVMCross.Android.Resource.Attribute.thickness;
+			global::MvvmCross.Resource.Attribute.thumbTextPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Resource.Attribute.thumbTint = global::PocThomasMVVMCross.Android.Resource.Attribute.thumbTint;
+			global::MvvmCross.Resource.Attribute.thumbTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.thumbTintMode;
+			global::MvvmCross.Resource.Attribute.tickMark = global::PocThomasMVVMCross.Android.Resource.Attribute.tickMark;
+			global::MvvmCross.Resource.Attribute.tickMarkTint = global::PocThomasMVVMCross.Android.Resource.Attribute.tickMarkTint;
+			global::MvvmCross.Resource.Attribute.tickMarkTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.tickMarkTintMode;
+			global::MvvmCross.Resource.Attribute.tint = global::PocThomasMVVMCross.Android.Resource.Attribute.tint;
+			global::MvvmCross.Resource.Attribute.tintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.tintMode;
+			global::MvvmCross.Resource.Attribute.title = global::PocThomasMVVMCross.Android.Resource.Attribute.title;
+			global::MvvmCross.Resource.Attribute.titleEnabled = global::PocThomasMVVMCross.Android.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Resource.Attribute.titleMargin = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMargin;
+			global::MvvmCross.Resource.Attribute.titleMarginBottom = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Resource.Attribute.titleMarginEnd = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Resource.Attribute.titleMargins = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMargins;
+			global::MvvmCross.Resource.Attribute.titleMarginStart = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Resource.Attribute.titleMarginTop = global::PocThomasMVVMCross.Android.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Resource.Attribute.titleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Resource.Attribute.titleTextColor = global::PocThomasMVVMCross.Android.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Resource.Attribute.titleTextStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Resource.Attribute.toolbarId = global::PocThomasMVVMCross.Android.Resource.Attribute.toolbarId;
+			global::MvvmCross.Resource.Attribute.toolbarNavigationButtonStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Resource.Attribute.toolbarStyle = global::PocThomasMVVMCross.Android.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Resource.Attribute.tooltipForegroundColor = global::PocThomasMVVMCross.Android.Resource.Attribute.tooltipForegroundColor;
+			global::MvvmCross.Resource.Attribute.tooltipFrameBackground = global::PocThomasMVVMCross.Android.Resource.Attribute.tooltipFrameBackground;
+			global::MvvmCross.Resource.Attribute.tooltipText = global::PocThomasMVVMCross.Android.Resource.Attribute.tooltipText;
+			global::MvvmCross.Resource.Attribute.track = global::PocThomasMVVMCross.Android.Resource.Attribute.track;
+			global::MvvmCross.Resource.Attribute.trackTint = global::PocThomasMVVMCross.Android.Resource.Attribute.trackTint;
+			global::MvvmCross.Resource.Attribute.trackTintMode = global::PocThomasMVVMCross.Android.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Resource.Attribute.ttcIndex = global::PocThomasMVVMCross.Android.Resource.Attribute.ttcIndex;
+			global::MvvmCross.Resource.Attribute.updatesContinuously = global::PocThomasMVVMCross.Android.Resource.Attribute.updatesContinuously;
+			global::MvvmCross.Resource.Attribute.useCompatPadding = global::PocThomasMVVMCross.Android.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Resource.Attribute.useSimpleSummaryProvider = global::PocThomasMVVMCross.Android.Resource.Attribute.useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Attribute.viewInflaterClass = global::PocThomasMVVMCross.Android.Resource.Attribute.viewInflaterClass;
+			global::MvvmCross.Resource.Attribute.voiceIcon = global::PocThomasMVVMCross.Android.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Resource.Attribute.widgetLayout = global::PocThomasMVVMCross.Android.Resource.Attribute.widgetLayout;
+			global::MvvmCross.Resource.Attribute.windowActionBar = global::PocThomasMVVMCross.Android.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Resource.Attribute.windowActionBarOverlay = global::PocThomasMVVMCross.Android.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Resource.Attribute.windowActionModeOverlay = global::PocThomasMVVMCross.Android.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Resource.Attribute.windowFixedHeightMajor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Resource.Attribute.windowFixedHeightMinor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Resource.Attribute.windowFixedWidthMajor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Resource.Attribute.windowFixedWidthMinor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Resource.Attribute.windowMinWidthMajor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Resource.Attribute.windowMinWidthMinor = global::PocThomasMVVMCross.Android.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Resource.Attribute.windowNoTitle = global::PocThomasMVVMCross.Android.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Resource.Boolean.abc_action_bar_embed_tabs = global::PocThomasMVVMCross.Android.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Resource.Boolean.abc_allow_stacked_button_bar = global::PocThomasMVVMCross.Android.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PocThomasMVVMCross.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::PocThomasMVVMCross.Android.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::MvvmCross.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::PocThomasMVVMCross.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::MvvmCross.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Resource.Color.abc_background_cache_hint_selector_material_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Resource.Color.abc_btn_colored_borderless_text_material = global::PocThomasMVVMCross.Android.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::MvvmCross.Resource.Color.abc_btn_colored_text_material = global::PocThomasMVVMCross.Android.Resource.Color.abc_btn_colored_text_material;
+			global::MvvmCross.Resource.Color.abc_color_highlight_material = global::PocThomasMVVMCross.Android.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Resource.Color.abc_decor_view_status_guard = global::PocThomasMVVMCross.Android.Resource.Color.abc_decor_view_status_guard;
+			global::MvvmCross.Resource.Color.abc_decor_view_status_guard_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_decor_view_status_guard_light;
+			global::MvvmCross.Resource.Color.abc_hint_foreground_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.abc_hint_foreground_material_dark;
+			global::MvvmCross.Resource.Color.abc_hint_foreground_material_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_hint_foreground_material_light;
+			global::MvvmCross.Resource.Color.abc_primary_text_disable_only_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Resource.Color.abc_primary_text_disable_only_material_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Resource.Color.abc_primary_text_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Resource.Color.abc_primary_text_material_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Resource.Color.abc_search_url_text = global::PocThomasMVVMCross.Android.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Resource.Color.abc_search_url_text_normal = global::PocThomasMVVMCross.Android.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Resource.Color.abc_search_url_text_pressed = global::PocThomasMVVMCross.Android.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Resource.Color.abc_search_url_text_selected = global::PocThomasMVVMCross.Android.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Resource.Color.abc_secondary_text_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Resource.Color.abc_secondary_text_material_light = global::PocThomasMVVMCross.Android.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Resource.Color.abc_tint_btn_checkable = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_btn_checkable;
+			global::MvvmCross.Resource.Color.abc_tint_default = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_default;
+			global::MvvmCross.Resource.Color.abc_tint_edittext = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_edittext;
+			global::MvvmCross.Resource.Color.abc_tint_seek_thumb = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_seek_thumb;
+			global::MvvmCross.Resource.Color.abc_tint_spinner = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_spinner;
+			global::MvvmCross.Resource.Color.abc_tint_switch_track = global::PocThomasMVVMCross.Android.Resource.Color.abc_tint_switch_track;
+			global::MvvmCross.Resource.Color.accent_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.accent_material_dark;
+			global::MvvmCross.Resource.Color.accent_material_light = global::PocThomasMVVMCross.Android.Resource.Color.accent_material_light;
+			global::MvvmCross.Resource.Color.androidx_core_ripple_material_light = global::PocThomasMVVMCross.Android.Resource.Color.androidx_core_ripple_material_light;
+			global::MvvmCross.Resource.Color.androidx_core_secondary_text_default_material_light = global::PocThomasMVVMCross.Android.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::MvvmCross.Resource.Color.background_floating_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Resource.Color.background_floating_material_light = global::PocThomasMVVMCross.Android.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Resource.Color.background_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.background_material_dark;
+			global::MvvmCross.Resource.Color.background_material_light = global::PocThomasMVVMCross.Android.Resource.Color.background_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_disabled_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_disabled_material_light = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_inverse_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_inverse_material_light = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Resource.Color.bright_foreground_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Resource.Color.bright_foreground_material_light = global::PocThomasMVVMCross.Android.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Resource.Color.button_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.button_material_dark;
+			global::MvvmCross.Resource.Color.button_material_light = global::PocThomasMVVMCross.Android.Resource.Color.button_material_light;
+			global::MvvmCross.Resource.Color.cardview_dark_background = global::PocThomasMVVMCross.Android.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Resource.Color.cardview_light_background = global::PocThomasMVVMCross.Android.Resource.Color.cardview_light_background;
+			global::MvvmCross.Resource.Color.cardview_shadow_end_color = global::PocThomasMVVMCross.Android.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Resource.Color.cardview_shadow_start_color = global::PocThomasMVVMCross.Android.Resource.Color.cardview_shadow_start_color;
+			global::MvvmCross.Resource.Color.design_bottom_navigation_shadow_color = global::PocThomasMVVMCross.Android.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Resource.Color.design_default_color_primary = global::PocThomasMVVMCross.Android.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Resource.Color.design_default_color_primary_dark = global::PocThomasMVVMCross.Android.Resource.Color.design_default_color_primary_dark;
+			global::MvvmCross.Resource.Color.design_error = global::PocThomasMVVMCross.Android.Resource.Color.design_error;
+			global::MvvmCross.Resource.Color.design_fab_shadow_end_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Resource.Color.design_fab_shadow_mid_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Resource.Color.design_fab_shadow_start_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_end_inner_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_end_outer_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_top_inner_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Resource.Color.design_fab_stroke_top_outer_color = global::PocThomasMVVMCross.Android.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Resource.Color.design_snackbar_background_color = global::PocThomasMVVMCross.Android.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Resource.Color.design_tint_password_toggle = global::PocThomasMVVMCross.Android.Resource.Color.design_tint_password_toggle;
+			global::MvvmCross.Resource.Color.dim_foreground_disabled_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Resource.Color.dim_foreground_disabled_material_light = global::PocThomasMVVMCross.Android.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Resource.Color.dim_foreground_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Resource.Color.dim_foreground_material_light = global::PocThomasMVVMCross.Android.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Resource.Color.error_color_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Resource.Color.error_color_material_light = global::PocThomasMVVMCross.Android.Resource.Color.error_color_material_light;
+			global::MvvmCross.Resource.Color.foreground_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Resource.Color.foreground_material_light = global::PocThomasMVVMCross.Android.Resource.Color.foreground_material_light;
+			global::MvvmCross.Resource.Color.highlighted_text_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Resource.Color.highlighted_text_material_light = global::PocThomasMVVMCross.Android.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Resource.Color.material_blue_grey_800 = global::PocThomasMVVMCross.Android.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Resource.Color.material_blue_grey_900 = global::PocThomasMVVMCross.Android.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Resource.Color.material_blue_grey_950 = global::PocThomasMVVMCross.Android.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Resource.Color.material_deep_teal_200 = global::PocThomasMVVMCross.Android.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Resource.Color.material_deep_teal_500 = global::PocThomasMVVMCross.Android.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Resource.Color.material_grey_100 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_100;
+			global::MvvmCross.Resource.Color.material_grey_300 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_300;
+			global::MvvmCross.Resource.Color.material_grey_50 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_50;
+			global::MvvmCross.Resource.Color.material_grey_600 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_600;
+			global::MvvmCross.Resource.Color.material_grey_800 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_800;
+			global::MvvmCross.Resource.Color.material_grey_850 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_850;
+			global::MvvmCross.Resource.Color.material_grey_900 = global::PocThomasMVVMCross.Android.Resource.Color.material_grey_900;
+			global::MvvmCross.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.Resource.Color.mtrl_bottom_nav_item_tint = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.Resource.Color.mtrl_btn_bg_color_disabled = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::MvvmCross.Resource.Color.mtrl_btn_bg_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_btn_stroke_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_btn_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_color_disabled = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Resource.Color.mtrl_btn_text_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_btn_transparent_bg_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_background_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_close_icon_tint = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Resource.Color.mtrl_chip_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_chip_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_chip_text_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Resource.Color.mtrl_fab_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_scrim_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Resource.Color.mtrl_tabs_colored_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_tabs_icon_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Resource.Color.mtrl_tabs_ripple_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_default_box_stroke_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_disabled_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::MvvmCross.Resource.Color.mtrl_text_btn_text_color_selector = global::PocThomasMVVMCross.Android.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Resource.Color.notification_action_color_filter = global::PocThomasMVVMCross.Android.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Resource.Color.notification_icon_bg_color = global::PocThomasMVVMCross.Android.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Resource.Color.preference_fallback_accent_color = global::PocThomasMVVMCross.Android.Resource.Color.preference_fallback_accent_color;
+			global::MvvmCross.Resource.Color.primary_dark_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Resource.Color.primary_dark_material_light = global::PocThomasMVVMCross.Android.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Resource.Color.primary_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.primary_material_dark;
+			global::MvvmCross.Resource.Color.primary_material_light = global::PocThomasMVVMCross.Android.Resource.Color.primary_material_light;
+			global::MvvmCross.Resource.Color.primary_text_default_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Resource.Color.primary_text_default_material_light = global::PocThomasMVVMCross.Android.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Resource.Color.primary_text_disabled_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Resource.Color.primary_text_disabled_material_light = global::PocThomasMVVMCross.Android.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Resource.Color.ripple_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Resource.Color.ripple_material_light = global::PocThomasMVVMCross.Android.Resource.Color.ripple_material_light;
+			global::MvvmCross.Resource.Color.secondary_text_default_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Resource.Color.secondary_text_default_material_light = global::PocThomasMVVMCross.Android.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Resource.Color.secondary_text_disabled_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Resource.Color.secondary_text_disabled_material_light = global::PocThomasMVVMCross.Android.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_disabled_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_disabled_material_light = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_material_light = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Resource.Color.switch_thumb_normal_material_dark = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Resource.Color.switch_thumb_normal_material_light = global::PocThomasMVVMCross.Android.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Resource.Color.tooltip_background_dark = global::PocThomasMVVMCross.Android.Resource.Color.tooltip_background_dark;
+			global::MvvmCross.Resource.Color.tooltip_background_light = global::PocThomasMVVMCross.Android.Resource.Color.tooltip_background_light;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_content_inset_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_elevation_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_elevation_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_stacked_max_height = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_width_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Resource.Dimension.abc_alert_dialog_button_dimen = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::MvvmCross.Resource.Dimension.abc_button_inset_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_button_inset_vertical_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Resource.Dimension.abc_button_padding_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_button_padding_vertical_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::MvvmCross.Resource.Dimension.abc_config_prefDialogWidth = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Resource.Dimension.abc_control_corner_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Resource.Dimension.abc_control_inset_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Resource.Dimension.abc_control_padding_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_corner_radius_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_height_major = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_height_minor = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_width_major = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_fixed_width_minor = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::MvvmCross.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::MvvmCross.Resource.Dimension.abc_dialog_min_width_major = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Resource.Dimension.abc_dialog_min_width_minor = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Resource.Dimension.abc_dialog_padding_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_padding_top_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Resource.Dimension.abc_dialog_title_divider_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dialog_title_divider_material;
+			global::MvvmCross.Resource.Dimension.abc_disabled_alpha_material_dark = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.abc_disabled_alpha_material_light = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_icon_width = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_edit_text_inset_top_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Resource.Dimension.abc_floating_window_z = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_large_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_list_item_height_large_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_list_item_height_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_height_small_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_list_item_height_small_material;
+			global::MvvmCross.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.abc_panel_menu_list_width = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Resource.Dimension.abc_progress_bar_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_progress_bar_height_material;
+			global::MvvmCross.Resource.Dimension.abc_search_view_preferred_height = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_search_view_preferred_height;
+			global::MvvmCross.Resource.Dimension.abc_search_view_preferred_width = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Resource.Dimension.abc_seekbar_track_background_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Resource.Dimension.abc_select_dialog_padding_start_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Resource.Dimension.abc_switch_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Resource.Dimension.abc_text_size_body_1_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_body_2_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_button_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_caption_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_1_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_2_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_3_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_display_4_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_headline_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_large_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_medium_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_menu_header_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_menu_header_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_menu_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_small_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_subhead_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Resource.Dimension.abc_text_size_title_material = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Resource.Dimension.abc_text_size_title_material_toolbar = global::PocThomasMVVMCross.Android.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Resource.Dimension.cardview_compat_inset_shadow = global::PocThomasMVVMCross.Android.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Resource.Dimension.cardview_default_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Resource.Dimension.cardview_default_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.cardview_default_radius;
+			global::MvvmCross.Resource.Dimension.compat_button_inset_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Resource.Dimension.compat_button_inset_vertical_material = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Resource.Dimension.compat_button_padding_horizontal_material = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Resource.Dimension.compat_button_padding_vertical_material = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Resource.Dimension.compat_control_corner_material = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Resource.Dimension.compat_notification_large_icon_max_height = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Resource.Dimension.compat_notification_large_icon_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.Resource.Dimension.design_appbar_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_active_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_height = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_icon_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_item_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_item_min_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_shadow_height = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.Resource.Dimension.design_bottom_navigation_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PocThomasMVVMCross.Android.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.Resource.Dimension.design_fab_border_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Resource.Dimension.design_fab_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Resource.Dimension.design_fab_image_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Resource.Dimension.design_fab_size_mini = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Resource.Dimension.design_fab_size_normal = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Resource.Dimension.design_fab_translation_z_hovered_focused = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::MvvmCross.Resource.Dimension.design_fab_translation_z_pressed = global::PocThomasMVVMCross.Android.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Resource.Dimension.design_navigation_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.design_navigation_icon_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_icon_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Resource.Dimension.design_navigation_item_horizontal_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_item_icon_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_item_icon_padding;
+			global::MvvmCross.Resource.Dimension.design_navigation_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Resource.Dimension.design_navigation_padding_bottom = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Resource.Dimension.design_navigation_separator_vertical_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Resource.Dimension.design_snackbar_action_inline_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_background_corner_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Resource.Dimension.design_snackbar_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Resource.Dimension.design_snackbar_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_min_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_horizontal = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_vertical = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Resource.Dimension.design_snackbar_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Resource.Dimension.design_tab_max_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Resource.Dimension.design_tab_scrollable_min_width = global::PocThomasMVVMCross.Android.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Resource.Dimension.design_tab_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Resource.Dimension.design_tab_text_size_2line = global::PocThomasMVVMCross.Android.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Resource.Dimension.design_textinput_caption_translate_y = global::PocThomasMVVMCross.Android.Resource.Dimension.design_textinput_caption_translate_y;
+			global::MvvmCross.Resource.Dimension.disabled_alpha_material_dark = global::PocThomasMVVMCross.Android.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.disabled_alpha_material_light = global::PocThomasMVVMCross.Android.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.fastscroll_default_thickness = global::PocThomasMVVMCross.Android.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Resource.Dimension.fastscroll_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Resource.Dimension.fastscroll_minimum_range = global::PocThomasMVVMCross.Android.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_colored = global::PocThomasMVVMCross.Android.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_dark = global::PocThomasMVVMCross.Android.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.highlight_alpha_material_light = global::PocThomasMVVMCross.Android.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.hint_alpha_material_dark = global::PocThomasMVVMCross.Android.Resource.Dimension.hint_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.hint_alpha_material_light = global::PocThomasMVVMCross.Android.Resource.Dimension.hint_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.hint_pressed_alpha_material_dark = global::PocThomasMVVMCross.Android.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::MvvmCross.Resource.Dimension.hint_pressed_alpha_material_light = global::PocThomasMVVMCross.Android.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PocThomasMVVMCross.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PocThomasMVVMCross.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PocThomasMVVMCross.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Resource.Dimension.mtrl_bottomappbar_height = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_corner_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_disabled_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_disabled_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_focused_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_hovered_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_icon_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_inset = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_letter_spacing = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_bottom = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_left = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_right = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_padding_top = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_pressed_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_stroke_size = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Resource.Dimension.mtrl_btn_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Resource.Dimension.mtrl_card_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_card_spacing = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Resource.Dimension.mtrl_chip_pressed_translation_z = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Resource.Dimension.mtrl_chip_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Resource.Dimension.mtrl_fab_translation_z_pressed = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_elevation = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_navigation_item_icon_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Resource.Dimension.mtrl_snackbar_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_padding_end = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Resource.Dimension.mtrl_toolbar_default_height = global::PocThomasMVVMCross.Android.Resource.Dimension.mtrl_toolbar_default_height;
+			global::MvvmCross.Resource.Dimension.notification_action_icon_size = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Resource.Dimension.notification_action_text_size = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Resource.Dimension.notification_big_circle_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Resource.Dimension.notification_content_margin_start = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Resource.Dimension.notification_large_icon_height = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Resource.Dimension.notification_large_icon_width = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Resource.Dimension.notification_main_column_padding_top = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Resource.Dimension.notification_media_narrow_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Resource.Dimension.notification_right_icon_size = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Resource.Dimension.notification_right_side_padding_top = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Resource.Dimension.notification_small_icon_background_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Resource.Dimension.notification_small_icon_size_as_large = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Resource.Dimension.notification_subtext_size = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Resource.Dimension.notification_top_pad = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Resource.Dimension.notification_top_pad_large_text = global::PocThomasMVVMCross.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Resource.Dimension.preference_dropdown_padding_start = global::PocThomasMVVMCross.Android.Resource.Dimension.preference_dropdown_padding_start;
+			global::MvvmCross.Resource.Dimension.preference_icon_minWidth = global::PocThomasMVVMCross.Android.Resource.Dimension.preference_icon_minWidth;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_padding_horizontal = global::PocThomasMVVMCross.Android.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_padding_vertical = global::PocThomasMVVMCross.Android.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::MvvmCross.Resource.Dimension.preference_seekbar_value_minWidth = global::PocThomasMVVMCross.Android.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::MvvmCross.Resource.Dimension.tooltip_corner_radius = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_corner_radius;
+			global::MvvmCross.Resource.Dimension.tooltip_horizontal_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_horizontal_padding;
+			global::MvvmCross.Resource.Dimension.tooltip_margin = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_margin;
+			global::MvvmCross.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::MvvmCross.Resource.Dimension.tooltip_precise_anchor_threshold = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::MvvmCross.Resource.Dimension.tooltip_vertical_padding = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_vertical_padding;
+			global::MvvmCross.Resource.Dimension.tooltip_y_offset_non_touch = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::MvvmCross.Resource.Dimension.tooltip_y_offset_touch = global::PocThomasMVVMCross.Android.Resource.Dimension.tooltip_y_offset_touch;
+			global::MvvmCross.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_action_bar_item_background_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_borderless_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_material_anim = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_check_material_anim;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Resource.Drawable.abc_btn_colored_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_default_mtrl_shape = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_material_anim = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_radio_material_anim;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_internal_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_top_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_control_background_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Resource.Drawable.abc_dialog_material_background = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_dialog_material_background;
+			global::MvvmCross.Resource.Drawable.abc_edit_text_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_ab_back_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_ab_back_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_clear_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_clear_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_go_search_api_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_go_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_overflow_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_ic_search_api_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_16dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_36dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_black_48dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_black_48dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_16dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_36dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_star_half_black_48dp = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::MvvmCross.Resource.Drawable.abc_ic_voice_search_api_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::MvvmCross.Resource.Drawable.abc_item_background_holo_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_item_background_holo_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_divider_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_divider_material;
+			global::MvvmCross.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_list_focused_holo = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Resource.Drawable.abc_list_longpressed_holo = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Resource.Drawable.abc_list_pressed_holo_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_pressed_holo_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_holo_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Resource.Drawable.abc_list_selector_holo_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Resource.Drawable.abc_popup_background_mtrl_mult = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_indicator_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ratingbar_material;
+			global::MvvmCross.Resource.Drawable.abc_ratingbar_small_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_thumb_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_tick_mark_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::MvvmCross.Resource.Drawable.abc_seekbar_track_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Resource.Drawable.abc_spinner_textfield_background_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Resource.Drawable.abc_switch_thumb_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_tab_indicator_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Resource.Drawable.abc_textfield_search_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Resource.Drawable.abc_text_cursor_material = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::MvvmCross.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::MvvmCross.Resource.Drawable.abc_vector_test = global::PocThomasMVVMCross.Android.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.Resource.Drawable.avd_hide_password = global::PocThomasMVVMCross.Android.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.Resource.Drawable.avd_show_password = global::PocThomasMVVMCross.Android.Resource.Drawable.avd_show_password;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_checked_mtrl = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_radio_off_mtrl = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_radio_off_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.btn_radio_on_mtrl = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_radio_on_mtrl;
+			global::MvvmCross.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::PocThomasMVVMCross.Android.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::MvvmCross.Resource.Drawable.design_bottom_navigation_item_background = global::PocThomasMVVMCross.Android.Resource.Drawable.design_bottom_navigation_item_background;
+			global::MvvmCross.Resource.Drawable.design_fab_background = global::PocThomasMVVMCross.Android.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Resource.Drawable.design_ic_visibility = global::PocThomasMVVMCross.Android.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.Resource.Drawable.design_ic_visibility_off = global::PocThomasMVVMCross.Android.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.Resource.Drawable.design_password_eye = global::PocThomasMVVMCross.Android.Resource.Drawable.design_password_eye;
+			global::MvvmCross.Resource.Drawable.design_snackbar_background = global::PocThomasMVVMCross.Android.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Resource.Drawable.ic_arrow_down_24dp = global::PocThomasMVVMCross.Android.Resource.Drawable.ic_arrow_down_24dp;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_checked_black = global::PocThomasMVVMCross.Android.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_checked_circle = global::PocThomasMVVMCross.Android.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Resource.Drawable.ic_mtrl_chip_close_circle = global::PocThomasMVVMCross.Android.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Resource.Drawable.mtrl_snackbar_background = global::PocThomasMVVMCross.Android.Resource.Drawable.mtrl_snackbar_background;
+			global::MvvmCross.Resource.Drawable.mtrl_tabs_default_indicator = global::PocThomasMVVMCross.Android.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::MvvmCross.Resource.Drawable.navigation_empty_icon = global::PocThomasMVVMCross.Android.Resource.Drawable.navigation_empty_icon;
+			global::MvvmCross.Resource.Drawable.notification_action_background = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Resource.Drawable.notification_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg;
+			global::MvvmCross.Resource.Drawable.notification_bg_low = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Resource.Drawable.notification_bg_low_normal = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Resource.Drawable.notification_bg_low_pressed = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Resource.Drawable.notification_bg_normal = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Resource.Drawable.notification_bg_normal_pressed = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Resource.Drawable.notification_icon_background = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Resource.Drawable.notification_template_icon_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Resource.Drawable.notification_template_icon_low_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Resource.Drawable.notification_tile_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Resource.Drawable.notify_panel_notification_icon_bg = global::PocThomasMVVMCross.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Resource.Drawable.preference_list_divider_material = global::PocThomasMVVMCross.Android.Resource.Drawable.preference_list_divider_material;
+			global::MvvmCross.Resource.Drawable.tooltip_frame_dark = global::PocThomasMVVMCross.Android.Resource.Drawable.tooltip_frame_dark;
+			global::MvvmCross.Resource.Drawable.tooltip_frame_light = global::PocThomasMVVMCross.Android.Resource.Drawable.tooltip_frame_light;
+			global::MvvmCross.Resource.Id.accessibility_action_clickable_span = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_action_clickable_span;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_0 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_0;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_1 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_1;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_10 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_10;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_11 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_11;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_12 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_12;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_13 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_13;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_14 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_14;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_15 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_15;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_16 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_16;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_17 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_17;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_18 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_18;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_19 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_19;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_2 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_2;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_20 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_20;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_21 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_21;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_22 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_22;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_23 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_23;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_24 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_24;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_25 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_25;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_26 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_26;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_27 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_27;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_28 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_28;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_29 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_29;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_3 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_3;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_30 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_30;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_31 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_31;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_4 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_4;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_5 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_5;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_6 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_6;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_7 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_7;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_8 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_8;
+			global::MvvmCross.Resource.Id.accessibility_custom_action_9 = global::PocThomasMVVMCross.Android.Resource.Id.accessibility_custom_action_9;
+			global::MvvmCross.Resource.Id.actions = global::PocThomasMVVMCross.Android.Resource.Id.actions;
+			global::MvvmCross.Resource.Id.action_bar = global::PocThomasMVVMCross.Android.Resource.Id.action_bar;
+			global::MvvmCross.Resource.Id.action_bar_activity_content = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Resource.Id.action_bar_container = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_container;
+			global::MvvmCross.Resource.Id.action_bar_root = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_root;
+			global::MvvmCross.Resource.Id.action_bar_spinner = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Resource.Id.action_bar_subtitle = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Resource.Id.action_bar_title = global::PocThomasMVVMCross.Android.Resource.Id.action_bar_title;
+			global::MvvmCross.Resource.Id.action_container = global::PocThomasMVVMCross.Android.Resource.Id.action_container;
+			global::MvvmCross.Resource.Id.action_context_bar = global::PocThomasMVVMCross.Android.Resource.Id.action_context_bar;
+			global::MvvmCross.Resource.Id.action_divider = global::PocThomasMVVMCross.Android.Resource.Id.action_divider;
+			global::MvvmCross.Resource.Id.action_image = global::PocThomasMVVMCross.Android.Resource.Id.action_image;
+			global::MvvmCross.Resource.Id.action_menu_divider = global::PocThomasMVVMCross.Android.Resource.Id.action_menu_divider;
+			global::MvvmCross.Resource.Id.action_menu_presenter = global::PocThomasMVVMCross.Android.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Resource.Id.action_mode_bar = global::PocThomasMVVMCross.Android.Resource.Id.action_mode_bar;
+			global::MvvmCross.Resource.Id.action_mode_bar_stub = global::PocThomasMVVMCross.Android.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Resource.Id.action_mode_close_button = global::PocThomasMVVMCross.Android.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Resource.Id.action_text = global::PocThomasMVVMCross.Android.Resource.Id.action_text;
+			global::MvvmCross.Resource.Id.activity_chooser_view_content = global::PocThomasMVVMCross.Android.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Resource.Id.add = global::PocThomasMVVMCross.Android.Resource.Id.add;
+			global::MvvmCross.Resource.Id.alertTitle = global::PocThomasMVVMCross.Android.Resource.Id.alertTitle;
+			global::MvvmCross.Resource.Id.all = global::PocThomasMVVMCross.Android.Resource.Id.all;
+			global::MvvmCross.Resource.Id.ALT = global::PocThomasMVVMCross.Android.Resource.Id.ALT;
+			global::MvvmCross.Resource.Id.always = global::PocThomasMVVMCross.Android.Resource.Id.always;
+			global::MvvmCross.Resource.Id.async = global::PocThomasMVVMCross.Android.Resource.Id.async;
+			global::MvvmCross.Resource.Id.auto = global::PocThomasMVVMCross.Android.Resource.Id.auto;
+			global::MvvmCross.Resource.Id.beginning = global::PocThomasMVVMCross.Android.Resource.Id.beginning;
+			global::MvvmCross.Resource.Id.blocking = global::PocThomasMVVMCross.Android.Resource.Id.blocking;
+			global::MvvmCross.Resource.Id.bottom = global::PocThomasMVVMCross.Android.Resource.Id.bottom;
+			global::MvvmCross.Resource.Id.buttonPanel = global::PocThomasMVVMCross.Android.Resource.Id.buttonPanel;
+			global::MvvmCross.Resource.Id.center = global::PocThomasMVVMCross.Android.Resource.Id.center;
+			global::MvvmCross.Resource.Id.center_horizontal = global::PocThomasMVVMCross.Android.Resource.Id.center_horizontal;
+			global::MvvmCross.Resource.Id.center_vertical = global::PocThomasMVVMCross.Android.Resource.Id.center_vertical;
+			global::MvvmCross.Resource.Id.checkbox = global::PocThomasMVVMCross.Android.Resource.Id.checkbox;
+			global::MvvmCross.Resource.Id.@checked = global::PocThomasMVVMCross.Android.Resource.Id.@checked;
+			global::MvvmCross.Resource.Id.chronometer = global::PocThomasMVVMCross.Android.Resource.Id.chronometer;
+			global::MvvmCross.Resource.Id.clip_horizontal = global::PocThomasMVVMCross.Android.Resource.Id.clip_horizontal;
+			global::MvvmCross.Resource.Id.clip_vertical = global::PocThomasMVVMCross.Android.Resource.Id.clip_vertical;
+			global::MvvmCross.Resource.Id.collapseActionView = global::PocThomasMVVMCross.Android.Resource.Id.collapseActionView;
+			global::MvvmCross.Resource.Id.container = global::PocThomasMVVMCross.Android.Resource.Id.container;
+			global::MvvmCross.Resource.Id.content = global::PocThomasMVVMCross.Android.Resource.Id.content;
+			global::MvvmCross.Resource.Id.contentPanel = global::PocThomasMVVMCross.Android.Resource.Id.contentPanel;
+			global::MvvmCross.Resource.Id.coordinator = global::PocThomasMVVMCross.Android.Resource.Id.coordinator;
+			global::MvvmCross.Resource.Id.CTRL = global::PocThomasMVVMCross.Android.Resource.Id.CTRL;
+			global::MvvmCross.Resource.Id.custom = global::PocThomasMVVMCross.Android.Resource.Id.custom;
+			global::MvvmCross.Resource.Id.customPanel = global::PocThomasMVVMCross.Android.Resource.Id.customPanel;
+			global::MvvmCross.Resource.Id.decor_content_parent = global::PocThomasMVVMCross.Android.Resource.Id.decor_content_parent;
+			global::MvvmCross.Resource.Id.default_activity_button = global::PocThomasMVVMCross.Android.Resource.Id.default_activity_button;
+			global::MvvmCross.Resource.Id.design_bottom_sheet = global::PocThomasMVVMCross.Android.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Resource.Id.design_menu_item_action_area = global::PocThomasMVVMCross.Android.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Resource.Id.design_menu_item_action_area_stub = global::PocThomasMVVMCross.Android.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Resource.Id.design_menu_item_text = global::PocThomasMVVMCross.Android.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Resource.Id.design_navigation_view = global::PocThomasMVVMCross.Android.Resource.Id.design_navigation_view;
+			global::MvvmCross.Resource.Id.dialog_button = global::PocThomasMVVMCross.Android.Resource.Id.dialog_button;
+			global::MvvmCross.Resource.Id.disableHome = global::PocThomasMVVMCross.Android.Resource.Id.disableHome;
+			global::MvvmCross.Resource.Id.edit_query = global::PocThomasMVVMCross.Android.Resource.Id.edit_query;
+			global::MvvmCross.Resource.Id.end = global::PocThomasMVVMCross.Android.Resource.Id.end;
+			global::MvvmCross.Resource.Id.enterAlways = global::PocThomasMVVMCross.Android.Resource.Id.enterAlways;
+			global::MvvmCross.Resource.Id.enterAlwaysCollapsed = global::PocThomasMVVMCross.Android.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Resource.Id.exitUntilCollapsed = global::PocThomasMVVMCross.Android.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Resource.Id.expanded_menu = global::PocThomasMVVMCross.Android.Resource.Id.expanded_menu;
+			global::MvvmCross.Resource.Id.expand_activities_button = global::PocThomasMVVMCross.Android.Resource.Id.expand_activities_button;
+			global::MvvmCross.Resource.Id.fill = global::PocThomasMVVMCross.Android.Resource.Id.fill;
+			global::MvvmCross.Resource.Id.filled = global::PocThomasMVVMCross.Android.Resource.Id.filled;
+			global::MvvmCross.Resource.Id.fill_horizontal = global::PocThomasMVVMCross.Android.Resource.Id.fill_horizontal;
+			global::MvvmCross.Resource.Id.fill_vertical = global::PocThomasMVVMCross.Android.Resource.Id.fill_vertical;
+			global::MvvmCross.Resource.Id.@fixed = global::PocThomasMVVMCross.Android.Resource.Id.@fixed;
+			global::MvvmCross.Resource.Id.forever = global::PocThomasMVVMCross.Android.Resource.Id.forever;
+			global::MvvmCross.Resource.Id.fragment_container_view_tag = global::PocThomasMVVMCross.Android.Resource.Id.fragment_container_view_tag;
+			global::MvvmCross.Resource.Id.FUNCTION = global::PocThomasMVVMCross.Android.Resource.Id.FUNCTION;
+			global::MvvmCross.Resource.Id.ghost_view = global::PocThomasMVVMCross.Android.Resource.Id.ghost_view;
+			global::MvvmCross.Resource.Id.ghost_view_holder = global::PocThomasMVVMCross.Android.Resource.Id.ghost_view_holder;
+			global::MvvmCross.Resource.Id.group_divider = global::PocThomasMVVMCross.Android.Resource.Id.group_divider;
+			global::MvvmCross.Resource.Id.home = global::PocThomasMVVMCross.Android.Resource.Id.home;
+			global::MvvmCross.Resource.Id.homeAsUp = global::PocThomasMVVMCross.Android.Resource.Id.homeAsUp;
+			global::MvvmCross.Resource.Id.icon = global::PocThomasMVVMCross.Android.Resource.Id.icon;
+			global::MvvmCross.Resource.Id.icon_frame = global::PocThomasMVVMCross.Android.Resource.Id.icon_frame;
+			global::MvvmCross.Resource.Id.icon_group = global::PocThomasMVVMCross.Android.Resource.Id.icon_group;
+			global::MvvmCross.Resource.Id.ifRoom = global::PocThomasMVVMCross.Android.Resource.Id.ifRoom;
+			global::MvvmCross.Resource.Id.image = global::PocThomasMVVMCross.Android.Resource.Id.image;
+			global::MvvmCross.Resource.Id.info = global::PocThomasMVVMCross.Android.Resource.Id.info;
+			global::MvvmCross.Resource.Id.italic = global::PocThomasMVVMCross.Android.Resource.Id.italic;
+			global::MvvmCross.Resource.Id.item_touch_helper_previous_elevation = global::PocThomasMVVMCross.Android.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Resource.Id.labeled = global::PocThomasMVVMCross.Android.Resource.Id.labeled;
+			global::MvvmCross.Resource.Id.largeLabel = global::PocThomasMVVMCross.Android.Resource.Id.largeLabel;
+			global::MvvmCross.Resource.Id.left = global::PocThomasMVVMCross.Android.Resource.Id.left;
+			global::MvvmCross.Resource.Id.line1 = global::PocThomasMVVMCross.Android.Resource.Id.line1;
+			global::MvvmCross.Resource.Id.line3 = global::PocThomasMVVMCross.Android.Resource.Id.line3;
+			global::MvvmCross.Resource.Id.listMode = global::PocThomasMVVMCross.Android.Resource.Id.listMode;
+			global::MvvmCross.Resource.Id.list_item = global::PocThomasMVVMCross.Android.Resource.Id.list_item;
+			global::MvvmCross.Resource.Id.masked = global::PocThomasMVVMCross.Android.Resource.Id.masked;
+			global::MvvmCross.Resource.Id.message = global::PocThomasMVVMCross.Android.Resource.Id.message;
+			global::MvvmCross.Resource.Id.META = global::PocThomasMVVMCross.Android.Resource.Id.META;
+			global::MvvmCross.Resource.Id.middle = global::PocThomasMVVMCross.Android.Resource.Id.middle;
+			global::MvvmCross.Resource.Id.mini = global::PocThomasMVVMCross.Android.Resource.Id.mini;
+			global::MvvmCross.Resource.Id.mtrl_child_content_container = global::PocThomasMVVMCross.Android.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Resource.Id.mtrl_internal_children_alpha_tag = global::PocThomasMVVMCross.Android.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::MvvmCross.Resource.Id.multiply = global::PocThomasMVVMCross.Android.Resource.Id.multiply;
+			global::MvvmCross.Resource.Id.MvvmCrossTagId = global::PocThomasMVVMCross.Android.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Resource.Id.MvxBindingTagUnique = global::PocThomasMVVMCross.Android.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Resource.Id.navigation_header_container = global::PocThomasMVVMCross.Android.Resource.Id.navigation_header_container;
+			global::MvvmCross.Resource.Id.never = global::PocThomasMVVMCross.Android.Resource.Id.never;
+			global::MvvmCross.Resource.Id.none = global::PocThomasMVVMCross.Android.Resource.Id.none;
+			global::MvvmCross.Resource.Id.normal = global::PocThomasMVVMCross.Android.Resource.Id.normal;
+			global::MvvmCross.Resource.Id.notification_background = global::PocThomasMVVMCross.Android.Resource.Id.notification_background;
+			global::MvvmCross.Resource.Id.notification_main_column = global::PocThomasMVVMCross.Android.Resource.Id.notification_main_column;
+			global::MvvmCross.Resource.Id.notification_main_column_container = global::PocThomasMVVMCross.Android.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Resource.Id.off = global::PocThomasMVVMCross.Android.Resource.Id.off;
+			global::MvvmCross.Resource.Id.on = global::PocThomasMVVMCross.Android.Resource.Id.on;
+			global::MvvmCross.Resource.Id.outline = global::PocThomasMVVMCross.Android.Resource.Id.outline;
+			global::MvvmCross.Resource.Id.parallax = global::PocThomasMVVMCross.Android.Resource.Id.parallax;
+			global::MvvmCross.Resource.Id.parentPanel = global::PocThomasMVVMCross.Android.Resource.Id.parentPanel;
+			global::MvvmCross.Resource.Id.parent_matrix = global::PocThomasMVVMCross.Android.Resource.Id.parent_matrix;
+			global::MvvmCross.Resource.Id.pin = global::PocThomasMVVMCross.Android.Resource.Id.pin;
+			global::MvvmCross.Resource.Id.progress_circular = global::PocThomasMVVMCross.Android.Resource.Id.progress_circular;
+			global::MvvmCross.Resource.Id.progress_horizontal = global::PocThomasMVVMCross.Android.Resource.Id.progress_horizontal;
+			global::MvvmCross.Resource.Id.radio = global::PocThomasMVVMCross.Android.Resource.Id.radio;
+			global::MvvmCross.Resource.Id.recycler_view = global::PocThomasMVVMCross.Android.Resource.Id.recycler_view;
+			global::MvvmCross.Resource.Id.right = global::PocThomasMVVMCross.Android.Resource.Id.right;
+			global::MvvmCross.Resource.Id.right_icon = global::PocThomasMVVMCross.Android.Resource.Id.right_icon;
+			global::MvvmCross.Resource.Id.right_side = global::PocThomasMVVMCross.Android.Resource.Id.right_side;
+			global::MvvmCross.Resource.Id.save_non_transition_alpha = global::PocThomasMVVMCross.Android.Resource.Id.save_non_transition_alpha;
+			global::MvvmCross.Resource.Id.save_overlay_view = global::PocThomasMVVMCross.Android.Resource.Id.save_overlay_view;
+			global::MvvmCross.Resource.Id.screen = global::PocThomasMVVMCross.Android.Resource.Id.screen;
+			global::MvvmCross.Resource.Id.scroll = global::PocThomasMVVMCross.Android.Resource.Id.scroll;
+			global::MvvmCross.Resource.Id.scrollable = global::PocThomasMVVMCross.Android.Resource.Id.scrollable;
+			global::MvvmCross.Resource.Id.scrollIndicatorDown = global::PocThomasMVVMCross.Android.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Resource.Id.scrollIndicatorUp = global::PocThomasMVVMCross.Android.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Resource.Id.scrollView = global::PocThomasMVVMCross.Android.Resource.Id.scrollView;
+			global::MvvmCross.Resource.Id.search_badge = global::PocThomasMVVMCross.Android.Resource.Id.search_badge;
+			global::MvvmCross.Resource.Id.search_bar = global::PocThomasMVVMCross.Android.Resource.Id.search_bar;
+			global::MvvmCross.Resource.Id.search_button = global::PocThomasMVVMCross.Android.Resource.Id.search_button;
+			global::MvvmCross.Resource.Id.search_close_btn = global::PocThomasMVVMCross.Android.Resource.Id.search_close_btn;
+			global::MvvmCross.Resource.Id.search_edit_frame = global::PocThomasMVVMCross.Android.Resource.Id.search_edit_frame;
+			global::MvvmCross.Resource.Id.search_go_btn = global::PocThomasMVVMCross.Android.Resource.Id.search_go_btn;
+			global::MvvmCross.Resource.Id.search_mag_icon = global::PocThomasMVVMCross.Android.Resource.Id.search_mag_icon;
+			global::MvvmCross.Resource.Id.search_plate = global::PocThomasMVVMCross.Android.Resource.Id.search_plate;
+			global::MvvmCross.Resource.Id.search_src_text = global::PocThomasMVVMCross.Android.Resource.Id.search_src_text;
+			global::MvvmCross.Resource.Id.search_voice_btn = global::PocThomasMVVMCross.Android.Resource.Id.search_voice_btn;
+			global::MvvmCross.Resource.Id.seekbar = global::PocThomasMVVMCross.Android.Resource.Id.seekbar;
+			global::MvvmCross.Resource.Id.seekbar_value = global::PocThomasMVVMCross.Android.Resource.Id.seekbar_value;
+			global::MvvmCross.Resource.Id.selected = global::PocThomasMVVMCross.Android.Resource.Id.selected;
+			global::MvvmCross.Resource.Id.select_dialog_listview = global::PocThomasMVVMCross.Android.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Resource.Id.SHIFT = global::PocThomasMVVMCross.Android.Resource.Id.SHIFT;
+			global::MvvmCross.Resource.Id.shortcut = global::PocThomasMVVMCross.Android.Resource.Id.shortcut;
+			global::MvvmCross.Resource.Id.showCustom = global::PocThomasMVVMCross.Android.Resource.Id.showCustom;
+			global::MvvmCross.Resource.Id.showHome = global::PocThomasMVVMCross.Android.Resource.Id.showHome;
+			global::MvvmCross.Resource.Id.showTitle = global::PocThomasMVVMCross.Android.Resource.Id.showTitle;
+			global::MvvmCross.Resource.Id.smallLabel = global::PocThomasMVVMCross.Android.Resource.Id.smallLabel;
+			global::MvvmCross.Resource.Id.snackbar_action = global::PocThomasMVVMCross.Android.Resource.Id.snackbar_action;
+			global::MvvmCross.Resource.Id.snackbar_text = global::PocThomasMVVMCross.Android.Resource.Id.snackbar_text;
+			global::MvvmCross.Resource.Id.snap = global::PocThomasMVVMCross.Android.Resource.Id.snap;
+			global::MvvmCross.Resource.Id.snapMargins = global::PocThomasMVVMCross.Android.Resource.Id.snapMargins;
+			global::MvvmCross.Resource.Id.spacer = global::PocThomasMVVMCross.Android.Resource.Id.spacer;
+			global::MvvmCross.Resource.Id.spinner = global::PocThomasMVVMCross.Android.Resource.Id.spinner;
+			global::MvvmCross.Resource.Id.split_action_bar = global::PocThomasMVVMCross.Android.Resource.Id.split_action_bar;
+			global::MvvmCross.Resource.Id.src_atop = global::PocThomasMVVMCross.Android.Resource.Id.src_atop;
+			global::MvvmCross.Resource.Id.src_in = global::PocThomasMVVMCross.Android.Resource.Id.src_in;
+			global::MvvmCross.Resource.Id.src_over = global::PocThomasMVVMCross.Android.Resource.Id.src_over;
+			global::MvvmCross.Resource.Id.start = global::PocThomasMVVMCross.Android.Resource.Id.start;
+			global::MvvmCross.Resource.Id.stretch = global::PocThomasMVVMCross.Android.Resource.Id.stretch;
+			global::MvvmCross.Resource.Id.submenuarrow = global::PocThomasMVVMCross.Android.Resource.Id.submenuarrow;
+			global::MvvmCross.Resource.Id.submit_area = global::PocThomasMVVMCross.Android.Resource.Id.submit_area;
+			global::MvvmCross.Resource.Id.switchWidget = global::PocThomasMVVMCross.Android.Resource.Id.switchWidget;
+			global::MvvmCross.Resource.Id.SYM = global::PocThomasMVVMCross.Android.Resource.Id.SYM;
+			global::MvvmCross.Resource.Id.tabMode = global::PocThomasMVVMCross.Android.Resource.Id.tabMode;
+			global::MvvmCross.Resource.Id.tag_accessibility_actions = global::PocThomasMVVMCross.Android.Resource.Id.tag_accessibility_actions;
+			global::MvvmCross.Resource.Id.tag_accessibility_clickable_spans = global::PocThomasMVVMCross.Android.Resource.Id.tag_accessibility_clickable_spans;
+			global::MvvmCross.Resource.Id.tag_accessibility_heading = global::PocThomasMVVMCross.Android.Resource.Id.tag_accessibility_heading;
+			global::MvvmCross.Resource.Id.tag_accessibility_pane_title = global::PocThomasMVVMCross.Android.Resource.Id.tag_accessibility_pane_title;
+			global::MvvmCross.Resource.Id.tag_screen_reader_focusable = global::PocThomasMVVMCross.Android.Resource.Id.tag_screen_reader_focusable;
+			global::MvvmCross.Resource.Id.tag_transition_group = global::PocThomasMVVMCross.Android.Resource.Id.tag_transition_group;
+			global::MvvmCross.Resource.Id.tag_unhandled_key_event_manager = global::PocThomasMVVMCross.Android.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Resource.Id.tag_unhandled_key_listeners = global::PocThomasMVVMCross.Android.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.Resource.Id.text = global::PocThomasMVVMCross.Android.Resource.Id.text;
+			global::MvvmCross.Resource.Id.text2 = global::PocThomasMVVMCross.Android.Resource.Id.text2;
+			global::MvvmCross.Resource.Id.textinput_counter = global::PocThomasMVVMCross.Android.Resource.Id.textinput_counter;
+			global::MvvmCross.Resource.Id.textinput_error = global::PocThomasMVVMCross.Android.Resource.Id.textinput_error;
+			global::MvvmCross.Resource.Id.textinput_helper_text = global::PocThomasMVVMCross.Android.Resource.Id.textinput_helper_text;
+			global::MvvmCross.Resource.Id.textSpacerNoButtons = global::PocThomasMVVMCross.Android.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Resource.Id.textSpacerNoTitle = global::PocThomasMVVMCross.Android.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Resource.Id.textStart = global::PocThomasMVVMCross.Android.Resource.Id.textStart;
+			global::MvvmCross.Resource.Id.text_input_password_toggle = global::PocThomasMVVMCross.Android.Resource.Id.text_input_password_toggle;
+			global::MvvmCross.Resource.Id.time = global::PocThomasMVVMCross.Android.Resource.Id.time;
+			global::MvvmCross.Resource.Id.title = global::PocThomasMVVMCross.Android.Resource.Id.title;
+			global::MvvmCross.Resource.Id.titleDividerNoCustom = global::PocThomasMVVMCross.Android.Resource.Id.titleDividerNoCustom;
+			global::MvvmCross.Resource.Id.title_template = global::PocThomasMVVMCross.Android.Resource.Id.title_template;
+			global::MvvmCross.Resource.Id.top = global::PocThomasMVVMCross.Android.Resource.Id.top;
+			global::MvvmCross.Resource.Id.topPanel = global::PocThomasMVVMCross.Android.Resource.Id.topPanel;
+			global::MvvmCross.Resource.Id.touch_outside = global::PocThomasMVVMCross.Android.Resource.Id.touch_outside;
+			global::MvvmCross.Resource.Id.transition_current_scene = global::PocThomasMVVMCross.Android.Resource.Id.transition_current_scene;
+			global::MvvmCross.Resource.Id.transition_layout_save = global::PocThomasMVVMCross.Android.Resource.Id.transition_layout_save;
+			global::MvvmCross.Resource.Id.transition_position = global::PocThomasMVVMCross.Android.Resource.Id.transition_position;
+			global::MvvmCross.Resource.Id.transition_scene_layoutid_cache = global::PocThomasMVVMCross.Android.Resource.Id.transition_scene_layoutid_cache;
+			global::MvvmCross.Resource.Id.transition_transform = global::PocThomasMVVMCross.Android.Resource.Id.transition_transform;
+			global::MvvmCross.Resource.Id.@unchecked = global::PocThomasMVVMCross.Android.Resource.Id.@unchecked;
+			global::MvvmCross.Resource.Id.uniform = global::PocThomasMVVMCross.Android.Resource.Id.uniform;
+			global::MvvmCross.Resource.Id.unlabeled = global::PocThomasMVVMCross.Android.Resource.Id.unlabeled;
+			global::MvvmCross.Resource.Id.up = global::PocThomasMVVMCross.Android.Resource.Id.up;
+			global::MvvmCross.Resource.Id.useLogo = global::PocThomasMVVMCross.Android.Resource.Id.useLogo;
+			global::MvvmCross.Resource.Id.view_offset_helper = global::PocThomasMVVMCross.Android.Resource.Id.view_offset_helper;
+			global::MvvmCross.Resource.Id.view_tree_saved_state_registry_owner = global::PocThomasMVVMCross.Android.Resource.Id.view_tree_saved_state_registry_owner;
+			global::MvvmCross.Resource.Id.visible = global::PocThomasMVVMCross.Android.Resource.Id.visible;
+			global::MvvmCross.Resource.Id.visible_removing_fragment_view_tag = global::PocThomasMVVMCross.Android.Resource.Id.visible_removing_fragment_view_tag;
+			global::MvvmCross.Resource.Id.withText = global::PocThomasMVVMCross.Android.Resource.Id.withText;
+			global::MvvmCross.Resource.Id.wrap_content = global::PocThomasMVVMCross.Android.Resource.Id.wrap_content;
+			global::MvvmCross.Resource.Integer.abc_config_activityDefaultDur = global::PocThomasMVVMCross.Android.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Resource.Integer.abc_config_activityShortDur = global::PocThomasMVVMCross.Android.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Resource.Integer.app_bar_elevation_anim_duration = global::PocThomasMVVMCross.Android.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.Resource.Integer.bottom_sheet_slide_duration = global::PocThomasMVVMCross.Android.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Resource.Integer.cancel_button_image_alpha = global::PocThomasMVVMCross.Android.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Resource.Integer.config_tooltipAnimTime = global::PocThomasMVVMCross.Android.Resource.Integer.config_tooltipAnimTime;
+			global::MvvmCross.Resource.Integer.design_snackbar_text_max_lines = global::PocThomasMVVMCross.Android.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Resource.Integer.design_tab_indicator_anim_duration_ms = global::PocThomasMVVMCross.Android.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.hide_password_duration = global::PocThomasMVVMCross.Android.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Resource.Integer.mtrl_btn_anim_delay_ms = global::PocThomasMVVMCross.Android.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Resource.Integer.mtrl_btn_anim_duration_ms = global::PocThomasMVVMCross.Android.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.mtrl_chip_anim_duration = global::PocThomasMVVMCross.Android.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::PocThomasMVVMCross.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Resource.Integer.show_password_duration = global::PocThomasMVVMCross.Android.Resource.Integer.show_password_duration;
+			global::MvvmCross.Resource.Integer.status_bar_notification_info_maxnum = global::PocThomasMVVMCross.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::PocThomasMVVMCross.Android.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::MvvmCross.Resource.Interpolator.fast_out_slow_in = global::PocThomasMVVMCross.Android.Resource.Interpolator.fast_out_slow_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_fast_out_linear_in = global::PocThomasMVVMCross.Android.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_fast_out_slow_in = global::PocThomasMVVMCross.Android.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Resource.Interpolator.mtrl_linear = global::PocThomasMVVMCross.Android.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Resource.Interpolator.mtrl_linear_out_slow_in = global::PocThomasMVVMCross.Android.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::MvvmCross.Resource.Layout.abc_action_bar_title_item = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Resource.Layout.abc_action_bar_up_container = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Resource.Layout.abc_action_menu_item_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_action_menu_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Resource.Layout.abc_action_mode_bar = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Resource.Layout.abc_action_mode_close_item_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Resource.Layout.abc_activity_chooser_view = global::PocThomasMVVMCross.Android.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Resource.Layout.abc_activity_chooser_view_list_item = global::PocThomasMVVMCross.Android.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_button_bar_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Resource.Layout.abc_alert_dialog_title_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Resource.Layout.abc_cascading_menu_item_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_cascading_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_dialog_title_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Resource.Layout.abc_expanded_menu_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_checkbox = global::PocThomasMVVMCross.Android.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_icon = global::PocThomasMVVMCross.Android.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_list_menu_item_radio = global::PocThomasMVVMCross.Android.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Resource.Layout.abc_popup_menu_header_item_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::MvvmCross.Resource.Layout.abc_popup_menu_item_layout = global::PocThomasMVVMCross.Android.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Resource.Layout.abc_screen_content_include = global::PocThomasMVVMCross.Android.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Resource.Layout.abc_screen_simple = global::PocThomasMVVMCross.Android.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PocThomasMVVMCross.Android.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Resource.Layout.abc_screen_toolbar = global::PocThomasMVVMCross.Android.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PocThomasMVVMCross.Android.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Resource.Layout.abc_search_view = global::PocThomasMVVMCross.Android.Resource.Layout.abc_search_view;
+			global::MvvmCross.Resource.Layout.abc_select_dialog_material = global::PocThomasMVVMCross.Android.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Resource.Layout.abc_tooltip = global::PocThomasMVVMCross.Android.Resource.Layout.abc_tooltip;
+			global::MvvmCross.Resource.Layout.custom_dialog = global::PocThomasMVVMCross.Android.Resource.Layout.custom_dialog;
+			global::MvvmCross.Resource.Layout.design_bottom_navigation_item = global::PocThomasMVVMCross.Android.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.Resource.Layout.design_bottom_sheet_dialog = global::PocThomasMVVMCross.Android.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Resource.Layout.design_layout_snackbar = global::PocThomasMVVMCross.Android.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Resource.Layout.design_layout_snackbar_include = global::PocThomasMVVMCross.Android.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Resource.Layout.design_layout_tab_icon = global::PocThomasMVVMCross.Android.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Resource.Layout.design_layout_tab_text = global::PocThomasMVVMCross.Android.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Resource.Layout.design_menu_item_action_area = global::PocThomasMVVMCross.Android.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Resource.Layout.design_navigation_item = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Resource.Layout.design_navigation_item_header = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Resource.Layout.design_navigation_item_separator = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Resource.Layout.design_navigation_item_subheader = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Resource.Layout.design_navigation_menu = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Resource.Layout.design_navigation_menu_item = global::PocThomasMVVMCross.Android.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Resource.Layout.design_text_input_password_icon = global::PocThomasMVVMCross.Android.Resource.Layout.design_text_input_password_icon;
+			global::MvvmCross.Resource.Layout.expand_button = global::PocThomasMVVMCross.Android.Resource.Layout.expand_button;
+			global::MvvmCross.Resource.Layout.image_frame = global::PocThomasMVVMCross.Android.Resource.Layout.image_frame;
+			global::MvvmCross.Resource.Layout.mtrl_layout_snackbar = global::PocThomasMVVMCross.Android.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Resource.Layout.mtrl_layout_snackbar_include = global::PocThomasMVVMCross.Android.Resource.Layout.mtrl_layout_snackbar_include;
+			global::MvvmCross.Resource.Layout.notification_action = global::PocThomasMVVMCross.Android.Resource.Layout.notification_action;
+			global::MvvmCross.Resource.Layout.notification_action_tombstone = global::PocThomasMVVMCross.Android.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Resource.Layout.notification_template_custom_big = global::PocThomasMVVMCross.Android.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Resource.Layout.notification_template_icon_group = global::PocThomasMVVMCross.Android.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Resource.Layout.notification_template_part_chronometer = global::PocThomasMVVMCross.Android.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Resource.Layout.notification_template_part_time = global::PocThomasMVVMCross.Android.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Resource.Layout.preference = global::PocThomasMVVMCross.Android.Resource.Layout.preference;
+			global::MvvmCross.Resource.Layout.preference_category = global::PocThomasMVVMCross.Android.Resource.Layout.preference_category;
+			global::MvvmCross.Resource.Layout.preference_category_material = global::PocThomasMVVMCross.Android.Resource.Layout.preference_category_material;
+			global::MvvmCross.Resource.Layout.preference_dialog_edittext = global::PocThomasMVVMCross.Android.Resource.Layout.preference_dialog_edittext;
+			global::MvvmCross.Resource.Layout.preference_dropdown = global::PocThomasMVVMCross.Android.Resource.Layout.preference_dropdown;
+			global::MvvmCross.Resource.Layout.preference_dropdown_material = global::PocThomasMVVMCross.Android.Resource.Layout.preference_dropdown_material;
+			global::MvvmCross.Resource.Layout.preference_information = global::PocThomasMVVMCross.Android.Resource.Layout.preference_information;
+			global::MvvmCross.Resource.Layout.preference_information_material = global::PocThomasMVVMCross.Android.Resource.Layout.preference_information_material;
+			global::MvvmCross.Resource.Layout.preference_list_fragment = global::PocThomasMVVMCross.Android.Resource.Layout.preference_list_fragment;
+			global::MvvmCross.Resource.Layout.preference_material = global::PocThomasMVVMCross.Android.Resource.Layout.preference_material;
+			global::MvvmCross.Resource.Layout.preference_recyclerview = global::PocThomasMVVMCross.Android.Resource.Layout.preference_recyclerview;
+			global::MvvmCross.Resource.Layout.preference_widget_checkbox = global::PocThomasMVVMCross.Android.Resource.Layout.preference_widget_checkbox;
+			global::MvvmCross.Resource.Layout.preference_widget_seekbar = global::PocThomasMVVMCross.Android.Resource.Layout.preference_widget_seekbar;
+			global::MvvmCross.Resource.Layout.preference_widget_seekbar_material = global::PocThomasMVVMCross.Android.Resource.Layout.preference_widget_seekbar_material;
+			global::MvvmCross.Resource.Layout.preference_widget_switch = global::PocThomasMVVMCross.Android.Resource.Layout.preference_widget_switch;
+			global::MvvmCross.Resource.Layout.preference_widget_switch_compat = global::PocThomasMVVMCross.Android.Resource.Layout.preference_widget_switch_compat;
+			global::MvvmCross.Resource.Layout.select_dialog_item_material = global::PocThomasMVVMCross.Android.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Resource.Layout.select_dialog_multichoice_material = global::PocThomasMVVMCross.Android.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Resource.Layout.select_dialog_singlechoice_material = global::PocThomasMVVMCross.Android.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Resource.Layout.support_simple_spinner_dropdown_item = global::PocThomasMVVMCross.Android.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Resource.String.abc_action_bar_home_description = global::PocThomasMVVMCross.Android.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Resource.String.abc_action_bar_up_description = global::PocThomasMVVMCross.Android.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Resource.String.abc_action_menu_overflow_description = global::PocThomasMVVMCross.Android.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Resource.String.abc_action_mode_done = global::PocThomasMVVMCross.Android.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Resource.String.abc_activitychooserview_choose_application = global::PocThomasMVVMCross.Android.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Resource.String.abc_activity_chooser_view_see_all = global::PocThomasMVVMCross.Android.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Resource.String.abc_capital_off = global::PocThomasMVVMCross.Android.Resource.String.abc_capital_off;
+			global::MvvmCross.Resource.String.abc_capital_on = global::PocThomasMVVMCross.Android.Resource.String.abc_capital_on;
+			global::MvvmCross.Resource.String.abc_menu_alt_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_ctrl_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_delete_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_enter_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_function_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_meta_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_shift_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_space_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Resource.String.abc_menu_sym_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Resource.String.abc_prepend_shortcut_label = global::PocThomasMVVMCross.Android.Resource.String.abc_prepend_shortcut_label;
+			global::MvvmCross.Resource.String.abc_searchview_description_clear = global::PocThomasMVVMCross.Android.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Resource.String.abc_searchview_description_query = global::PocThomasMVVMCross.Android.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Resource.String.abc_searchview_description_search = global::PocThomasMVVMCross.Android.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Resource.String.abc_searchview_description_submit = global::PocThomasMVVMCross.Android.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Resource.String.abc_searchview_description_voice = global::PocThomasMVVMCross.Android.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Resource.String.abc_search_hint = global::PocThomasMVVMCross.Android.Resource.String.abc_search_hint;
+			global::MvvmCross.Resource.String.abc_shareactionprovider_share_with = global::PocThomasMVVMCross.Android.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Resource.String.abc_shareactionprovider_share_with_application = global::PocThomasMVVMCross.Android.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Resource.String.abc_toolbar_collapse_description = global::PocThomasMVVMCross.Android.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Resource.String.appbar_scrolling_view_behavior = global::PocThomasMVVMCross.Android.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Resource.String.bottom_sheet_behavior = global::PocThomasMVVMCross.Android.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Resource.String.character_counter_content_description = global::PocThomasMVVMCross.Android.Resource.String.character_counter_content_description;
+			global::MvvmCross.Resource.String.character_counter_pattern = global::PocThomasMVVMCross.Android.Resource.String.character_counter_pattern;
+			global::MvvmCross.Resource.String.copy = global::PocThomasMVVMCross.Android.Resource.String.copy;
+			global::MvvmCross.Resource.String.expand_button_title = global::PocThomasMVVMCross.Android.Resource.String.expand_button_title;
+			global::MvvmCross.Resource.String.fab_transformation_scrim_behavior = global::PocThomasMVVMCross.Android.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Resource.String.fab_transformation_sheet_behavior = global::PocThomasMVVMCross.Android.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Resource.String.hide_bottom_view_on_scroll_behavior = global::PocThomasMVVMCross.Android.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Resource.String.mtrl_chip_close_icon_content_description = global::PocThomasMVVMCross.Android.Resource.String.mtrl_chip_close_icon_content_description;
+			global::MvvmCross.Resource.String.not_set = global::PocThomasMVVMCross.Android.Resource.String.not_set;
+			global::MvvmCross.Resource.String.password_toggle_content_description = global::PocThomasMVVMCross.Android.Resource.String.password_toggle_content_description;
+			global::MvvmCross.Resource.String.path_password_eye = global::PocThomasMVVMCross.Android.Resource.String.path_password_eye;
+			global::MvvmCross.Resource.String.path_password_eye_mask_strike_through = global::PocThomasMVVMCross.Android.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.Resource.String.path_password_eye_mask_visible = global::PocThomasMVVMCross.Android.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.Resource.String.path_password_strike_through = global::PocThomasMVVMCross.Android.Resource.String.path_password_strike_through;
+			global::MvvmCross.Resource.String.preference_copied = global::PocThomasMVVMCross.Android.Resource.String.preference_copied;
+			global::MvvmCross.Resource.String.search_menu_title = global::PocThomasMVVMCross.Android.Resource.String.search_menu_title;
+			global::MvvmCross.Resource.String.status_bar_notification_info_overflow = global::PocThomasMVVMCross.Android.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Resource.String.summary_collapsed_preference_list = global::PocThomasMVVMCross.Android.Resource.String.summary_collapsed_preference_list;
+			global::MvvmCross.Resource.String.v7_preference_off = global::PocThomasMVVMCross.Android.Resource.String.v7_preference_off;
+			global::MvvmCross.Resource.String.v7_preference_on = global::PocThomasMVVMCross.Android.Resource.String.v7_preference_on;
+			global::MvvmCross.Resource.Style.AlertDialog_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Resource.Style.AlertDialog_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_DropDownUp = global::PocThomasMVVMCross.Android.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Resource.Style.Animation_AppCompat_Tooltip = global::PocThomasMVVMCross.Android.Resource.Style.Animation_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Animation_Design_BottomSheetDialog = global::PocThomasMVVMCross.Android.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Base_AlertDialog_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PocThomasMVVMCross.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PocThomasMVVMCross.Android.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Base_CardView = global::PocThomasMVVMCross.Android.Resource.Style.Base_CardView;
+			global::MvvmCross.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PocThomasMVVMCross.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V22_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V23_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V26_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V26_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PocThomasMVVMCross.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_V28_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V28_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PocThomasMVVMCross.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_EditText = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SearchView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_TextView = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Resource.Style.Base_Widget_Design_TabLayout = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_Chip = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::PocThomasMVVMCross.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Resource.Style.CardView = global::PocThomasMVVMCross.Android.Resource.Style.CardView;
+			global::MvvmCross.Resource.Style.CardView_Dark = global::PocThomasMVVMCross.Android.Resource.Style.CardView_Dark;
+			global::MvvmCross.Resource.Style.CardView_Light = global::PocThomasMVVMCross.Android.Resource.Style.CardView_Light;
+			global::MvvmCross.Resource.Style.Platform_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents = global::PocThomasMVVMCross.Android.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Light = global::PocThomasMVVMCross.Android.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PocThomasMVVMCross.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_V21_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Platform_V21_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_V21_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Platform_V21_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_V25_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Platform_V25_AppCompat;
+			global::MvvmCross.Resource.Style.Platform_V25_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Platform_V25_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Preference = global::PocThomasMVVMCross.Android.Resource.Style.Preference;
+			global::MvvmCross.Resource.Style.PreferenceCategoryTitleTextStyle = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::MvvmCross.Resource.Style.PreferenceFragment = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceFragment;
+			global::MvvmCross.Resource.Style.PreferenceFragmentList = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceFragmentList;
+			global::MvvmCross.Resource.Style.PreferenceFragmentList_Material = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceFragmentList_Material;
+			global::MvvmCross.Resource.Style.PreferenceFragment_Material = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceFragment_Material;
+			global::MvvmCross.Resource.Style.PreferenceSummaryTextStyle = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceSummaryTextStyle;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceThemeOverlay;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay_v14 = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceThemeOverlay_v14;
+			global::MvvmCross.Resource.Style.PreferenceThemeOverlay_v14_Material = global::PocThomasMVVMCross.Android.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::MvvmCross.Resource.Style.Preference_Category = global::PocThomasMVVMCross.Android.Resource.Style.Preference_Category;
+			global::MvvmCross.Resource.Style.Preference_Category_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_Category_Material;
+			global::MvvmCross.Resource.Style.Preference_CheckBoxPreference = global::PocThomasMVVMCross.Android.Resource.Style.Preference_CheckBoxPreference;
+			global::MvvmCross.Resource.Style.Preference_CheckBoxPreference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DialogPreference;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_EditTextPreference = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DialogPreference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DialogPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DropDown;
+			global::MvvmCross.Resource.Style.Preference_DropDown_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_DropDown_Material;
+			global::MvvmCross.Resource.Style.Preference_Information = global::PocThomasMVVMCross.Android.Resource.Style.Preference_Information;
+			global::MvvmCross.Resource.Style.Preference_Information_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_Information_Material;
+			global::MvvmCross.Resource.Style.Preference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_Material;
+			global::MvvmCross.Resource.Style.Preference_PreferenceScreen = global::PocThomasMVVMCross.Android.Resource.Style.Preference_PreferenceScreen;
+			global::MvvmCross.Resource.Style.Preference_PreferenceScreen_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_PreferenceScreen_Material;
+			global::MvvmCross.Resource.Style.Preference_SeekBarPreference = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SeekBarPreference;
+			global::MvvmCross.Resource.Style.Preference_SeekBarPreference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SeekBarPreference_Material;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreference = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SwitchPreference;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreferenceCompat = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::MvvmCross.Resource.Style.Preference_SwitchPreference_Material = global::PocThomasMVVMCross.Android.Resource.Style.Preference_SwitchPreference_Material;
+			global::MvvmCross.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PocThomasMVVMCross.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PocThomasMVVMCross.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Body1 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Body2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Button = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Caption = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display1 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display3 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Display4 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Headline = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Large = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Medium = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Menu = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Small = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Subhead = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Info = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Time = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Resource.Style.TextAppearance_Compat_Notification_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Counter = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Error = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_HelperText = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_HelperText;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Hint = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Resource.Style.TextAppearance_Design_Tab = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Button = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Caption = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Chip = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Overline = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Resource.Style.TextAppearance_MaterialComponents_Tab = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PocThomasMVVMCross.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.ThemeOverlay_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Theme_AppCompat = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_CompactMenu = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Empty = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Empty;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_AppCompat_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_Design = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design;
+			global::MvvmCross.Resource.Style.Theme_Design_BottomSheetDialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_Design_Light = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_Design_Light_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_Design_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_CompactMenu = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_NoActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::PocThomasMVVMCross.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActionMode = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ButtonBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Borderless = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Button_Small = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_EditText = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ImageButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_SearchView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListMenuView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ListView_Menu = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupMenu = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_PopupWindow = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ProgressBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SearchView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SeekBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_TextView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_TextView;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Toolbar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PocThomasMVVMCross.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Resource.Style.Widget_Compat_NotificationActionContainer = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Resource.Style.Widget_Compat_NotificationActionText = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Resource.Style.Widget_Design_AppBarLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_BottomNavigationView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.Resource.Style.Widget_Design_BottomSheet_Modal = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Resource.Style.Widget_Design_CollapsingToolbar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Resource.Style.Widget_Design_FloatingActionButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Resource.Style.Widget_Design_NavigationView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_Snackbar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Resource.Style.Widget_Design_TabLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Resource.Style.Widget_Design_TextInputLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_Icon = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_CardView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_ChipGroup = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Action = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_NavigationView = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Snackbar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TabLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Resource.Style.Widget_MaterialComponents_Toolbar = global::PocThomasMVVMCross.Android.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Resource.Style.Widget_Support_CoordinatorLayout = global::PocThomasMVVMCross.Android.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar;
+			global::MvvmCross.Resource.Styleable.ActionBarLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.ActionBar_background = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Resource.Styleable.ActionBar_backgroundSplit = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Resource.Styleable.ActionBar_backgroundStacked = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetRight = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetStart = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Styleable.ActionBar_customNavigationLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar_displayOptions = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Resource.Styleable.ActionBar_divider = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Resource.Styleable.ActionBar_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Resource.Styleable.ActionBar_height = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Resource.Styleable.ActionBar_hideOnContentScroll = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Resource.Styleable.ActionBar_homeLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Resource.Styleable.ActionBar_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_itemPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Resource.Styleable.ActionBar_logo = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Resource.Styleable.ActionBar_navigationMode = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Resource.Styleable.ActionBar_popupTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Resource.Styleable.ActionBar_progressBarPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Resource.Styleable.ActionBar_progressBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_subtitle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Resource.Styleable.ActionBar_subtitleTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionBar_title = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Resource.Styleable.ActionBar_titleTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionMenuItemView = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Resource.Styleable.ActionMenuView = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Resource.Styleable.ActionMode = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode;
+			global::MvvmCross.Resource.Styleable.ActionMode_background = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Resource.Styleable.ActionMode_backgroundSplit = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Resource.Styleable.ActionMode_closeItemLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Resource.Styleable.ActionMode_height = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Resource.Styleable.ActionMode_subtitleTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActionMode_titleTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView = global::PocThomasMVVMCross.Android.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PocThomasMVVMCross.Android.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Resource.Styleable.AlertDialog = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Resource.Styleable.AlertDialog_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_buttonIconDimen = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::MvvmCross.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_listItemLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_listLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Resource.Styleable.AlertDialog_showTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_showTitle;
+			global::MvvmCross.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::PocThomasMVVMCross.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::MvvmCross.Resource.Styleable.AppBarLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_liftable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Resource.Styleable.AppBarLayoutStates_state_lifted = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_background = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_expanded = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::MvvmCross.Resource.Styleable.AppBarLayout_liftOnScroll = global::PocThomasMVVMCross.Android.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_android_src = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_srcCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_tint = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatImageView_tint;
+			global::MvvmCross.Resource.Styleable.AppCompatImageView_tintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatImageView_tintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatSeekBar;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMark = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::MvvmCross.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::MvvmCross.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTint = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_fontFamily = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_lineHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_textAllCaps = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Resource.Styleable.AppCompatTextView_textLocale = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTextView_textLocale;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarSize = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorAccent = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorError = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorError;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorPrimary = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_controlBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dialogTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dividerVertical = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_editTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_switchStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionBar = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.BackgroundStyle;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::MvvmCross.Resource.Styleable.BottomAppBar = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_backgroundTint = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleMargin = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Resource.Styleable.BottomAppBar_hideOnScroll = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_elevation;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemIconSize = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemIconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_itemTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::MvvmCross.Resource.Styleable.BottomNavigationView_menu = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomNavigationView_menu;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PocThomasMVVMCross.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::MvvmCross.Resource.Styleable.ButtonBarLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Resource.Styleable.ButtonBarLayout_allowStacking = global::PocThomasMVVMCross.Android.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Resource.Styleable.CardView = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView;
+			global::MvvmCross.Resource.Styleable.CardView_android_minHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Resource.Styleable.CardView_android_minWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Resource.Styleable.CardView_cardBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Resource.Styleable.CardView_cardCornerRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Resource.Styleable.CardView_cardElevation = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Resource.Styleable.CardView_cardMaxElevation = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Resource.Styleable.CardView_cardUseCompatPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Resource.Styleable.CardView_contentPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingRight = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Resource.Styleable.CardView_contentPaddingTop = global::PocThomasMVVMCross.Android.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::MvvmCross.Resource.Styleable.CheckBoxPreference_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::MvvmCross.Resource.Styleable.Chip = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip;
+			global::MvvmCross.Resource.Styleable.ChipGroup = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Resource.Styleable.ChipGroup_checkedChip = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacing = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Resource.Styleable.ChipGroup_chipSpacingVertical = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Resource.Styleable.ChipGroup_singleLine = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Resource.Styleable.ChipGroup_singleSelection = global::PocThomasMVVMCross.Android.Resource.Styleable.ChipGroup_singleSelection;
+			global::MvvmCross.Resource.Styleable.Chip_android_checkable = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Resource.Styleable.Chip_android_ellipsize = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Resource.Styleable.Chip_android_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.Chip_android_text = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Resource.Styleable.Chip_android_textAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIconEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_checkedIconVisible = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_chipBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Resource.Styleable.Chip_chipCornerRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Resource.Styleable.Chip_chipEndPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_chipIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconSize = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Resource.Styleable.Chip_chipIconVisible = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_chipMinHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Resource.Styleable.Chip_chipStartPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_chipStrokeColor = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Resource.Styleable.Chip_chipStrokeWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Resource.Styleable.Chip_closeIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconEndPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconSize = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconStartPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Resource.Styleable.Chip_closeIconVisible = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Resource.Styleable.Chip_hideMotionSpec = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Resource.Styleable.Chip_iconEndPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_iconStartPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Resource.Styleable.Chip_rippleColor = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Resource.Styleable.Chip_showMotionSpec = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Resource.Styleable.Chip_textEndPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Resource.Styleable.Chip_textStartPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_title = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PocThomasMVVMCross.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem = global::PocThomasMVVMCross.Android.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_alpha = global::PocThomasMVVMCross.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_android_alpha = global::PocThomasMVVMCross.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Resource.Styleable.ColorStateListItem_android_color = global::PocThomasMVVMCross.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Resource.Styleable.CompoundButton = global::PocThomasMVVMCross.Android.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Resource.Styleable.CompoundButton_android_button = global::PocThomasMVVMCross.Android.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.CompoundButton_buttonCompat;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonTint = global::PocThomasMVVMCross.Android.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Resource.Styleable.CompoundButton_buttonTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_keylines = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Resource.Styleable.DesignTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.DesignTheme;
+			global::MvvmCross.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Styleable.DesignTheme_bottomSheetStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::MvvmCross.Resource.Styleable.DialogPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogMessage = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_dialogTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_negativeButtonText = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_android_positiveButtonText = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_dialogIcon;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_dialogLayout;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogMessage = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_dialogMessage;
+			global::MvvmCross.Resource.Styleable.DialogPreference_dialogTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_dialogTitle;
+			global::MvvmCross.Resource.Styleable.DialogPreference_negativeButtonText = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::MvvmCross.Resource.Styleable.DialogPreference_positiveButtonText = global::PocThomasMVVMCross.Android.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_barLength = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_color = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_spinBars = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Resource.Styleable.DrawerArrowToggle_thickness = global::PocThomasMVVMCross.Android.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Resource.Styleable.EditTextPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.EditTextPreference;
+			global::MvvmCross.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::PocThomasMVVMCross.Android.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_backgroundTint = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_borderWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_fabCustomSize = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_fabSize = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_maxImageSize = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_rippleColor = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_showMotionSpec = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::MvvmCross.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Resource.Styleable.FlowLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Resource.Styleable.FlowLayout_itemSpacing = global::PocThomasMVVMCross.Android.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Resource.Styleable.FlowLayout_lineSpacing = global::PocThomasMVVMCross.Android.Resource.Styleable.FlowLayout_lineSpacing;
+			global::MvvmCross.Resource.Styleable.FontFamily = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_font = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_font = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_fontWeight = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Resource.Styleable.FontFamilyFont_ttcIndex = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderAuthority = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderCerts = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderPackage = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Resource.Styleable.FontFamily_fontProviderQuery = global::PocThomasMVVMCross.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PocThomasMVVMCross.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PocThomasMVVMCross.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Resource.Styleable.Fragment = global::PocThomasMVVMCross.Android.Resource.Styleable.Fragment;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView = global::PocThomasMVVMCross.Android.Resource.Styleable.FragmentContainerView;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView_android_name = global::PocThomasMVVMCross.Android.Resource.Styleable.FragmentContainerView_android_name;
+			global::MvvmCross.Resource.Styleable.FragmentContainerView_android_tag = global::PocThomasMVVMCross.Android.Resource.Styleable.FragmentContainerView_android_tag;
+			global::MvvmCross.Resource.Styleable.Fragment_android_id = global::PocThomasMVVMCross.Android.Resource.Styleable.Fragment_android_id;
+			global::MvvmCross.Resource.Styleable.Fragment_android_name = global::PocThomasMVVMCross.Android.Resource.Styleable.Fragment_android_name;
+			global::MvvmCross.Resource.Styleable.Fragment_android_tag = global::PocThomasMVVMCross.Android.Resource.Styleable.Fragment_android_tag;
+			global::MvvmCross.Resource.Styleable.GradientColor = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor;
+			global::MvvmCross.Resource.Styleable.GradientColorItem = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Resource.Styleable.GradientColorItem_android_color = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Resource.Styleable.GradientColorItem_android_offset = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerColor = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerX = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_centerY = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endColor = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endX = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_endY = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_gradientRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startColor = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startX = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_startY = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_tileMode = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Resource.Styleable.GradientColor_android_type = global::PocThomasMVVMCross.Android.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_divider = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Resource.Styleable.LinearLayoutCompat_showDividers = global::PocThomasMVVMCross.Android.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Resource.Styleable.ListPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference;
+			global::MvvmCross.Resource.Styleable.ListPreference_android_entries = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference_android_entries;
+			global::MvvmCross.Resource.Styleable.ListPreference_android_entryValues = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference_android_entryValues;
+			global::MvvmCross.Resource.Styleable.ListPreference_entries = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference_entries;
+			global::MvvmCross.Resource.Styleable.ListPreference_entryValues = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference_entryValues;
+			global::MvvmCross.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::PocThomasMVVMCross.Android.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Resource.Styleable.MaterialButton = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetRight = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Resource.Styleable.MaterialButton_android_insetTop = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Resource.Styleable.MaterialButton_backgroundTint = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Resource.Styleable.MaterialButton_backgroundTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.MaterialButton_cornerRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Resource.Styleable.MaterialButton_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconSize = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Resource.Styleable.MaterialButton_iconTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Resource.Styleable.MaterialButton_rippleColor = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Resource.Styleable.MaterialButton_strokeColor = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Resource.Styleable.MaterialButton_strokeWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Resource.Styleable.MaterialCardView = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Resource.Styleable.MaterialCardView_strokeColor = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Resource.Styleable.MaterialCardView_strokeWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::MvvmCross.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::MvvmCross.Resource.Styleable.MenuGroup = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_enabled = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_id = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_menuCategory = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_orderInCategory = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Resource.Styleable.MenuGroup_android_visible = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Resource.Styleable.MenuItem = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionProviderClass = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Resource.Styleable.MenuItem_actionViewClass = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Resource.Styleable.MenuItem_alphabeticModifiers = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_checkable = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_checked = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_enabled = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_id = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_menuCategory = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_numericShortcut = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_onClick = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_orderInCategory = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_title = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_titleCondensed = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Resource.Styleable.MenuItem_android_visible = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Resource.Styleable.MenuItem_contentDescription = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_contentDescription;
+			global::MvvmCross.Resource.Styleable.MenuItem_iconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_iconTint;
+			global::MvvmCross.Resource.Styleable.MenuItem_iconTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_iconTintMode;
+			global::MvvmCross.Resource.Styleable.MenuItem_numericModifiers = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_numericModifiers;
+			global::MvvmCross.Resource.Styleable.MenuItem_showAsAction = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Resource.Styleable.MenuItem_tooltipText = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuItem_tooltipText;
+			global::MvvmCross.Resource.Styleable.MenuView = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView;
+			global::MvvmCross.Resource.Styleable.MenuView_android_headerBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Resource.Styleable.MenuView_android_horizontalDivider = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Resource.Styleable.MenuView_android_itemTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Resource.Styleable.MenuView_android_verticalDivider = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Resource.Styleable.MenuView_preserveIconSpacing = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Resource.Styleable.MenuView_subMenuArrow = global::PocThomasMVVMCross.Android.Resource.Styleable.MenuView_subMenuArrow;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.MultiSelectListPreference;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_android_entries = global::PocThomasMVVMCross.Android.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::PocThomasMVVMCross.Android.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_entries = global::PocThomasMVVMCross.Android.Resource.Styleable.MultiSelectListPreference_entries;
+			global::MvvmCross.Resource.Styleable.MultiSelectListPreference_entryValues = global::PocThomasMVVMCross.Android.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::MvvmCross.Resource.Styleable.MvxBinding = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxBind = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxLang = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Resource.Styleable.MvxControl = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxControl;
+			global::MvvmCross.Resource.Styleable.MvxControl_MvxTemplate = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxListView;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::PocThomasMVVMCross.Android.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Resource.Styleable.NavigationView = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_background = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Resource.Styleable.NavigationView_android_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.NavigationView_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Resource.Styleable.NavigationView_headerLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemHorizontalPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemIconPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemIconPadding;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemIconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Resource.Styleable.NavigationView_itemTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Resource.Styleable.NavigationView_menu = global::PocThomasMVVMCross.Android.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Resource.Styleable.PopupWindow = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Resource.Styleable.PopupWindowBackgroundState = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::MvvmCross.Resource.Styleable.PopupWindow_android_popupBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Resource.Styleable.PopupWindow_overlapAnchor = global::PocThomasMVVMCross.Android.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Resource.Styleable.Preference = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragment;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragmentCompat;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_divider = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragment_android_divider;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceFragment_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceFragment_android_layout;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceGroup;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::MvvmCross.Resource.Styleable.PreferenceGroup_orderingFromXml = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceImageView;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_android_maxHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_android_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_maxHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::MvvmCross.Resource.Styleable.PreferenceImageView_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_preferenceTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::MvvmCross.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::MvvmCross.Resource.Styleable.Preference_allowDividerAbove = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_allowDividerAbove;
+			global::MvvmCross.Resource.Styleable.Preference_allowDividerBelow = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_allowDividerBelow;
+			global::MvvmCross.Resource.Styleable.Preference_android_defaultValue = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_defaultValue;
+			global::MvvmCross.Resource.Styleable.Preference_android_dependency = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_dependency;
+			global::MvvmCross.Resource.Styleable.Preference_android_enabled = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_enabled;
+			global::MvvmCross.Resource.Styleable.Preference_android_fragment = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_fragment;
+			global::MvvmCross.Resource.Styleable.Preference_android_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_icon;
+			global::MvvmCross.Resource.Styleable.Preference_android_iconSpaceReserved = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::MvvmCross.Resource.Styleable.Preference_android_key = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_key;
+			global::MvvmCross.Resource.Styleable.Preference_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_layout;
+			global::MvvmCross.Resource.Styleable.Preference_android_order = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_order;
+			global::MvvmCross.Resource.Styleable.Preference_android_persistent = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_persistent;
+			global::MvvmCross.Resource.Styleable.Preference_android_selectable = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_selectable;
+			global::MvvmCross.Resource.Styleable.Preference_android_shouldDisableView = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_shouldDisableView;
+			global::MvvmCross.Resource.Styleable.Preference_android_singleLineTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_singleLineTitle;
+			global::MvvmCross.Resource.Styleable.Preference_android_summary = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_summary;
+			global::MvvmCross.Resource.Styleable.Preference_android_title = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_title;
+			global::MvvmCross.Resource.Styleable.Preference_android_widgetLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_android_widgetLayout;
+			global::MvvmCross.Resource.Styleable.Preference_defaultValue = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_defaultValue;
+			global::MvvmCross.Resource.Styleable.Preference_dependency = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_dependency;
+			global::MvvmCross.Resource.Styleable.Preference_enableCopying = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_enableCopying;
+			global::MvvmCross.Resource.Styleable.Preference_enabled = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_enabled;
+			global::MvvmCross.Resource.Styleable.Preference_fragment = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_fragment;
+			global::MvvmCross.Resource.Styleable.Preference_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_icon;
+			global::MvvmCross.Resource.Styleable.Preference_iconSpaceReserved = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_iconSpaceReserved;
+			global::MvvmCross.Resource.Styleable.Preference_isPreferenceVisible = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_isPreferenceVisible;
+			global::MvvmCross.Resource.Styleable.Preference_key = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_key;
+			global::MvvmCross.Resource.Styleable.Preference_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_layout;
+			global::MvvmCross.Resource.Styleable.Preference_order = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_order;
+			global::MvvmCross.Resource.Styleable.Preference_persistent = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_persistent;
+			global::MvvmCross.Resource.Styleable.Preference_selectable = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_selectable;
+			global::MvvmCross.Resource.Styleable.Preference_shouldDisableView = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_shouldDisableView;
+			global::MvvmCross.Resource.Styleable.Preference_singleLineTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_singleLineTitle;
+			global::MvvmCross.Resource.Styleable.Preference_summary = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_summary;
+			global::MvvmCross.Resource.Styleable.Preference_title = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_title;
+			global::MvvmCross.Resource.Styleable.Preference_widgetLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.Preference_widgetLayout;
+			global::MvvmCross.Resource.Styleable.RecycleListView = global::PocThomasMVVMCross.Android.Resource.Styleable.RecycleListView;
+			global::MvvmCross.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PocThomasMVVMCross.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::MvvmCross.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PocThomasMVVMCross.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.Resource.Styleable.RecyclerView = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_clipToPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Resource.Styleable.RecyclerView_android_orientation = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Resource.Styleable.RecyclerView_layoutManager = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Resource.Styleable.RecyclerView_reverseLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Resource.Styleable.RecyclerView_spanCount = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Resource.Styleable.RecyclerView_stackFromEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Resource.Styleable.ScrimInsetsFrameLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PocThomasMVVMCross.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Resource.Styleable.ScrollingViewBehavior_Layout = global::PocThomasMVVMCross.Android.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PocThomasMVVMCross.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::MvvmCross.Resource.Styleable.SearchView = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView;
+			global::MvvmCross.Resource.Styleable.SearchView_android_focusable = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Resource.Styleable.SearchView_android_imeOptions = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Resource.Styleable.SearchView_android_inputType = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Resource.Styleable.SearchView_android_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.SearchView_closeIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_commitIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_defaultQueryHint = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Resource.Styleable.SearchView_goIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_iconifiedByDefault = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Resource.Styleable.SearchView_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Resource.Styleable.SearchView_queryBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Resource.Styleable.SearchView_queryHint = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Resource.Styleable.SearchView_searchHintIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_searchIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Resource.Styleable.SearchView_submitBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Resource.Styleable.SearchView_suggestionRowLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Resource.Styleable.SearchView_voiceIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_adjustable = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_adjustable;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_android_layout;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_android_max = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_android_max;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_min = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_min;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::MvvmCross.Resource.Styleable.SeekBarPreference_updatesContinuously = global::PocThomasMVVMCross.Android.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::MvvmCross.Resource.Styleable.Snackbar = global::PocThomasMVVMCross.Android.Resource.Styleable.Snackbar;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_elevation = global::PocThomasMVVMCross.Android.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Resource.Styleable.Snackbar_snackbarButtonStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Resource.Styleable.Snackbar_snackbarStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.Snackbar_snackbarStyle;
+			global::MvvmCross.Resource.Styleable.Spinner = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner;
+			global::MvvmCross.Resource.Styleable.Spinner_android_dropDownWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Resource.Styleable.Spinner_android_entries = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Resource.Styleable.Spinner_android_popupBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Resource.Styleable.Spinner_android_prompt = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Resource.Styleable.Spinner_popupTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Resource.Styleable.StateListDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Resource.Styleable.StateListDrawableItem = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Resource.Styleable.StateListDrawableItem_android_drawable = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_constantSize = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_dither = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_variablePadding = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Resource.Styleable.StateListDrawable_android_visible = global::PocThomasMVVMCross.Android.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Resource.Styleable.SwitchCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_textOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_textOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_android_thumb = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_showText = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_splitTrack = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchMinWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTint = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_thumbTint;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_thumbTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_track = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_trackTint = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_trackTint;
+			global::MvvmCross.Resource.Styleable.SwitchCompat_trackTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.Resource.Styleable.SwitchPreference = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_switchTextOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_android_switchTextOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_disableDependentsState = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_summaryOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_summaryOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_summaryOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_summaryOn;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_switchTextOff = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::MvvmCross.Resource.Styleable.SwitchPreference_switchTextOn = global::PocThomasMVVMCross.Android.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::MvvmCross.Resource.Styleable.TabItem = global::PocThomasMVVMCross.Android.Resource.Styleable.TabItem;
+			global::MvvmCross.Resource.Styleable.TabItem_android_icon = global::PocThomasMVVMCross.Android.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Resource.Styleable.TabItem_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Resource.Styleable.TabItem_android_text = global::PocThomasMVVMCross.Android.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Resource.Styleable.TabLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabBackground = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabContentStart = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIconTint = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIconTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicator = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabInlineLabel = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMaxWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMinWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabMode = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPadding = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingStart = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabPaddingTop = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabRippleColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabRippleColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Resource.Styleable.TabLayout_tabUnboundedRipple = global::PocThomasMVVMCross.Android.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::MvvmCross.Resource.Styleable.TextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_fontFamily = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowDx = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowDy = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_shadowRadius = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColorHint = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textColorLink = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textFontWeight = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textSize = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_textStyle = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Resource.Styleable.TextAppearance_android_typeface = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Resource.Styleable.TextAppearance_fontFamily = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_fontFamily;
+			global::MvvmCross.Resource.Styleable.TextAppearance_fontVariationSettings = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::MvvmCross.Resource.Styleable.TextAppearance_textAllCaps = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Resource.Styleable.TextAppearance_textLocale = global::PocThomasMVVMCross.Android.Resource.Styleable.TextAppearance_textLocale;
+			global::MvvmCross.Resource.Styleable.TextInputLayout = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_android_hint = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_android_textColorHint = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxStrokeColor = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterMaxLength = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_errorEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperText = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperTextEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement = global::PocThomasMVVMCross.Android.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar;
+			global::MvvmCross.Resource.Styleable.Toolbar_android_gravity = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Resource.Styleable.Toolbar_android_minHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Resource.Styleable.Toolbar_buttonGravity = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_buttonGravity;
+			global::MvvmCross.Resource.Styleable.Toolbar_collapseContentDescription = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_collapseIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetLeft = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetRight = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetStart = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::MvvmCross.Resource.Styleable.Toolbar_logo = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Resource.Styleable.Toolbar_logoDescription = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_maxButtonHeight = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Resource.Styleable.Toolbar_menu = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_menu;
+			global::MvvmCross.Resource.Styleable.Toolbar_navigationContentDescription = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Resource.Styleable.Toolbar_navigationIcon = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Resource.Styleable.Toolbar_popupTheme = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitle = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar_subtitleTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Resource.Styleable.Toolbar_title = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMargin = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMargin;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginBottom = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMargins = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginStart = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleMarginTop = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleTextAppearance = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Resource.Styleable.Toolbar_titleTextColor = global::PocThomasMVVMCross.Android.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Resource.Styleable.View = global::PocThomasMVVMCross.Android.Resource.Styleable.View;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_android_background = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_id = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Resource.Styleable.ViewStubCompat_android_layout = global::PocThomasMVVMCross.Android.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.Resource.Styleable.View_android_focusable = global::PocThomasMVVMCross.Android.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Resource.Styleable.View_android_theme = global::PocThomasMVVMCross.Android.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Resource.Styleable.View_paddingEnd = global::PocThomasMVVMCross.Android.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Resource.Styleable.View_paddingStart = global::PocThomasMVVMCross.Android.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Resource.Styleable.View_theme = global::PocThomasMVVMCross.Android.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::PocThomasMVVMCross.Android.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PocThomasMVVMCross.Android.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::PocThomasMVVMCross.Android.Resource.Attribute.fontProviderAuthority;
@@ -381,1484 +3309,1673 @@ namespace PocThomasMVVMCross.Android
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public const int actionBarItemBackground = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public const int actionBarPopupTheme = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int actionBarSize = 2130903043;
-			
-			// aapt resource value: 0x7F030004
-			public const int actionBarSplitStyle = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public const int actionBarStyle = 2130903045;
-			
 			// aapt resource value: 0x7F030006
-			public const int actionBarTabBarStyle = 2130903046;
+			public const int actionBarDivider = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int actionBarTabStyle = 2130903047;
+			public const int actionBarItemBackground = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarTabTextStyle = 2130903048;
+			public const int actionBarPopupTheme = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarTheme = 2130903049;
+			public const int actionBarSize = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarWidgetTheme = 2130903050;
+			public const int actionBarSplitStyle = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionButtonStyle = 2130903051;
+			public const int actionBarStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionDropDownStyle = 2130903052;
+			public const int actionBarTabBarStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionLayout = 2130903053;
+			public const int actionBarTabStyle = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionMenuTextAppearance = 2130903054;
+			public const int actionBarTabTextStyle = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionMenuTextColor = 2130903055;
+			public const int actionBarTheme = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionModeBackground = 2130903056;
+			public const int actionBarWidgetTheme = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionModeCloseButtonStyle = 2130903057;
+			public const int actionButtonStyle = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionModeCloseDrawable = 2130903058;
+			public const int actionDropDownStyle = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionModeCopyDrawable = 2130903059;
+			public const int actionLayout = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionModeCutDrawable = 2130903060;
+			public const int actionMenuTextAppearance = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionModeFindDrawable = 2130903061;
+			public const int actionMenuTextColor = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModePasteDrawable = 2130903062;
+			public const int actionModeBackground = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModePopupWindowStyle = 2130903063;
+			public const int actionModeCloseButtonStyle = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeSelectAllDrawable = 2130903064;
+			public const int actionModeCloseDrawable = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeShareDrawable = 2130903065;
+			public const int actionModeCopyDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeSplitBackground = 2130903066;
+			public const int actionModeCutDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeStyle = 2130903067;
+			public const int actionModeFindDrawable = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeWebSearchDrawable = 2130903068;
+			public const int actionModePasteDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionOverflowButtonStyle = 2130903069;
+			public const int actionModePopupWindowStyle = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionOverflowMenuStyle = 2130903070;
+			public const int actionModeSelectAllDrawable = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionProviderClass = 2130903071;
+			public const int actionModeShareDrawable = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionViewClass = 2130903072;
+			public const int actionModeSplitBackground = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int activityChooserViewStyle = 2130903073;
+			public const int actionModeStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actionModeWebSearchDrawable = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actionOverflowButtonStyle = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actionOverflowMenuStyle = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int actionProviderClass = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int actionViewClass = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int activityChooserViewStyle = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int adjustable = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int arrowHeadLength = 2130903081;
+			public const int alertDialogButtonGroupStyle = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int arrowShaftLength = 2130903082;
+			public const int alertDialogCenterButtons = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int autoCompleteTextViewStyle = 2130903083;
+			public const int alertDialogStyle = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int autoSizeMaxTextSize = 2130903084;
+			public const int alertDialogTheme = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int autoSizeMinTextSize = 2130903085;
+			public const int allowDividerAbove = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int autoSizePresetSizes = 2130903086;
+			public const int allowDividerAfterLastItem = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int autoSizeStepGranularity = 2130903087;
+			public const int allowDividerBelow = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoSizeTextType = 2130903088;
+			public const int allowStacking = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int background = 2130903089;
+			public const int alpha = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int backgroundSplit = 2130903090;
+			public const int alphabeticModifiers = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int backgroundStacked = 2130903091;
+			public const int arrowHeadLength = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int backgroundTint = 2130903092;
+			public const int arrowShaftLength = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int backgroundTintMode = 2130903093;
+			public const int autoCompleteTextViewStyle = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int barLength = 2130903094;
+			public const int autoSizeMaxTextSize = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int behavior_autoHide = 2130903095;
+			public const int autoSizeMinTextSize = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int behavior_fitToContents = 2130903096;
+			public const int autoSizePresetSizes = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int behavior_hideable = 2130903097;
+			public const int autoSizeStepGranularity = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int behavior_overlapTop = 2130903098;
+			public const int autoSizeTextType = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int behavior_peekHeight = 2130903099;
+			public const int background = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int behavior_skipCollapsed = 2130903100;
-			
-			// aapt resource value: 0x7F03003E
-			public const int borderlessButtonStyle = 2130903102;
+			public const int backgroundSplit = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int borderWidth = 2130903101;
+			public const int backgroundStacked = 2130903101;
+			
+			// aapt resource value: 0x7F03003E
+			public const int backgroundTint = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int bottomAppBarStyle = 2130903103;
+			public const int backgroundTintMode = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int bottomNavigationStyle = 2130903104;
+			public const int barLength = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int bottomSheetDialogTheme = 2130903105;
+			public const int behavior_autoHide = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int bottomSheetStyle = 2130903106;
+			public const int behavior_fitToContents = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int boxBackgroundColor = 2130903107;
+			public const int behavior_hideable = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int boxBackgroundMode = 2130903108;
+			public const int behavior_overlapTop = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int boxCollapsedPaddingTop = 2130903109;
+			public const int behavior_peekHeight = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int boxCornerRadiusBottomEnd = 2130903110;
-			
-			// aapt resource value: 0x7F030047
-			public const int boxCornerRadiusBottomStart = 2130903111;
+			public const int behavior_skipCollapsed = 2130903110;
 			
 			// aapt resource value: 0x7F030048
-			public const int boxCornerRadiusTopEnd = 2130903112;
+			public const int borderlessButtonStyle = 2130903112;
+			
+			// aapt resource value: 0x7F030047
+			public const int borderWidth = 2130903111;
 			
 			// aapt resource value: 0x7F030049
-			public const int boxCornerRadiusTopStart = 2130903113;
+			public const int bottomAppBarStyle = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int boxStrokeColor = 2130903114;
+			public const int bottomNavigationStyle = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int boxStrokeWidth = 2130903115;
+			public const int bottomSheetDialogTheme = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int buttonBarButtonStyle = 2130903116;
+			public const int bottomSheetStyle = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int buttonBarNegativeButtonStyle = 2130903117;
+			public const int boxBackgroundColor = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int buttonBarNeutralButtonStyle = 2130903118;
+			public const int boxBackgroundMode = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int buttonBarPositiveButtonStyle = 2130903119;
+			public const int boxCollapsedPaddingTop = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int buttonBarStyle = 2130903120;
+			public const int boxCornerRadiusBottomEnd = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int buttonCompat = 2130903121;
+			public const int boxCornerRadiusBottomStart = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int buttonGravity = 2130903122;
+			public const int boxCornerRadiusTopEnd = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int buttonIconDimen = 2130903123;
+			public const int boxCornerRadiusTopStart = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int buttonPanelSideLayout = 2130903124;
+			public const int boxStrokeColor = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int buttonStyle = 2130903125;
+			public const int boxStrokeWidth = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonStyleSmall = 2130903126;
+			public const int buttonBarButtonStyle = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonTint = 2130903127;
+			public const int buttonBarNegativeButtonStyle = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int buttonTintMode = 2130903128;
+			public const int buttonBarNeutralButtonStyle = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int cardBackgroundColor = 2130903129;
+			public const int buttonBarPositiveButtonStyle = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int cardCornerRadius = 2130903130;
+			public const int buttonBarStyle = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int cardElevation = 2130903131;
+			public const int buttonCompat = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int cardMaxElevation = 2130903132;
+			public const int buttonGravity = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int cardPreventCornerOverlap = 2130903133;
+			public const int buttonIconDimen = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int cardUseCompatPadding = 2130903134;
+			public const int buttonPanelSideLayout = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int cardViewStyle = 2130903135;
+			public const int buttonStyle = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int checkboxStyle = 2130903136;
+			public const int buttonStyleSmall = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int checkedChip = 2130903137;
+			public const int buttonTint = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int checkedIcon = 2130903138;
+			public const int buttonTintMode = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int checkedIconEnabled = 2130903139;
+			public const int cardBackgroundColor = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int checkedIconVisible = 2130903140;
+			public const int cardCornerRadius = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int checkedTextViewStyle = 2130903141;
+			public const int cardElevation = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int chipBackgroundColor = 2130903142;
+			public const int cardMaxElevation = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int chipCornerRadius = 2130903143;
+			public const int cardPreventCornerOverlap = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int chipEndPadding = 2130903144;
+			public const int cardUseCompatPadding = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int chipGroupStyle = 2130903145;
+			public const int cardViewStyle = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int chipIcon = 2130903146;
+			public const int checkBoxPreferenceStyle = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int chipIconEnabled = 2130903147;
+			public const int checkboxStyle = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int chipIconSize = 2130903148;
+			public const int checkedChip = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int chipIconTint = 2130903149;
+			public const int checkedIcon = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int chipIconVisible = 2130903150;
+			public const int checkedIconEnabled = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int chipMinHeight = 2130903151;
+			public const int checkedIconVisible = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipSpacing = 2130903152;
+			public const int checkedTextViewStyle = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipSpacingHorizontal = 2130903153;
+			public const int chipBackgroundColor = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipSpacingVertical = 2130903154;
+			public const int chipCornerRadius = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipStandaloneStyle = 2130903155;
+			public const int chipEndPadding = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipStartPadding = 2130903156;
+			public const int chipGroupStyle = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipStrokeColor = 2130903157;
+			public const int chipIcon = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipStrokeWidth = 2130903158;
+			public const int chipIconEnabled = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int chipStyle = 2130903159;
+			public const int chipIconSize = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int closeIcon = 2130903160;
+			public const int chipIconTint = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int closeIconEnabled = 2130903161;
+			public const int chipIconVisible = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int closeIconEndPadding = 2130903162;
+			public const int chipMinHeight = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int closeIconSize = 2130903163;
+			public const int chipSpacing = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int closeIconStartPadding = 2130903164;
+			public const int chipSpacingHorizontal = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int closeIconTint = 2130903165;
+			public const int chipSpacingVertical = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int closeIconVisible = 2130903166;
+			public const int chipStandaloneStyle = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int closeItemLayout = 2130903167;
+			public const int chipStartPadding = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int collapseContentDescription = 2130903168;
-			
-			// aapt resource value: 0x7F030082
-			public const int collapsedTitleGravity = 2130903170;
-			
-			// aapt resource value: 0x7F030083
-			public const int collapsedTitleTextAppearance = 2130903171;
+			public const int chipStrokeColor = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int collapseIcon = 2130903169;
+			public const int chipStrokeWidth = 2130903169;
+			
+			// aapt resource value: 0x7F030082
+			public const int chipStyle = 2130903170;
+			
+			// aapt resource value: 0x7F030083
+			public const int closeIcon = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int color = 2130903172;
+			public const int closeIconEnabled = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int colorAccent = 2130903173;
+			public const int closeIconEndPadding = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int colorBackgroundFloating = 2130903174;
+			public const int closeIconSize = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int colorButtonNormal = 2130903175;
+			public const int closeIconStartPadding = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int colorControlActivated = 2130903176;
+			public const int closeIconTint = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int colorControlHighlight = 2130903177;
+			public const int closeIconVisible = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int colorControlNormal = 2130903178;
+			public const int closeItemLayout = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int colorError = 2130903179;
-			
-			// aapt resource value: 0x7F03008C
-			public const int colorPrimary = 2130903180;
+			public const int collapseContentDescription = 2130903179;
 			
 			// aapt resource value: 0x7F03008D
-			public const int colorPrimaryDark = 2130903181;
+			public const int collapsedTitleGravity = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int colorSecondary = 2130903182;
+			public const int collapsedTitleTextAppearance = 2130903182;
+			
+			// aapt resource value: 0x7F03008C
+			public const int collapseIcon = 2130903180;
 			
 			// aapt resource value: 0x7F03008F
-			public const int colorSwitchThumbNormal = 2130903183;
+			public const int color = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int commitIcon = 2130903184;
+			public const int colorAccent = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int contentDescription = 2130903185;
+			public const int colorBackgroundFloating = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int contentInsetEnd = 2130903186;
+			public const int colorButtonNormal = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int contentInsetEndWithActions = 2130903187;
+			public const int colorControlActivated = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int contentInsetLeft = 2130903188;
+			public const int colorControlHighlight = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int contentInsetRight = 2130903189;
+			public const int colorControlNormal = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int contentInsetStart = 2130903190;
+			public const int colorError = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int contentInsetStartWithNavigation = 2130903191;
+			public const int colorPrimary = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int contentPadding = 2130903192;
+			public const int colorPrimaryDark = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int contentPaddingBottom = 2130903193;
+			public const int colorSecondary = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int contentPaddingLeft = 2130903194;
+			public const int colorSwitchThumbNormal = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int contentPaddingRight = 2130903195;
+			public const int commitIcon = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int contentPaddingTop = 2130903196;
+			public const int contentDescription = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int contentScrim = 2130903197;
+			public const int contentInsetEnd = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int controlBackground = 2130903198;
+			public const int contentInsetEndWithActions = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int coordinatorLayoutStyle = 2130903199;
+			public const int contentInsetLeft = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int cornerRadius = 2130903200;
+			public const int contentInsetRight = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int counterEnabled = 2130903201;
+			public const int contentInsetStart = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int counterMaxLength = 2130903202;
+			public const int contentInsetStartWithNavigation = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int counterOverflowTextAppearance = 2130903203;
+			public const int contentPadding = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int counterTextAppearance = 2130903204;
+			public const int contentPaddingBottom = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int customNavigationLayout = 2130903205;
+			public const int contentPaddingLeft = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int defaultQueryHint = 2130903206;
+			public const int contentPaddingRight = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int dialogCornerRadius = 2130903207;
+			public const int contentPaddingTop = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int dialogPreferredPadding = 2130903208;
+			public const int contentScrim = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int dialogTheme = 2130903209;
+			public const int controlBackground = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int displayOptions = 2130903210;
+			public const int coordinatorLayoutStyle = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int divider = 2130903211;
+			public const int cornerRadius = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int dividerHorizontal = 2130903212;
+			public const int counterEnabled = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int dividerPadding = 2130903213;
+			public const int counterMaxLength = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int dividerVertical = 2130903214;
+			public const int counterOverflowTextAppearance = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int drawableBottomCompat = 2130903215;
+			public const int counterTextAppearance = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int drawableEndCompat = 2130903216;
+			public const int customNavigationLayout = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int drawableLeftCompat = 2130903217;
+			public const int defaultQueryHint = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int drawableRightCompat = 2130903218;
+			public const int defaultValue = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int drawableSize = 2130903219;
+			public const int dependency = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int drawableStartCompat = 2130903220;
+			public const int dialogCornerRadius = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int drawableTint = 2130903221;
+			public const int dialogIcon = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int drawableTintMode = 2130903222;
+			public const int dialogLayout = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int drawableTopCompat = 2130903223;
+			public const int dialogMessage = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int drawerArrowStyle = 2130903224;
+			public const int dialogPreferenceStyle = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int drawerLayoutStyle = 2130903225;
-			
-			// aapt resource value: 0x7F0300BB
-			public const int dropdownListPreferredItemHeight = 2130903227;
+			public const int dialogPreferredPadding = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int dropDownListViewStyle = 2130903226;
+			public const int dialogTheme = 2130903226;
+			
+			// aapt resource value: 0x7F0300BB
+			public const int dialogTitle = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int editTextBackground = 2130903228;
+			public const int disableDependentsState = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int editTextColor = 2130903229;
+			public const int displayOptions = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int editTextStyle = 2130903230;
+			public const int divider = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int elevation = 2130903231;
+			public const int dividerHorizontal = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int enforceMaterialTheme = 2130903232;
+			public const int dividerPadding = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int enforceTextAppearance = 2130903233;
+			public const int dividerVertical = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int errorEnabled = 2130903234;
+			public const int drawableBottomCompat = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int errorTextAppearance = 2130903235;
+			public const int drawableEndCompat = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int expandActivityOverflowButtonDrawable = 2130903236;
+			public const int drawableLeftCompat = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int expanded = 2130903237;
+			public const int drawableRightCompat = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int expandedTitleGravity = 2130903238;
+			public const int drawableSize = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int expandedTitleMargin = 2130903239;
+			public const int drawableStartCompat = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int expandedTitleMarginBottom = 2130903240;
+			public const int drawableTint = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int expandedTitleMarginEnd = 2130903241;
+			public const int drawableTintMode = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int expandedTitleMarginStart = 2130903242;
+			public const int drawableTopCompat = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int expandedTitleMarginTop = 2130903243;
+			public const int drawerArrowStyle = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int expandedTitleTextAppearance = 2130903244;
-			
-			// aapt resource value: 0x7F0300CD
-			public const int fabAlignmentMode = 2130903245;
+			public const int drawerLayoutStyle = 2130903244;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int fabCradleMargin = 2130903246;
+			public const int dropdownListPreferredItemHeight = 2130903246;
+			
+			// aapt resource value: 0x7F0300CD
+			public const int dropDownListViewStyle = 2130903245;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int fabCradleRoundedCornerRadius = 2130903247;
+			public const int dropdownPreferenceStyle = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int fabCradleVerticalOffset = 2130903248;
+			public const int editTextBackground = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int fabCustomSize = 2130903249;
+			public const int editTextColor = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int fabSize = 2130903250;
+			public const int editTextPreferenceStyle = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int fastScrollEnabled = 2130903251;
+			public const int editTextStyle = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int fastScrollHorizontalThumbDrawable = 2130903252;
+			public const int elevation = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int fastScrollHorizontalTrackDrawable = 2130903253;
+			public const int enableCopying = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int fastScrollVerticalThumbDrawable = 2130903254;
+			public const int enabled = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int fastScrollVerticalTrackDrawable = 2130903255;
+			public const int enforceMaterialTheme = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int firstBaselineToTopHeight = 2130903256;
+			public const int enforceTextAppearance = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int floatingActionButtonStyle = 2130903257;
+			public const int entries = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int font = 2130903258;
+			public const int entryValues = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int fontFamily = 2130903259;
+			public const int errorEnabled = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int fontProviderAuthority = 2130903260;
+			public const int errorTextAppearance = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int fontProviderCerts = 2130903261;
+			public const int expandActivityOverflowButtonDrawable = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int fontProviderFetchStrategy = 2130903262;
+			public const int expanded = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int fontProviderFetchTimeout = 2130903263;
+			public const int expandedTitleGravity = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int fontProviderPackage = 2130903264;
+			public const int expandedTitleMargin = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int fontProviderQuery = 2130903265;
+			public const int expandedTitleMarginBottom = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int fontStyle = 2130903266;
+			public const int expandedTitleMarginEnd = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int fontVariationSettings = 2130903267;
+			public const int expandedTitleMarginStart = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int fontWeight = 2130903268;
+			public const int expandedTitleMarginTop = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int foregroundInsidePadding = 2130903269;
+			public const int expandedTitleTextAppearance = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int gapBetweenBars = 2130903270;
+			public const int fabAlignmentMode = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int goIcon = 2130903271;
+			public const int fabCradleMargin = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int headerLayout = 2130903272;
+			public const int fabCradleRoundedCornerRadius = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int height = 2130903273;
+			public const int fabCradleVerticalOffset = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int helperText = 2130903274;
+			public const int fabCustomSize = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int helperTextEnabled = 2130903275;
+			public const int fabSize = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int helperTextTextAppearance = 2130903276;
+			public const int fastScrollEnabled = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int hideMotionSpec = 2130903277;
+			public const int fastScrollHorizontalThumbDrawable = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int hideOnContentScroll = 2130903278;
+			public const int fastScrollHorizontalTrackDrawable = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int hideOnScroll = 2130903279;
+			public const int fastScrollVerticalThumbDrawable = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int hintAnimationEnabled = 2130903280;
+			public const int fastScrollVerticalTrackDrawable = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int hintEnabled = 2130903281;
+			public const int firstBaselineToTopHeight = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int hintTextAppearance = 2130903282;
+			public const int floatingActionButtonStyle = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int homeAsUpIndicator = 2130903283;
+			public const int font = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int homeLayout = 2130903284;
+			public const int fontFamily = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int hoveredFocusedTranslationZ = 2130903285;
+			public const int fontProviderAuthority = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int icon = 2130903286;
+			public const int fontProviderCerts = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int iconEndPadding = 2130903287;
+			public const int fontProviderFetchStrategy = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int iconGravity = 2130903288;
-			
-			// aapt resource value: 0x7F0300FE
-			public const int iconifiedByDefault = 2130903294;
+			public const int fontProviderFetchTimeout = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int iconPadding = 2130903289;
+			public const int fontProviderPackage = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int iconSize = 2130903290;
+			public const int fontProviderQuery = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int iconStartPadding = 2130903291;
+			public const int fontStyle = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int iconTint = 2130903292;
+			public const int fontVariationSettings = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int iconTintMode = 2130903293;
+			public const int fontWeight = 2130903293;
+			
+			// aapt resource value: 0x7F0300FE
+			public const int foregroundInsidePadding = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int imageButtonStyle = 2130903295;
+			public const int fragment = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int indeterminateProgressStyle = 2130903296;
+			public const int gapBetweenBars = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int initialActivityCount = 2130903297;
+			public const int goIcon = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int insetForeground = 2130903298;
+			public const int headerLayout = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int isLightTheme = 2130903299;
+			public const int height = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int itemBackground = 2130903300;
+			public const int helperText = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int itemHorizontalPadding = 2130903301;
+			public const int helperTextEnabled = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int itemHorizontalTranslationEnabled = 2130903302;
+			public const int helperTextTextAppearance = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int itemIconPadding = 2130903303;
+			public const int hideMotionSpec = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int itemIconSize = 2130903304;
+			public const int hideOnContentScroll = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int itemIconTint = 2130903305;
+			public const int hideOnScroll = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int itemPadding = 2130903306;
+			public const int hintAnimationEnabled = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int itemSpacing = 2130903307;
+			public const int hintEnabled = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int itemTextAppearance = 2130903308;
+			public const int hintTextAppearance = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int itemTextAppearanceActive = 2130903309;
+			public const int homeAsUpIndicator = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int itemTextAppearanceInactive = 2130903310;
+			public const int homeLayout = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int itemTextColor = 2130903311;
+			public const int hoveredFocusedTranslationZ = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int keylines = 2130903312;
+			public const int icon = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int labelVisibilityMode = 2130903313;
+			public const int iconEndPadding = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int lastBaselineToBottomHeight = 2130903314;
-			
-			// aapt resource value: 0x7F030113
-			public const int layout = 2130903315;
-			
-			// aapt resource value: 0x7F030114
-			public const int layoutManager = 2130903316;
-			
-			// aapt resource value: 0x7F030115
-			public const int layout_anchor = 2130903317;
-			
-			// aapt resource value: 0x7F030116
-			public const int layout_anchorGravity = 2130903318;
-			
-			// aapt resource value: 0x7F030117
-			public const int layout_behavior = 2130903319;
-			
-			// aapt resource value: 0x7F030118
-			public const int layout_collapseMode = 2130903320;
+			public const int iconGravity = 2130903314;
 			
 			// aapt resource value: 0x7F030119
-			public const int layout_collapseParallaxMultiplier = 2130903321;
+			public const int iconifiedByDefault = 2130903321;
+			
+			// aapt resource value: 0x7F030113
+			public const int iconPadding = 2130903315;
+			
+			// aapt resource value: 0x7F030114
+			public const int iconSize = 2130903316;
+			
+			// aapt resource value: 0x7F030115
+			public const int iconSpaceReserved = 2130903317;
+			
+			// aapt resource value: 0x7F030116
+			public const int iconStartPadding = 2130903318;
+			
+			// aapt resource value: 0x7F030117
+			public const int iconTint = 2130903319;
+			
+			// aapt resource value: 0x7F030118
+			public const int iconTintMode = 2130903320;
 			
 			// aapt resource value: 0x7F03011A
-			public const int layout_dodgeInsetEdges = 2130903322;
+			public const int imageButtonStyle = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int layout_insetEdge = 2130903323;
+			public const int indeterminateProgressStyle = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int layout_keyline = 2130903324;
+			public const int initialActivityCount = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int layout_scrollFlags = 2130903325;
+			public const int initialExpandedChildrenCount = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int layout_scrollInterpolator = 2130903326;
+			public const int insetForeground = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int liftOnScroll = 2130903327;
+			public const int isLightTheme = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int lineHeight = 2130903328;
+			public const int isPreferenceVisible = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int lineSpacing = 2130903329;
+			public const int itemBackground = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int listChoiceBackgroundIndicator = 2130903330;
+			public const int itemHorizontalPadding = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int listChoiceIndicatorMultipleAnimated = 2130903331;
+			public const int itemHorizontalTranslationEnabled = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int listChoiceIndicatorSingleAnimated = 2130903332;
+			public const int itemIconPadding = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int listDividerAlertDialog = 2130903333;
+			public const int itemIconSize = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int listItemLayout = 2130903334;
+			public const int itemIconTint = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int listLayout = 2130903335;
+			public const int itemPadding = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int listMenuViewStyle = 2130903336;
+			public const int itemSpacing = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int listPopupWindowStyle = 2130903337;
+			public const int itemTextAppearance = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int listPreferredItemHeight = 2130903338;
+			public const int itemTextAppearanceActive = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int listPreferredItemHeightLarge = 2130903339;
+			public const int itemTextAppearanceInactive = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int listPreferredItemHeightSmall = 2130903340;
+			public const int itemTextColor = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int listPreferredItemPaddingEnd = 2130903341;
+			public const int key = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int listPreferredItemPaddingLeft = 2130903342;
+			public const int keylines = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int listPreferredItemPaddingRight = 2130903343;
+			public const int labelVisibilityMode = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int listPreferredItemPaddingStart = 2130903344;
+			public const int lastBaselineToBottomHeight = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int logo = 2130903345;
+			public const int layout = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int logoDescription = 2130903346;
+			public const int layoutManager = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int materialButtonStyle = 2130903347;
+			public const int layout_anchor = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int materialCardViewStyle = 2130903348;
+			public const int layout_anchorGravity = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int maxActionInlineWidth = 2130903349;
+			public const int layout_behavior = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int maxButtonHeight = 2130903350;
+			public const int layout_collapseMode = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int maxImageSize = 2130903351;
+			public const int layout_collapseParallaxMultiplier = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int measureWithLargestChild = 2130903352;
+			public const int layout_dodgeInsetEdges = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int menu = 2130903353;
+			public const int layout_insetEdge = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int multiChoiceItemLayout = 2130903354;
+			public const int layout_keyline = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int navigationContentDescription = 2130903355;
+			public const int layout_scrollFlags = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int navigationIcon = 2130903356;
+			public const int layout_scrollInterpolator = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int navigationMode = 2130903357;
+			public const int liftOnScroll = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int navigationViewStyle = 2130903358;
+			public const int lineHeight = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int numericModifiers = 2130903359;
+			public const int lineSpacing = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int overlapAnchor = 2130903360;
+			public const int listChoiceBackgroundIndicator = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int paddingBottomNoButtons = 2130903361;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int paddingEnd = 2130903362;
+			public const int listChoiceIndicatorSingleAnimated = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int paddingStart = 2130903363;
+			public const int listDividerAlertDialog = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int paddingTopNoTitle = 2130903364;
+			public const int listItemLayout = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int panelBackground = 2130903365;
+			public const int listLayout = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int panelMenuListTheme = 2130903366;
+			public const int listMenuViewStyle = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int panelMenuListWidth = 2130903367;
+			public const int listPopupWindowStyle = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int passwordToggleContentDescription = 2130903368;
+			public const int listPreferredItemHeight = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int passwordToggleDrawable = 2130903369;
+			public const int listPreferredItemHeightLarge = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int passwordToggleEnabled = 2130903370;
+			public const int listPreferredItemHeightSmall = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int passwordToggleTint = 2130903371;
+			public const int listPreferredItemPaddingEnd = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int passwordToggleTintMode = 2130903372;
+			public const int listPreferredItemPaddingLeft = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int popupMenuStyle = 2130903373;
+			public const int listPreferredItemPaddingRight = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int popupTheme = 2130903374;
+			public const int listPreferredItemPaddingStart = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int popupWindowStyle = 2130903375;
+			public const int logo = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int preserveIconSpacing = 2130903376;
+			public const int logoDescription = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int pressedTranslationZ = 2130903377;
+			public const int materialButtonStyle = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int progressBarPadding = 2130903378;
+			public const int materialCardViewStyle = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int progressBarStyle = 2130903379;
+			public const int maxActionInlineWidth = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int queryBackground = 2130903380;
+			public const int maxButtonHeight = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int queryHint = 2130903381;
+			public const int maxHeight = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int radioButtonStyle = 2130903382;
+			public const int maxImageSize = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int ratingBarStyle = 2130903383;
+			public const int maxWidth = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int ratingBarStyleIndicator = 2130903384;
+			public const int measureWithLargestChild = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int ratingBarStyleSmall = 2130903385;
+			public const int menu = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int recyclerViewStyle = 2130903386;
+			public const int min = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int reverseLayout = 2130903387;
+			public const int multiChoiceItemLayout = 2130903387;
+			
+			// aapt resource value: 0x7F030000
+			public const int MvxBind = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int MvxDropDownItemTemplate = 2130903041;
+			
+			// aapt resource value: 0x7F030002
+			public const int MvxGroupItemTemplate = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int MvxItemTemplate = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int MvxLang = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int MvxTemplate = 2130903045;
 			
 			// aapt resource value: 0x7F03015C
-			public const int rippleColor = 2130903388;
+			public const int navigationContentDescription = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int scrimAnimationDuration = 2130903389;
+			public const int navigationIcon = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int scrimBackground = 2130903390;
+			public const int navigationMode = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int scrimVisibleHeightTrigger = 2130903391;
+			public const int navigationViewStyle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int searchHintIcon = 2130903392;
+			public const int negativeButtonText = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int searchIcon = 2130903393;
+			public const int numericModifiers = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int searchViewStyle = 2130903394;
+			public const int order = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int seekBarStyle = 2130903395;
+			public const int orderingFromXml = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int selectableItemBackground = 2130903396;
+			public const int overlapAnchor = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int selectableItemBackgroundBorderless = 2130903397;
+			public const int paddingBottomNoButtons = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int showAsAction = 2130903398;
+			public const int paddingEnd = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int showDividers = 2130903399;
+			public const int paddingStart = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int showMotionSpec = 2130903400;
+			public const int paddingTopNoTitle = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int showText = 2130903401;
+			public const int panelBackground = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int showTitle = 2130903402;
+			public const int panelMenuListTheme = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int singleChoiceItemLayout = 2130903403;
+			public const int panelMenuListWidth = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int singleLine = 2130903404;
+			public const int passwordToggleContentDescription = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int singleSelection = 2130903405;
+			public const int passwordToggleDrawable = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int snackbarButtonStyle = 2130903406;
+			public const int passwordToggleEnabled = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int snackbarStyle = 2130903407;
+			public const int passwordToggleTint = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int spanCount = 2130903408;
+			public const int passwordToggleTintMode = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int spinBars = 2130903409;
+			public const int persistent = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int spinnerDropDownItemStyle = 2130903410;
+			public const int popupMenuStyle = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int spinnerStyle = 2130903411;
+			public const int popupTheme = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int splitTrack = 2130903412;
+			public const int popupWindowStyle = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int srcCompat = 2130903413;
+			public const int positiveButtonText = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int stackFromEnd = 2130903414;
+			public const int preferenceCategoryStyle = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int state_above_anchor = 2130903415;
+			public const int preferenceCategoryTitleTextAppearance = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int state_collapsed = 2130903416;
+			public const int preferenceFragmentCompatStyle = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int state_collapsible = 2130903417;
+			public const int preferenceFragmentListStyle = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int state_liftable = 2130903418;
+			public const int preferenceFragmentStyle = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int state_lifted = 2130903419;
+			public const int preferenceInformationStyle = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int statusBarBackground = 2130903420;
+			public const int preferenceScreenStyle = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int statusBarScrim = 2130903421;
+			public const int preferenceStyle = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int strokeColor = 2130903422;
+			public const int preferenceTheme = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int strokeWidth = 2130903423;
+			public const int preserveIconSpacing = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int subMenuArrow = 2130903424;
+			public const int pressedTranslationZ = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int submitBackground = 2130903425;
+			public const int progressBarPadding = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int subtitle = 2130903426;
+			public const int progressBarStyle = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int subtitleTextAppearance = 2130903427;
+			public const int queryBackground = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int subtitleTextColor = 2130903428;
+			public const int queryHint = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int subtitleTextStyle = 2130903429;
+			public const int radioButtonStyle = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int suggestionRowLayout = 2130903430;
+			public const int ratingBarStyle = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int switchMinWidth = 2130903431;
+			public const int ratingBarStyleIndicator = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int switchPadding = 2130903432;
+			public const int ratingBarStyleSmall = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int switchStyle = 2130903433;
+			public const int recyclerViewStyle = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int switchTextAppearance = 2130903434;
+			public const int reverseLayout = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabBackground = 2130903435;
+			public const int rippleColor = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabContentStart = 2130903436;
+			public const int scrimAnimationDuration = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabGravity = 2130903437;
+			public const int scrimBackground = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabIconTint = 2130903438;
+			public const int scrimVisibleHeightTrigger = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabIconTintMode = 2130903439;
+			public const int searchHintIcon = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabIndicator = 2130903440;
+			public const int searchIcon = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabIndicatorAnimationDuration = 2130903441;
+			public const int searchViewStyle = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabIndicatorColor = 2130903442;
+			public const int seekBarIncrement = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabIndicatorFullWidth = 2130903443;
+			public const int seekBarPreferenceStyle = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabIndicatorGravity = 2130903444;
+			public const int seekBarStyle = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabIndicatorHeight = 2130903445;
+			public const int selectable = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int tabInlineLabel = 2130903446;
+			public const int selectableItemBackground = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int tabMaxWidth = 2130903447;
+			public const int selectableItemBackgroundBorderless = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int tabMinWidth = 2130903448;
+			public const int shouldDisableView = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int tabMode = 2130903449;
+			public const int showAsAction = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int tabPadding = 2130903450;
+			public const int showDividers = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int tabPaddingBottom = 2130903451;
+			public const int showMotionSpec = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int tabPaddingEnd = 2130903452;
+			public const int showSeekBarValue = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int tabPaddingStart = 2130903453;
+			public const int showText = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int tabPaddingTop = 2130903454;
+			public const int showTitle = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int tabRippleColor = 2130903455;
+			public const int singleChoiceItemLayout = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int tabSelectedTextColor = 2130903456;
+			public const int singleLine = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int tabStyle = 2130903457;
+			public const int singleLineTitle = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int tabTextAppearance = 2130903458;
+			public const int singleSelection = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int tabTextColor = 2130903459;
+			public const int snackbarButtonStyle = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int tabUnboundedRipple = 2130903460;
+			public const int snackbarStyle = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAllCaps = 2130903461;
+			public const int spanCount = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearanceBody1 = 2130903462;
+			public const int spinBars = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceBody2 = 2130903463;
+			public const int spinnerDropDownItemStyle = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceButton = 2130903464;
+			public const int spinnerStyle = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceCaption = 2130903465;
+			public const int splitTrack = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceHeadline1 = 2130903466;
+			public const int srcCompat = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceHeadline2 = 2130903467;
+			public const int stackFromEnd = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textAppearanceHeadline3 = 2130903468;
+			public const int state_above_anchor = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textAppearanceHeadline4 = 2130903469;
+			public const int state_collapsed = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textAppearanceHeadline5 = 2130903470;
+			public const int state_collapsible = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textAppearanceHeadline6 = 2130903471;
+			public const int state_liftable = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textAppearanceLargePopupMenu = 2130903472;
+			public const int state_lifted = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int textAppearanceListItem = 2130903473;
+			public const int statusBarBackground = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int textAppearanceListItemSecondary = 2130903474;
+			public const int statusBarScrim = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int textAppearanceListItemSmall = 2130903475;
+			public const int strokeColor = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int textAppearanceOverline = 2130903476;
+			public const int strokeWidth = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int textAppearancePopupMenuHeader = 2130903477;
+			public const int subMenuArrow = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int textAppearanceSearchResultSubtitle = 2130903478;
+			public const int submitBackground = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int textAppearanceSearchResultTitle = 2130903479;
+			public const int subtitle = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int textAppearanceSmallPopupMenu = 2130903480;
+			public const int subtitleTextAppearance = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int textAppearanceSubtitle1 = 2130903481;
+			public const int subtitleTextColor = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int textAppearanceSubtitle2 = 2130903482;
+			public const int subtitleTextStyle = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int textColorAlertDialogListItem = 2130903483;
+			public const int suggestionRowLayout = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int textColorSearchUrl = 2130903484;
+			public const int summary = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int textEndPadding = 2130903485;
+			public const int summaryOff = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int textInputStyle = 2130903486;
+			public const int summaryOn = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int textLocale = 2130903487;
+			public const int switchMinWidth = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int textStartPadding = 2130903488;
+			public const int switchPadding = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int theme = 2130903489;
+			public const int switchPreferenceCompatStyle = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int thickness = 2130903490;
+			public const int switchPreferenceStyle = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int thumbTextPadding = 2130903491;
+			public const int switchStyle = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int thumbTint = 2130903492;
+			public const int switchTextAppearance = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int thumbTintMode = 2130903493;
+			public const int switchTextOff = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int tickMark = 2130903494;
+			public const int switchTextOn = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int tickMarkTint = 2130903495;
+			public const int tabBackground = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int tickMarkTintMode = 2130903496;
+			public const int tabContentStart = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tint = 2130903497;
+			public const int tabGravity = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tintMode = 2130903498;
+			public const int tabIconTint = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int title = 2130903499;
+			public const int tabIconTintMode = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int titleEnabled = 2130903500;
+			public const int tabIndicator = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int titleMargin = 2130903501;
+			public const int tabIndicatorAnimationDuration = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int titleMarginBottom = 2130903502;
+			public const int tabIndicatorColor = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int titleMarginEnd = 2130903503;
-			
-			// aapt resource value: 0x7F0301D2
-			public const int titleMargins = 2130903506;
+			public const int tabIndicatorFullWidth = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int titleMarginStart = 2130903504;
+			public const int tabIndicatorGravity = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int titleMarginTop = 2130903505;
+			public const int tabIndicatorHeight = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int tabInlineLabel = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int titleTextAppearance = 2130903507;
+			public const int tabMaxWidth = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int titleTextColor = 2130903508;
+			public const int tabMinWidth = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int titleTextStyle = 2130903509;
+			public const int tabMode = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int toolbarId = 2130903510;
+			public const int tabPadding = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int toolbarNavigationButtonStyle = 2130903511;
+			public const int tabPaddingBottom = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int toolbarStyle = 2130903512;
+			public const int tabPaddingEnd = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int tooltipForegroundColor = 2130903513;
+			public const int tabPaddingStart = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int tooltipFrameBackground = 2130903514;
+			public const int tabPaddingTop = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int tooltipText = 2130903515;
+			public const int tabRippleColor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int track = 2130903516;
+			public const int tabSelectedTextColor = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int trackTint = 2130903517;
+			public const int tabStyle = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int trackTintMode = 2130903518;
+			public const int tabTextAppearance = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int ttcIndex = 2130903519;
+			public const int tabTextColor = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int useCompatPadding = 2130903520;
+			public const int tabUnboundedRipple = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int viewInflaterClass = 2130903521;
+			public const int textAllCaps = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int voiceIcon = 2130903522;
+			public const int textAppearanceBody1 = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int windowActionBar = 2130903523;
+			public const int textAppearanceBody2 = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int windowActionBarOverlay = 2130903524;
+			public const int textAppearanceButton = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int windowActionModeOverlay = 2130903525;
+			public const int textAppearanceCaption = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int windowFixedHeightMajor = 2130903526;
+			public const int textAppearanceHeadline1 = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int windowFixedHeightMinor = 2130903527;
+			public const int textAppearanceHeadline2 = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int windowFixedWidthMajor = 2130903528;
+			public const int textAppearanceHeadline3 = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int windowFixedWidthMinor = 2130903529;
+			public const int textAppearanceHeadline4 = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int windowMinWidthMajor = 2130903530;
+			public const int textAppearanceHeadline5 = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int windowMinWidthMinor = 2130903531;
+			public const int textAppearanceHeadline6 = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int windowNoTitle = 2130903532;
+			public const int textAppearanceLargePopupMenu = 2130903532;
+			
+			// aapt resource value: 0x7F0301ED
+			public const int textAppearanceListItem = 2130903533;
+			
+			// aapt resource value: 0x7F0301EE
+			public const int textAppearanceListItemSecondary = 2130903534;
+			
+			// aapt resource value: 0x7F0301EF
+			public const int textAppearanceListItemSmall = 2130903535;
+			
+			// aapt resource value: 0x7F0301F0
+			public const int textAppearanceOverline = 2130903536;
+			
+			// aapt resource value: 0x7F0301F1
+			public const int textAppearancePopupMenuHeader = 2130903537;
+			
+			// aapt resource value: 0x7F0301F2
+			public const int textAppearanceSearchResultSubtitle = 2130903538;
+			
+			// aapt resource value: 0x7F0301F3
+			public const int textAppearanceSearchResultTitle = 2130903539;
+			
+			// aapt resource value: 0x7F0301F4
+			public const int textAppearanceSmallPopupMenu = 2130903540;
+			
+			// aapt resource value: 0x7F0301F5
+			public const int textAppearanceSubtitle1 = 2130903541;
+			
+			// aapt resource value: 0x7F0301F6
+			public const int textAppearanceSubtitle2 = 2130903542;
+			
+			// aapt resource value: 0x7F0301F7
+			public const int textColorAlertDialogListItem = 2130903543;
+			
+			// aapt resource value: 0x7F0301F8
+			public const int textColorSearchUrl = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int textEndPadding = 2130903545;
+			
+			// aapt resource value: 0x7F0301FA
+			public const int textInputStyle = 2130903546;
+			
+			// aapt resource value: 0x7F0301FB
+			public const int textLocale = 2130903547;
+			
+			// aapt resource value: 0x7F0301FC
+			public const int textStartPadding = 2130903548;
+			
+			// aapt resource value: 0x7F0301FD
+			public const int theme = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int thickness = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int thumbTextPadding = 2130903551;
+			
+			// aapt resource value: 0x7F030200
+			public const int thumbTint = 2130903552;
+			
+			// aapt resource value: 0x7F030201
+			public const int thumbTintMode = 2130903553;
+			
+			// aapt resource value: 0x7F030202
+			public const int tickMark = 2130903554;
+			
+			// aapt resource value: 0x7F030203
+			public const int tickMarkTint = 2130903555;
+			
+			// aapt resource value: 0x7F030204
+			public const int tickMarkTintMode = 2130903556;
+			
+			// aapt resource value: 0x7F030205
+			public const int tint = 2130903557;
+			
+			// aapt resource value: 0x7F030206
+			public const int tintMode = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int title = 2130903559;
+			
+			// aapt resource value: 0x7F030208
+			public const int titleEnabled = 2130903560;
+			
+			// aapt resource value: 0x7F030209
+			public const int titleMargin = 2130903561;
+			
+			// aapt resource value: 0x7F03020A
+			public const int titleMarginBottom = 2130903562;
+			
+			// aapt resource value: 0x7F03020B
+			public const int titleMarginEnd = 2130903563;
+			
+			// aapt resource value: 0x7F03020E
+			public const int titleMargins = 2130903566;
+			
+			// aapt resource value: 0x7F03020C
+			public const int titleMarginStart = 2130903564;
+			
+			// aapt resource value: 0x7F03020D
+			public const int titleMarginTop = 2130903565;
+			
+			// aapt resource value: 0x7F03020F
+			public const int titleTextAppearance = 2130903567;
+			
+			// aapt resource value: 0x7F030210
+			public const int titleTextColor = 2130903568;
+			
+			// aapt resource value: 0x7F030211
+			public const int titleTextStyle = 2130903569;
+			
+			// aapt resource value: 0x7F030212
+			public const int toolbarId = 2130903570;
+			
+			// aapt resource value: 0x7F030213
+			public const int toolbarNavigationButtonStyle = 2130903571;
+			
+			// aapt resource value: 0x7F030214
+			public const int toolbarStyle = 2130903572;
+			
+			// aapt resource value: 0x7F030215
+			public const int tooltipForegroundColor = 2130903573;
+			
+			// aapt resource value: 0x7F030216
+			public const int tooltipFrameBackground = 2130903574;
+			
+			// aapt resource value: 0x7F030217
+			public const int tooltipText = 2130903575;
+			
+			// aapt resource value: 0x7F030218
+			public const int track = 2130903576;
+			
+			// aapt resource value: 0x7F030219
+			public const int trackTint = 2130903577;
+			
+			// aapt resource value: 0x7F03021A
+			public const int trackTintMode = 2130903578;
+			
+			// aapt resource value: 0x7F03021B
+			public const int ttcIndex = 2130903579;
+			
+			// aapt resource value: 0x7F03021C
+			public const int updatesContinuously = 2130903580;
+			
+			// aapt resource value: 0x7F03021D
+			public const int useCompatPadding = 2130903581;
+			
+			// aapt resource value: 0x7F03021E
+			public const int useSimpleSummaryProvider = 2130903582;
+			
+			// aapt resource value: 0x7F03021F
+			public const int viewInflaterClass = 2130903583;
+			
+			// aapt resource value: 0x7F030220
+			public const int voiceIcon = 2130903584;
+			
+			// aapt resource value: 0x7F030221
+			public const int widgetLayout = 2130903585;
+			
+			// aapt resource value: 0x7F030222
+			public const int windowActionBar = 2130903586;
+			
+			// aapt resource value: 0x7F030223
+			public const int windowActionBarOverlay = 2130903587;
+			
+			// aapt resource value: 0x7F030224
+			public const int windowActionModeOverlay = 2130903588;
+			
+			// aapt resource value: 0x7F030225
+			public const int windowFixedHeightMajor = 2130903589;
+			
+			// aapt resource value: 0x7F030226
+			public const int windowFixedHeightMinor = 2130903590;
+			
+			// aapt resource value: 0x7F030227
+			public const int windowFixedWidthMajor = 2130903591;
+			
+			// aapt resource value: 0x7F030228
+			public const int windowFixedWidthMinor = 2130903592;
+			
+			// aapt resource value: 0x7F030229
+			public const int windowMinWidthMajor = 2130903593;
+			
+			// aapt resource value: 0x7F03022A
+			public const int windowMinWidthMinor = 2130903594;
+			
+			// aapt resource value: 0x7F03022B
+			public const int windowNoTitle = 2130903595;
 			
 			static Attribute()
 			{
@@ -1883,7 +5000,10 @@ namespace PocThomasMVVMCross.Android
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int mtrl_btn_textappearance_all_caps = 2130968579;
+			public const int config_materialPreferenceIconSpaceReserved = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int mtrl_btn_textappearance_all_caps = 2130968580;
 			
 			static Boolean()
 			{
@@ -2247,70 +5367,73 @@ namespace PocThomasMVVMCross.Android
 			public const int notification_icon_bg_color = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_dark_material_dark = 2131034228;
+			public const int preference_fallback_accent_color = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_dark_material_light = 2131034229;
+			public const int primary_dark_material_dark = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_material_dark = 2131034230;
+			public const int primary_dark_material_light = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_material_light = 2131034231;
+			public const int primary_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_default_material_dark = 2131034232;
+			public const int primary_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_default_material_light = 2131034233;
+			public const int primary_text_default_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int primary_text_disabled_material_dark = 2131034234;
+			public const int primary_text_default_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int primary_text_disabled_material_light = 2131034235;
+			public const int primary_text_disabled_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int ripple_material_dark = 2131034236;
+			public const int primary_text_disabled_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int ripple_material_light = 2131034237;
+			public const int ripple_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_default_material_dark = 2131034238;
+			public const int ripple_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_default_material_light = 2131034239;
+			public const int secondary_text_default_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int secondary_text_disabled_material_dark = 2131034240;
+			public const int secondary_text_default_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int secondary_text_disabled_material_light = 2131034241;
+			public const int secondary_text_disabled_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_disabled_material_dark = 2131034242;
+			public const int secondary_text_disabled_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_disabled_material_light = 2131034243;
+			public const int switch_thumb_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_material_dark = 2131034244;
+			public const int switch_thumb_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_material_light = 2131034245;
+			public const int switch_thumb_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int switch_thumb_normal_material_dark = 2131034246;
+			public const int switch_thumb_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int switch_thumb_normal_material_light = 2131034247;
+			public const int switch_thumb_normal_material_dark = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int tooltip_background_dark = 2131034248;
+			public const int switch_thumb_normal_material_light = 2131034248;
 			
 			// aapt resource value: 0x7F050089
-			public const int tooltip_background_light = 2131034249;
+			public const int tooltip_background_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int tooltip_background_light = 2131034250;
 			
 			static Color()
 			{
@@ -2965,28 +6088,43 @@ namespace PocThomasMVVMCross.Android
 			public const int notification_top_pad_large_text = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int tooltip_corner_radius = 2131099861;
+			public const int preference_dropdown_padding_start = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int tooltip_horizontal_padding = 2131099862;
+			public const int preference_icon_minWidth = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int tooltip_margin = 2131099863;
+			public const int preference_seekbar_padding_horizontal = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_precise_anchor_extra_offset = 2131099864;
+			public const int preference_seekbar_padding_vertical = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_precise_anchor_threshold = 2131099865;
+			public const int preference_seekbar_value_minWidth = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int tooltip_vertical_padding = 2131099866;
+			public const int tooltip_corner_radius = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_y_offset_non_touch = 2131099867;
+			public const int tooltip_horizontal_padding = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_y_offset_touch = 2131099868;
+			public const int tooltip_margin = 2131099868;
+			
+			// aapt resource value: 0x7F0600DD
+			public const int tooltip_precise_anchor_extra_offset = 2131099869;
+			
+			// aapt resource value: 0x7F0600DE
+			public const int tooltip_precise_anchor_threshold = 2131099870;
+			
+			// aapt resource value: 0x7F0600DF
+			public const int tooltip_vertical_padding = 2131099871;
+			
+			// aapt resource value: 0x7F0600E0
+			public const int tooltip_y_offset_non_touch = 2131099872;
+			
+			// aapt resource value: 0x7F0600E1
+			public const int tooltip_y_offset_touch = 2131099873;
 			
 			static Dimension()
 			{
@@ -3308,64 +6446,70 @@ namespace PocThomasMVVMCross.Android
 			public const int design_snackbar_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_chip_checked_black = 2131165292;
+			public const int ic_arrow_down_24dp = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_circle = 2131165293;
+			public const int ic_mtrl_chip_checked_black = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_close_circle = 2131165294;
+			public const int ic_mtrl_chip_checked_circle = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int mtrl_snackbar_background = 2131165295;
+			public const int ic_mtrl_chip_close_circle = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int mtrl_tabs_default_indicator = 2131165296;
+			public const int mtrl_snackbar_background = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int navigation_empty_icon = 2131165297;
+			public const int mtrl_tabs_default_indicator = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_action_background = 2131165298;
+			public const int navigation_empty_icon = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notification_bg = 2131165299;
+			public const int notification_action_background = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_bg_low = 2131165300;
+			public const int notification_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_bg_low_normal = 2131165301;
+			public const int notification_bg_low = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_bg_low_pressed = 2131165302;
+			public const int notification_bg_low_normal = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_bg_normal = 2131165303;
+			public const int notification_bg_low_pressed = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notification_bg_normal_pressed = 2131165304;
+			public const int notification_bg_normal = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notification_icon_background = 2131165305;
+			public const int notification_bg_normal_pressed = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_template_icon_bg = 2131165306;
+			public const int notification_icon_background = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_template_icon_low_bg = 2131165307;
+			public const int notification_template_icon_bg = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notification_tile_bg = 2131165308;
+			public const int notification_template_icon_low_bg = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notify_panel_notification_icon_bg = 2131165309;
+			public const int notification_tile_bg = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int tooltip_frame_dark = 2131165310;
+			public const int notify_panel_notification_icon_bg = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int tooltip_frame_light = 2131165311;
+			public const int preference_list_divider_material = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int tooltip_frame_dark = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int tooltip_frame_light = 2131165313;
 			
 			static Drawable()
 			{
@@ -3380,713 +6524,737 @@ namespace PocThomasMVVMCross.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int accessibility_action_clickable_span = 2131230726;
-			
-			// aapt resource value: 0x7F080007
-			public const int accessibility_custom_action_0 = 2131230727;
-			
 			// aapt resource value: 0x7F080008
-			public const int accessibility_custom_action_1 = 2131230728;
+			public const int accessibility_action_clickable_span = 2131230728;
 			
 			// aapt resource value: 0x7F080009
-			public const int accessibility_custom_action_10 = 2131230729;
+			public const int accessibility_custom_action_0 = 2131230729;
 			
 			// aapt resource value: 0x7F08000A
-			public const int accessibility_custom_action_11 = 2131230730;
+			public const int accessibility_custom_action_1 = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int accessibility_custom_action_12 = 2131230731;
+			public const int accessibility_custom_action_10 = 2131230731;
 			
 			// aapt resource value: 0x7F08000C
-			public const int accessibility_custom_action_13 = 2131230732;
+			public const int accessibility_custom_action_11 = 2131230732;
 			
 			// aapt resource value: 0x7F08000D
-			public const int accessibility_custom_action_14 = 2131230733;
+			public const int accessibility_custom_action_12 = 2131230733;
 			
 			// aapt resource value: 0x7F08000E
-			public const int accessibility_custom_action_15 = 2131230734;
+			public const int accessibility_custom_action_13 = 2131230734;
 			
 			// aapt resource value: 0x7F08000F
-			public const int accessibility_custom_action_16 = 2131230735;
+			public const int accessibility_custom_action_14 = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_17 = 2131230736;
+			public const int accessibility_custom_action_15 = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_18 = 2131230737;
+			public const int accessibility_custom_action_16 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_19 = 2131230738;
+			public const int accessibility_custom_action_17 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_2 = 2131230739;
+			public const int accessibility_custom_action_18 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_20 = 2131230740;
+			public const int accessibility_custom_action_19 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_21 = 2131230741;
+			public const int accessibility_custom_action_2 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_22 = 2131230742;
+			public const int accessibility_custom_action_20 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_23 = 2131230743;
+			public const int accessibility_custom_action_21 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_24 = 2131230744;
+			public const int accessibility_custom_action_22 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_25 = 2131230745;
+			public const int accessibility_custom_action_23 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_26 = 2131230746;
+			public const int accessibility_custom_action_24 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_27 = 2131230747;
+			public const int accessibility_custom_action_25 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_28 = 2131230748;
+			public const int accessibility_custom_action_26 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_29 = 2131230749;
+			public const int accessibility_custom_action_27 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_3 = 2131230750;
+			public const int accessibility_custom_action_28 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_30 = 2131230751;
+			public const int accessibility_custom_action_29 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_31 = 2131230752;
+			public const int accessibility_custom_action_3 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_4 = 2131230753;
+			public const int accessibility_custom_action_30 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_5 = 2131230754;
+			public const int accessibility_custom_action_31 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_6 = 2131230755;
+			public const int accessibility_custom_action_4 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_7 = 2131230756;
+			public const int accessibility_custom_action_5 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_8 = 2131230757;
+			public const int accessibility_custom_action_6 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_9 = 2131230758;
-			
-			// aapt resource value: 0x7F080038
-			public const int actions = 2131230776;
+			public const int accessibility_custom_action_7 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int action_bar = 2131230759;
+			public const int accessibility_custom_action_8 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int action_bar_activity_content = 2131230760;
-			
-			// aapt resource value: 0x7F080029
-			public const int action_bar_container = 2131230761;
-			
-			// aapt resource value: 0x7F08002A
-			public const int action_bar_root = 2131230762;
-			
-			// aapt resource value: 0x7F08002B
-			public const int action_bar_spinner = 2131230763;
-			
-			// aapt resource value: 0x7F08002C
-			public const int action_bar_subtitle = 2131230764;
-			
-			// aapt resource value: 0x7F08002D
-			public const int action_bar_title = 2131230765;
-			
-			// aapt resource value: 0x7F08002E
-			public const int action_container = 2131230766;
-			
-			// aapt resource value: 0x7F08002F
-			public const int action_context_bar = 2131230767;
-			
-			// aapt resource value: 0x7F080030
-			public const int action_divider = 2131230768;
-			
-			// aapt resource value: 0x7F080031
-			public const int action_image = 2131230769;
-			
-			// aapt resource value: 0x7F080032
-			public const int action_menu_divider = 2131230770;
-			
-			// aapt resource value: 0x7F080033
-			public const int action_menu_presenter = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_mode_bar = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_mode_bar_stub = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_mode_close_button = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_text = 2131230775;
-			
-			// aapt resource value: 0x7F080039
-			public const int activity_chooser_view_content = 2131230777;
+			public const int accessibility_custom_action_9 = 2131230760;
 			
 			// aapt resource value: 0x7F08003A
-			public const int add = 2131230778;
+			public const int actions = 2131230778;
+			
+			// aapt resource value: 0x7F080029
+			public const int action_bar = 2131230761;
+			
+			// aapt resource value: 0x7F08002A
+			public const int action_bar_activity_content = 2131230762;
+			
+			// aapt resource value: 0x7F08002B
+			public const int action_bar_container = 2131230763;
+			
+			// aapt resource value: 0x7F08002C
+			public const int action_bar_root = 2131230764;
+			
+			// aapt resource value: 0x7F08002D
+			public const int action_bar_spinner = 2131230765;
+			
+			// aapt resource value: 0x7F08002E
+			public const int action_bar_subtitle = 2131230766;
+			
+			// aapt resource value: 0x7F08002F
+			public const int action_bar_title = 2131230767;
+			
+			// aapt resource value: 0x7F080030
+			public const int action_container = 2131230768;
+			
+			// aapt resource value: 0x7F080031
+			public const int action_context_bar = 2131230769;
+			
+			// aapt resource value: 0x7F080032
+			public const int action_divider = 2131230770;
+			
+			// aapt resource value: 0x7F080033
+			public const int action_image = 2131230771;
+			
+			// aapt resource value: 0x7F080034
+			public const int action_menu_divider = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_menu_presenter = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_mode_bar = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_mode_bar_stub = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_mode_close_button = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_text = 2131230777;
 			
 			// aapt resource value: 0x7F08003B
-			public const int alertTitle = 2131230779;
+			public const int activity_chooser_view_content = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int all = 2131230780;
+			public const int add = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int alertTitle = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int all = 2131230782;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08003D
-			public const int always = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int async = 2131230782;
-			
 			// aapt resource value: 0x7F08003F
-			public const int auto = 2131230783;
+			public const int always = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int beginning = 2131230784;
+			public const int async = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int blocking = 2131230785;
+			public const int auto = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int bottom = 2131230786;
+			public const int beginning = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int browser_actions_header_text = 2131230787;
-			
-			// aapt resource value: 0x7F080046
-			public const int browser_actions_menu_items = 2131230790;
+			public const int blocking = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int browser_actions_menu_item_icon = 2131230788;
+			public const int bottom = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int browser_actions_menu_item_text = 2131230789;
-			
-			// aapt resource value: 0x7F080047
-			public const int browser_actions_menu_view = 2131230791;
+			public const int browser_actions_header_text = 2131230789;
 			
 			// aapt resource value: 0x7F080048
-			public const int buttonPanel = 2131230792;
+			public const int browser_actions_menu_items = 2131230792;
+			
+			// aapt resource value: 0x7F080046
+			public const int browser_actions_menu_item_icon = 2131230790;
+			
+			// aapt resource value: 0x7F080047
+			public const int browser_actions_menu_item_text = 2131230791;
 			
 			// aapt resource value: 0x7F080049
-			public const int center = 2131230793;
+			public const int browser_actions_menu_view = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int center_horizontal = 2131230794;
+			public const int buttonPanel = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int center_vertical = 2131230795;
+			public const int center = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int checkbox = 2131230796;
+			public const int center_horizontal = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int @checked = 2131230797;
+			public const int center_vertical = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int chronometer = 2131230798;
+			public const int checkbox = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int clip_horizontal = 2131230799;
+			public const int @checked = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int clip_vertical = 2131230800;
+			public const int chronometer = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int collapseActionView = 2131230801;
+			public const int clip_horizontal = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int container = 2131230802;
+			public const int clip_vertical = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int content = 2131230803;
+			public const int collapseActionView = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int contentPanel = 2131230804;
+			public const int container = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int coordinator = 2131230805;
+			public const int content = 2131230805;
+			
+			// aapt resource value: 0x7F080056
+			public const int contentPanel = 2131230806;
+			
+			// aapt resource value: 0x7F080057
+			public const int coordinator = 2131230807;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080056
-			public const int custom = 2131230806;
-			
-			// aapt resource value: 0x7F080057
-			public const int customPanel = 2131230807;
-			
 			// aapt resource value: 0x7F080058
-			public const int decor_content_parent = 2131230808;
+			public const int custom = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int default_activity_button = 2131230809;
+			public const int customPanel = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int design_bottom_sheet = 2131230810;
+			public const int decor_content_parent = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int design_menu_item_action_area = 2131230811;
+			public const int default_activity_button = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int design_menu_item_action_area_stub = 2131230812;
+			public const int design_bottom_sheet = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int design_menu_item_text = 2131230813;
+			public const int design_menu_item_action_area = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int design_navigation_view = 2131230814;
+			public const int design_menu_item_action_area_stub = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int dialog_button = 2131230815;
+			public const int design_menu_item_text = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int disableHome = 2131230816;
+			public const int design_navigation_view = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int edit_query = 2131230817;
+			public const int dialog_button = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int end = 2131230818;
+			public const int disableHome = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int enterAlways = 2131230819;
+			public const int edit_query = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int enterAlwaysCollapsed = 2131230820;
+			public const int end = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int exitUntilCollapsed = 2131230821;
-			
-			// aapt resource value: 0x7F080067
-			public const int expanded_menu = 2131230823;
+			public const int enterAlways = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int expand_activities_button = 2131230822;
+			public const int enterAlwaysCollapsed = 2131230822;
 			
-			// aapt resource value: 0x7F080068
-			public const int fill = 2131230824;
-			
-			// aapt resource value: 0x7F08006B
-			public const int filled = 2131230827;
+			// aapt resource value: 0x7F080067
+			public const int exitUntilCollapsed = 2131230823;
 			
 			// aapt resource value: 0x7F080069
-			public const int fill_horizontal = 2131230825;
+			public const int expanded_menu = 2131230825;
+			
+			// aapt resource value: 0x7F080068
+			public const int expand_activities_button = 2131230824;
 			
 			// aapt resource value: 0x7F08006A
-			public const int fill_vertical = 2131230826;
-			
-			// aapt resource value: 0x7F08006C
-			public const int @fixed = 2131230828;
+			public const int fill = 2131230826;
 			
 			// aapt resource value: 0x7F08006D
-			public const int forever = 2131230829;
+			public const int filled = 2131230829;
+			
+			// aapt resource value: 0x7F08006B
+			public const int fill_horizontal = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int fill_vertical = 2131230828;
 			
 			// aapt resource value: 0x7F08006E
-			public const int fragment_container_view_tag = 2131230830;
+			public const int @fixed = 2131230830;
+			
+			// aapt resource value: 0x7F08006F
+			public const int forever = 2131230831;
+			
+			// aapt resource value: 0x7F080070
+			public const int fragment_container_view_tag = 2131230832;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F08006F
-			public const int ghost_view = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int ghost_view_holder = 2131230832;
-			
 			// aapt resource value: 0x7F080071
-			public const int group_divider = 2131230833;
+			public const int ghost_view = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int home = 2131230834;
+			public const int ghost_view_holder = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int homeAsUp = 2131230835;
+			public const int group_divider = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int icon = 2131230836;
+			public const int home = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int icon_group = 2131230837;
+			public const int homeAsUp = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int ifRoom = 2131230838;
+			public const int icon = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int image = 2131230839;
+			public const int icon_frame = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int info = 2131230840;
+			public const int icon_group = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int italic = 2131230841;
+			public const int ifRoom = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int item_touch_helper_previous_elevation = 2131230842;
+			public const int image = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int labeled = 2131230843;
+			public const int info = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int largeLabel = 2131230844;
+			public const int italic = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int left = 2131230845;
+			public const int item_touch_helper_previous_elevation = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int line1 = 2131230846;
+			public const int labeled = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int line3 = 2131230847;
+			public const int largeLabel = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int listMode = 2131230848;
+			public const int left = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int list_item = 2131230849;
+			public const int line1 = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int masked = 2131230850;
+			public const int line3 = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int message = 2131230851;
+			public const int listMode = 2131230851;
+			
+			// aapt resource value: 0x7F080084
+			public const int list_item = 2131230852;
+			
+			// aapt resource value: 0x7F080085
+			public const int masked = 2131230853;
+			
+			// aapt resource value: 0x7F080086
+			public const int message = 2131230854;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080084
-			public const int middle = 2131230852;
-			
-			// aapt resource value: 0x7F080085
-			public const int mini = 2131230853;
-			
-			// aapt resource value: 0x7F080086
-			public const int mtrl_child_content_container = 2131230854;
-			
 			// aapt resource value: 0x7F080087
-			public const int mtrl_internal_children_alpha_tag = 2131230855;
+			public const int middle = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int multiply = 2131230856;
+			public const int mini = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int navigation_header_container = 2131230857;
+			public const int mtrl_child_content_container = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int never = 2131230858;
+			public const int mtrl_internal_children_alpha_tag = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int none = 2131230859;
-			
-			// aapt resource value: 0x7F08008C
-			public const int normal = 2131230860;
-			
-			// aapt resource value: 0x7F08008D
-			public const int notification_background = 2131230861;
-			
-			// aapt resource value: 0x7F08008E
-			public const int notification_main_column = 2131230862;
-			
-			// aapt resource value: 0x7F08008F
-			public const int notification_main_column_container = 2131230863;
-			
-			// aapt resource value: 0x7F080090
-			public const int off = 2131230864;
-			
-			// aapt resource value: 0x7F080091
-			public const int on = 2131230865;
-			
-			// aapt resource value: 0x7F080092
-			public const int outline = 2131230866;
-			
-			// aapt resource value: 0x7F080093
-			public const int parallax = 2131230867;
-			
-			// aapt resource value: 0x7F080094
-			public const int parentPanel = 2131230868;
-			
-			// aapt resource value: 0x7F080095
-			public const int parent_matrix = 2131230869;
-			
-			// aapt resource value: 0x7F080096
-			public const int pin = 2131230870;
-			
-			// aapt resource value: 0x7F080097
-			public const int progress_circular = 2131230871;
-			
-			// aapt resource value: 0x7F080098
-			public const int progress_horizontal = 2131230872;
-			
-			// aapt resource value: 0x7F080099
-			public const int radio = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int right = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int right_icon = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int right_side = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int save_non_transition_alpha = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int save_overlay_view = 2131230878;
-			
-			// aapt resource value: 0x7F08009F
-			public const int screen = 2131230879;
-			
-			// aapt resource value: 0x7F0800A0
-			public const int scroll = 2131230880;
-			
-			// aapt resource value: 0x7F0800A4
-			public const int scrollable = 2131230884;
-			
-			// aapt resource value: 0x7F0800A1
-			public const int scrollIndicatorDown = 2131230881;
-			
-			// aapt resource value: 0x7F0800A2
-			public const int scrollIndicatorUp = 2131230882;
-			
-			// aapt resource value: 0x7F0800A3
-			public const int scrollView = 2131230883;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int search_badge = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int search_bar = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int search_button = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int search_close_btn = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int search_edit_frame = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int search_go_btn = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int search_mag_icon = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int search_plate = 2131230892;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int search_src_text = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int search_voice_btn = 2131230894;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int selected = 2131230896;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int select_dialog_listview = 2131230895;
+			public const int multiply = 2131230859;
 			
 			// aapt resource value: 0x7F080004
-			public const int SHIFT = 2131230724;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int shortcut = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int showCustom = 2131230898;
-			
-			// aapt resource value: 0x7F0800B3
-			public const int showHome = 2131230899;
-			
-			// aapt resource value: 0x7F0800B4
-			public const int showTitle = 2131230900;
-			
-			// aapt resource value: 0x7F0800B5
-			public const int smallLabel = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int snackbar_action = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int snackbar_text = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int snap = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int snapMargins = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int spacer = 2131230906;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int split_action_bar = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int src_atop = 2131230908;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int src_in = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int src_over = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int start = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int stretch = 2131230912;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int submenuarrow = 2131230913;
-			
-			// aapt resource value: 0x7F0800C2
-			public const int submit_area = 2131230914;
+			public const int MvvmCrossTagId = 2131230724;
 			
 			// aapt resource value: 0x7F080005
-			public const int SYM = 2131230725;
+			public const int MvxBindingTagUnique = 2131230725;
+			
+			// aapt resource value: 0x7F08008C
+			public const int navigation_header_container = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int never = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int none = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int normal = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int notification_background = 2131230864;
+			
+			// aapt resource value: 0x7F080091
+			public const int notification_main_column = 2131230865;
+			
+			// aapt resource value: 0x7F080092
+			public const int notification_main_column_container = 2131230866;
+			
+			// aapt resource value: 0x7F080093
+			public const int off = 2131230867;
+			
+			// aapt resource value: 0x7F080094
+			public const int on = 2131230868;
+			
+			// aapt resource value: 0x7F080095
+			public const int outline = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int parallax = 2131230870;
+			
+			// aapt resource value: 0x7F080097
+			public const int parentPanel = 2131230871;
+			
+			// aapt resource value: 0x7F080098
+			public const int parent_matrix = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int pin = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int progress_circular = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int progress_horizontal = 2131230875;
+			
+			// aapt resource value: 0x7F08009C
+			public const int radio = 2131230876;
+			
+			// aapt resource value: 0x7F08009D
+			public const int recycler_view = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int right = 2131230878;
+			
+			// aapt resource value: 0x7F08009F
+			public const int right_icon = 2131230879;
+			
+			// aapt resource value: 0x7F0800A0
+			public const int right_side = 2131230880;
+			
+			// aapt resource value: 0x7F0800A1
+			public const int save_non_transition_alpha = 2131230881;
+			
+			// aapt resource value: 0x7F0800A2
+			public const int save_overlay_view = 2131230882;
+			
+			// aapt resource value: 0x7F0800A3
+			public const int screen = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int scroll = 2131230884;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int scrollable = 2131230888;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int scrollIndicatorDown = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int scrollIndicatorUp = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int scrollView = 2131230887;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int search_badge = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int search_bar = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int search_button = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int search_close_btn = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int search_edit_frame = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int search_go_btn = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int search_mag_icon = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int search_plate = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int search_src_text = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int search_voice_btn = 2131230898;
+			
+			// aapt resource value: 0x7F0800B3
+			public const int seekbar = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int seekbar_value = 2131230900;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int selected = 2131230902;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int select_dialog_listview = 2131230901;
+			
+			// aapt resource value: 0x7F080006
+			public const int SHIFT = 2131230726;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int shortcut = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int showCustom = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int showHome = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int showTitle = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int smallLabel = 2131230907;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int snackbar_action = 2131230908;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int snackbar_text = 2131230909;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int snap = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int snapMargins = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int spacer = 2131230912;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int spinner = 2131230913;
+			
+			// aapt resource value: 0x7F0800C2
+			public const int split_action_bar = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int tabMode = 2131230915;
+			public const int src_atop = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int tag_accessibility_actions = 2131230916;
+			public const int src_in = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int tag_accessibility_clickable_spans = 2131230917;
+			public const int src_over = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int tag_accessibility_heading = 2131230918;
+			public const int start = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int tag_accessibility_pane_title = 2131230919;
+			public const int stretch = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int tag_screen_reader_focusable = 2131230920;
+			public const int submenuarrow = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int tag_transition_group = 2131230921;
+			public const int submit_area = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int tag_unhandled_key_event_manager = 2131230922;
+			public const int switchWidget = 2131230922;
+			
+			// aapt resource value: 0x7F080007
+			public const int SYM = 2131230727;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int tag_unhandled_key_listeners = 2131230923;
+			public const int tabMode = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int text = 2131230924;
+			public const int tag_accessibility_actions = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int text2 = 2131230925;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int textinput_counter = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int textinput_error = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int textinput_helper_text = 2131230932;
+			public const int tag_accessibility_clickable_spans = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int textSpacerNoButtons = 2131230926;
+			public const int tag_accessibility_heading = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int textSpacerNoTitle = 2131230927;
+			public const int tag_accessibility_pane_title = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int textStart = 2131230928;
+			public const int tag_screen_reader_focusable = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int text_input_password_toggle = 2131230929;
+			public const int tag_transition_group = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int tag_unhandled_key_event_manager = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int tag_unhandled_key_listeners = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int text = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int time = 2131230933;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int title = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int titleDividerNoCustom = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int title_template = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int top = 2131230937;
+			public const int text2 = 2131230933;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int topPanel = 2131230938;
+			public const int textinput_counter = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int touch_outside = 2131230939;
+			public const int textinput_error = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int transition_current_scene = 2131230940;
+			public const int textinput_helper_text = 2131230940;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int textSpacerNoButtons = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int textSpacerNoTitle = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int textStart = 2131230936;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int text_input_password_toggle = 2131230937;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int transition_layout_save = 2131230941;
+			public const int time = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int transition_position = 2131230942;
+			public const int title = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int transition_scene_layoutid_cache = 2131230943;
+			public const int titleDividerNoCustom = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int transition_transform = 2131230944;
+			public const int title_template = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int @unchecked = 2131230945;
+			public const int top = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int uniform = 2131230946;
+			public const int topPanel = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int unlabeled = 2131230947;
+			public const int touch_outside = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int up = 2131230948;
+			public const int transition_current_scene = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int useLogo = 2131230949;
+			public const int transition_layout_save = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int view_offset_helper = 2131230950;
+			public const int transition_position = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int view_tree_saved_state_registry_owner = 2131230951;
+			public const int transition_scene_layoutid_cache = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int visible = 2131230952;
+			public const int transition_transform = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int visible_removing_fragment_view_tag = 2131230953;
+			public const int @unchecked = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int withText = 2131230954;
+			public const int uniform = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int wrap_content = 2131230955;
+			public const int unlabeled = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int up = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int useLogo = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int view_offset_helper = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int view_tree_saved_state_registry_owner = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int visible = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int visible_removing_fragment_view_tag = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int withText = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int wrap_content = 2131230963;
 			
 			static Id()
 			{
@@ -4290,94 +7458,151 @@ namespace PocThomasMVVMCross.Android
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int activity_main = 2131427356;
+			public const int browser_actions_context_menu_page = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int browser_actions_context_menu_row = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int custom_dialog = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int custom_dialog = 2131427359;
+			public const int design_bottom_navigation_item = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_navigation_item = 2131427360;
+			public const int design_bottom_sheet_dialog = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_sheet_dialog = 2131427361;
+			public const int design_layout_snackbar = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar = 2131427362;
+			public const int design_layout_snackbar_include = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar_include = 2131427363;
+			public const int design_layout_tab_icon = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_icon = 2131427364;
+			public const int design_layout_tab_text = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_text = 2131427365;
+			public const int design_menu_item_action_area = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_menu_item_action_area = 2131427366;
+			public const int design_navigation_item = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item = 2131427367;
+			public const int design_navigation_item_header = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_header = 2131427368;
+			public const int design_navigation_item_separator = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_separator = 2131427369;
+			public const int design_navigation_item_subheader = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_subheader = 2131427370;
+			public const int design_navigation_menu = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu = 2131427371;
+			public const int design_navigation_menu_item = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu_item = 2131427372;
+			public const int design_text_input_password_icon = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_text_input_password_icon = 2131427373;
+			public const int expand_button = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int FirstView = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int image_frame = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int mtrl_layout_snackbar = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int mtrl_layout_snackbar_include = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_template_custom_big = 2131427378;
+			public const int notification_action = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_template_icon_group = 2131427379;
+			public const int notification_action_tombstone = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_part_chronometer = 2131427380;
+			public const int notification_template_custom_big = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_part_time = 2131427381;
+			public const int notification_template_icon_group = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int select_dialog_item_material = 2131427382;
+			public const int notification_template_part_chronometer = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int select_dialog_multichoice_material = 2131427383;
+			public const int notification_template_part_time = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int select_dialog_singlechoice_material = 2131427384;
+			public const int preference = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int support_simple_spinner_dropdown_item = 2131427385;
+			public const int preference_category = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int preference_category_material = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int preference_dialog_edittext = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int preference_dropdown = 2131427388;
+			
+			// aapt resource value: 0x7F0B003D
+			public const int preference_dropdown_material = 2131427389;
+			
+			// aapt resource value: 0x7F0B003E
+			public const int preference_information = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int preference_information_material = 2131427391;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int preference_list_fragment = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int preference_material = 2131427393;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int preference_recyclerview = 2131427394;
+			
+			// aapt resource value: 0x7F0B0043
+			public const int preference_widget_checkbox = 2131427395;
+			
+			// aapt resource value: 0x7F0B0044
+			public const int preference_widget_seekbar = 2131427396;
+			
+			// aapt resource value: 0x7F0B0045
+			public const int preference_widget_seekbar_material = 2131427397;
+			
+			// aapt resource value: 0x7F0B0046
+			public const int preference_widget_switch = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int preference_widget_switch_compat = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int select_dialog_item_material = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int select_dialog_multichoice_material = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int select_dialog_singlechoice_material = 2131427402;
+			
+			// aapt resource value: 0x7F0B004B
+			public const int SplashScreen = 2131427403;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int support_simple_spinner_dropdown_item = 2131427404;
 			
 			static Layout()
 			{
@@ -4514,49 +7739,70 @@ namespace PocThomasMVVMCross.Android
 			public const int character_counter_pattern = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int copy_toast_msg = 2131558433;
+			public const int copy = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int fab_transformation_scrim_behavior = 2131558434;
+			public const int copy_toast_msg = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int fab_transformation_sheet_behavior = 2131558435;
+			public const int expand_button_title = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int fallback_menu_item_copy_link = 2131558436;
+			public const int fab_transformation_scrim_behavior = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int fallback_menu_item_open_in_browser = 2131558437;
+			public const int fab_transformation_sheet_behavior = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int fallback_menu_item_share_link = 2131558438;
+			public const int fallback_menu_item_copy_link = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int hide_bottom_view_on_scroll_behavior = 2131558439;
+			public const int fallback_menu_item_open_in_browser = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int mtrl_chip_close_icon_content_description = 2131558440;
+			public const int fallback_menu_item_share_link = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int password_toggle_content_description = 2131558441;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int path_password_eye = 2131558442;
+			public const int mtrl_chip_close_icon_content_description = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int path_password_eye_mask_strike_through = 2131558443;
+			public const int not_set = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int path_password_eye_mask_visible = 2131558444;
+			public const int password_toggle_content_description = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int path_password_strike_through = 2131558445;
+			public const int path_password_eye = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int search_menu_title = 2131558446;
+			public const int path_password_eye_mask_strike_through = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int status_bar_notification_info_overflow = 2131558447;
+			public const int path_password_eye_mask_visible = 2131558447;
+			
+			// aapt resource value: 0x7F0D0030
+			public const int path_password_strike_through = 2131558448;
+			
+			// aapt resource value: 0x7F0D0031
+			public const int preference_copied = 2131558449;
+			
+			// aapt resource value: 0x7F0D0032
+			public const int search_menu_title = 2131558450;
+			
+			// aapt resource value: 0x7F0D0033
+			public const int status_bar_notification_info_overflow = 2131558451;
+			
+			// aapt resource value: 0x7F0D0034
+			public const int summary_collapsed_preference_list = 2131558452;
+			
+			// aapt resource value: 0x7F0D0035
+			public const int v7_preference_off = 2131558453;
+			
+			// aapt resource value: 0x7F0D0036
+			public const int v7_preference_on = 2131558454;
 			
 			static String()
 			{
@@ -5211,868 +8457,961 @@ namespace PocThomasMVVMCross.Android
 			public const int Platform_Widget_AppCompat_Spinner = 2131624148;
 			
 			// aapt resource value: 0x7F0E00D5
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624149;
-			
-			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624150;
-			
-			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624151;
-			
-			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624152;
-			
-			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624153;
-			
-			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624154;
-			
-			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624155;
-			
-			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624156;
-			
-			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624157;
-			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624163;
-			
-			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624158;
-			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624159;
-			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624160;
-			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624161;
-			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624162;
-			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624164;
-			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624165;
-			
-			// aapt resource value: 0x7F0E00E6
-			public const int TextAppearance_AppCompat = 2131624166;
-			
-			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat_Body1 = 2131624167;
-			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body2 = 2131624168;
-			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Button = 2131624169;
-			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Caption = 2131624170;
+			public const int Preference = 2131624149;
 			
 			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Display1 = 2131624171;
+			public const int PreferenceCategoryTitleTextStyle = 2131624171;
 			
 			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display2 = 2131624172;
-			
-			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display3 = 2131624173;
+			public const int PreferenceFragment = 2131624172;
 			
 			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display4 = 2131624174;
+			public const int PreferenceFragmentList = 2131624174;
 			
 			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Headline = 2131624175;
+			public const int PreferenceFragmentList_Material = 2131624175;
+			
+			// aapt resource value: 0x7F0E00ED
+			public const int PreferenceFragment_Material = 2131624173;
 			
 			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Inverse = 2131624176;
+			public const int PreferenceSummaryTextStyle = 2131624176;
 			
 			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Large = 2131624177;
+			public const int PreferenceThemeOverlay = 2131624177;
 			
 			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624178;
+			public const int PreferenceThemeOverlay_v14 = 2131624178;
 			
 			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624179;
+			public const int PreferenceThemeOverlay_v14_Material = 2131624179;
+			
+			// aapt resource value: 0x7F0E00D6
+			public const int Preference_Category = 2131624150;
+			
+			// aapt resource value: 0x7F0E00D7
+			public const int Preference_Category_Material = 2131624151;
+			
+			// aapt resource value: 0x7F0E00D8
+			public const int Preference_CheckBoxPreference = 2131624152;
+			
+			// aapt resource value: 0x7F0E00D9
+			public const int Preference_CheckBoxPreference_Material = 2131624153;
+			
+			// aapt resource value: 0x7F0E00DA
+			public const int Preference_DialogPreference = 2131624154;
+			
+			// aapt resource value: 0x7F0E00DB
+			public const int Preference_DialogPreference_EditTextPreference = 2131624155;
+			
+			// aapt resource value: 0x7F0E00DC
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131624156;
+			
+			// aapt resource value: 0x7F0E00DD
+			public const int Preference_DialogPreference_Material = 2131624157;
+			
+			// aapt resource value: 0x7F0E00DE
+			public const int Preference_DropDown = 2131624158;
+			
+			// aapt resource value: 0x7F0E00DF
+			public const int Preference_DropDown_Material = 2131624159;
+			
+			// aapt resource value: 0x7F0E00E0
+			public const int Preference_Information = 2131624160;
+			
+			// aapt resource value: 0x7F0E00E1
+			public const int Preference_Information_Material = 2131624161;
+			
+			// aapt resource value: 0x7F0E00E2
+			public const int Preference_Material = 2131624162;
+			
+			// aapt resource value: 0x7F0E00E3
+			public const int Preference_PreferenceScreen = 2131624163;
+			
+			// aapt resource value: 0x7F0E00E4
+			public const int Preference_PreferenceScreen_Material = 2131624164;
+			
+			// aapt resource value: 0x7F0E00E5
+			public const int Preference_SeekBarPreference = 2131624165;
+			
+			// aapt resource value: 0x7F0E00E6
+			public const int Preference_SeekBarPreference_Material = 2131624166;
+			
+			// aapt resource value: 0x7F0E00E7
+			public const int Preference_SwitchPreference = 2131624167;
+			
+			// aapt resource value: 0x7F0E00E9
+			public const int Preference_SwitchPreferenceCompat = 2131624169;
+			
+			// aapt resource value: 0x7F0E00EA
+			public const int Preference_SwitchPreferenceCompat_Material = 2131624170;
+			
+			// aapt resource value: 0x7F0E00E8
+			public const int Preference_SwitchPreference_Material = 2131624168;
 			
 			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624180;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624180;
 			
 			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624181;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624181;
 			
 			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624182;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624182;
 			
 			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Medium = 2131624183;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624183;
 			
 			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624184;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624184;
 			
 			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Menu = 2131624185;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624185;
 			
 			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624186;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624186;
 			
 			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624187;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624187;
 			
 			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_Small = 2131624188;
-			
-			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624189;
-			
-			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Subhead = 2131624190;
-			
-			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624191;
-			
-			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Title = 2131624192;
-			
-			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624193;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624188;
 			
 			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Tooltip = 2131624194;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624194;
+			
+			// aapt resource value: 0x7F0E00FD
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624189;
+			
+			// aapt resource value: 0x7F0E00FE
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624190;
+			
+			// aapt resource value: 0x7F0E00FF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624191;
+			
+			// aapt resource value: 0x7F0E0100
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624192;
+			
+			// aapt resource value: 0x7F0E0101
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624193;
 			
 			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624195;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624195;
 			
 			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624196;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624196;
 			
 			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624197;
+			public const int TextAppearance_AppCompat = 2131624197;
 			
 			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624198;
+			public const int TextAppearance_AppCompat_Body1 = 2131624198;
 			
 			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624199;
+			public const int TextAppearance_AppCompat_Body2 = 2131624199;
 			
 			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624200;
+			public const int TextAppearance_AppCompat_Button = 2131624200;
 			
 			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624201;
+			public const int TextAppearance_AppCompat_Caption = 2131624201;
 			
 			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624202;
+			public const int TextAppearance_AppCompat_Display1 = 2131624202;
 			
 			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624203;
+			public const int TextAppearance_AppCompat_Display2 = 2131624203;
 			
 			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624204;
+			public const int TextAppearance_AppCompat_Display3 = 2131624204;
 			
 			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624205;
+			public const int TextAppearance_AppCompat_Display4 = 2131624205;
 			
 			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624206;
+			public const int TextAppearance_AppCompat_Headline = 2131624206;
 			
 			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624207;
+			public const int TextAppearance_AppCompat_Inverse = 2131624207;
 			
 			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624208;
+			public const int TextAppearance_AppCompat_Large = 2131624208;
 			
 			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624209;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131624209;
 			
 			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624210;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624210;
 			
 			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624211;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624211;
 			
 			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624212;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624212;
 			
 			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624213;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624213;
 			
 			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_Compat_Notification = 2131624214;
+			public const int TextAppearance_AppCompat_Medium = 2131624214;
 			
 			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification_Info = 2131624215;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624215;
 			
 			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624216;
+			public const int TextAppearance_AppCompat_Menu = 2131624216;
 			
 			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Time = 2131624217;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624217;
 			
 			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Title = 2131624218;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624218;
 			
 			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624219;
+			public const int TextAppearance_AppCompat_Small = 2131624219;
 			
 			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Design_Counter = 2131624220;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131624220;
 			
 			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Design_Counter_Overflow = 2131624221;
+			public const int TextAppearance_AppCompat_Subhead = 2131624221;
 			
 			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Design_Error = 2131624222;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624222;
 			
 			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Design_HelperText = 2131624223;
+			public const int TextAppearance_AppCompat_Title = 2131624223;
 			
 			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Design_Hint = 2131624224;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131624224;
 			
 			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_Snackbar_Message = 2131624225;
+			public const int TextAppearance_AppCompat_Tooltip = 2131624225;
 			
 			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Tab = 2131624226;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624226;
 			
 			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624227;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624227;
 			
 			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624228;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624228;
 			
 			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_MaterialComponents_Button = 2131624229;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624229;
 			
 			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_MaterialComponents_Caption = 2131624230;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624230;
 			
 			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_MaterialComponents_Chip = 2131624231;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624231;
 			
 			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624232;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624232;
 			
 			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624233;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624233;
 			
 			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624234;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624234;
 			
 			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624235;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131624235;
 			
 			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624236;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624236;
 			
 			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624237;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624237;
 			
 			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Overline = 2131624238;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624238;
 			
 			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624239;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624239;
 			
 			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624240;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624240;
 			
 			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Tab = 2131624241;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624241;
 			
 			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624242;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624243;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131624243;
 			
 			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624244;
-			
-			// aapt resource value: 0x7F0E0166
-			public const int ThemeOverlay_AppCompat = 2131624294;
-			
-			// aapt resource value: 0x7F0E0167
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624295;
-			
-			// aapt resource value: 0x7F0E0168
-			public const int ThemeOverlay_AppCompat_Dark = 2131624296;
-			
-			// aapt resource value: 0x7F0E0169
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624297;
-			
-			// aapt resource value: 0x7F0E016A
-			public const int ThemeOverlay_AppCompat_DayNight = 2131624298;
-			
-			// aapt resource value: 0x7F0E016B
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624299;
-			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624300;
-			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624301;
-			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Light = 2131624302;
-			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_MaterialComponents = 2131624303;
-			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624304;
-			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624305;
-			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624306;
-			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624307;
-			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624308;
-			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624309;
-			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624310;
-			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624311;
-			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624312;
-			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624313;
-			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624314;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624244;
 			
 			// aapt resource value: 0x7F0E0135
-			public const int Theme_AppCompat = 2131624245;
+			public const int TextAppearance_Compat_Notification = 2131624245;
 			
 			// aapt resource value: 0x7F0E0136
-			public const int Theme_AppCompat_CompactMenu = 2131624246;
+			public const int TextAppearance_Compat_Notification_Info = 2131624246;
 			
 			// aapt resource value: 0x7F0E0137
-			public const int Theme_AppCompat_DayNight = 2131624247;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131624247;
 			
 			// aapt resource value: 0x7F0E0138
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624248;
+			public const int TextAppearance_Compat_Notification_Time = 2131624248;
 			
 			// aapt resource value: 0x7F0E0139
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624249;
-			
-			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624252;
+			public const int TextAppearance_Compat_Notification_Title = 2131624249;
 			
 			// aapt resource value: 0x7F0E013A
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624250;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624250;
 			
 			// aapt resource value: 0x7F0E013B
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624251;
+			public const int TextAppearance_Design_Counter = 2131624251;
+			
+			// aapt resource value: 0x7F0E013C
+			public const int TextAppearance_Design_Counter_Overflow = 2131624252;
 			
 			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624253;
+			public const int TextAppearance_Design_Error = 2131624253;
 			
 			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_Dialog = 2131624254;
-			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624257;
+			public const int TextAppearance_Design_HelperText = 2131624254;
 			
 			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_Dialog_Alert = 2131624255;
+			public const int TextAppearance_Design_Hint = 2131624255;
 			
 			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624256;
+			public const int TextAppearance_Design_Snackbar_Message = 2131624256;
+			
+			// aapt resource value: 0x7F0E0141
+			public const int TextAppearance_Design_Tab = 2131624257;
 			
 			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_Empty = 2131624258;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131624258;
 			
 			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_Light = 2131624259;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131624259;
 			
 			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624260;
+			public const int TextAppearance_MaterialComponents_Button = 2131624260;
 			
 			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Light_Dialog = 2131624261;
-			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624264;
+			public const int TextAppearance_MaterialComponents_Caption = 2131624261;
 			
 			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624262;
+			public const int TextAppearance_MaterialComponents_Chip = 2131624262;
 			
 			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624263;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131624263;
+			
+			// aapt resource value: 0x7F0E0148
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131624264;
 			
 			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624265;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131624265;
 			
 			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_NoActionBar = 2131624266;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131624266;
 			
 			// aapt resource value: 0x7F0E014B
-			public const int Theme_Design = 2131624267;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131624267;
 			
 			// aapt resource value: 0x7F0E014C
-			public const int Theme_Design_BottomSheetDialog = 2131624268;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131624268;
 			
 			// aapt resource value: 0x7F0E014D
-			public const int Theme_Design_Light = 2131624269;
+			public const int TextAppearance_MaterialComponents_Overline = 2131624269;
 			
 			// aapt resource value: 0x7F0E014E
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624270;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624270;
 			
 			// aapt resource value: 0x7F0E014F
-			public const int Theme_Design_Light_NoActionBar = 2131624271;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624271;
 			
 			// aapt resource value: 0x7F0E0150
-			public const int Theme_Design_NoActionBar = 2131624272;
+			public const int TextAppearance_MaterialComponents_Tab = 2131624272;
 			
 			// aapt resource value: 0x7F0E0151
-			public const int Theme_MaterialComponents = 2131624273;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624273;
 			
 			// aapt resource value: 0x7F0E0152
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624274;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624274;
 			
 			// aapt resource value: 0x7F0E0153
-			public const int Theme_MaterialComponents_Bridge = 2131624275;
-			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_MaterialComponents_CompactMenu = 2131624276;
-			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_MaterialComponents_Dialog = 2131624277;
-			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624280;
-			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624278;
-			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624279;
-			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_Light = 2131624281;
-			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624282;
-			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624283;
-			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624284;
-			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624285;
-			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624286;
-			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624289;
-			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624287;
-			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624288;
-			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624290;
-			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624291;
-			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_NoActionBar = 2131624292;
-			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624293;
-			
-			// aapt resource value: 0x7F0E017B
-			public const int Widget_AppCompat_ActionBar = 2131624315;
-			
-			// aapt resource value: 0x7F0E017C
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624316;
-			
-			// aapt resource value: 0x7F0E017D
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624317;
-			
-			// aapt resource value: 0x7F0E017E
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624318;
-			
-			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624319;
-			
-			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionButton = 2131624320;
-			
-			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624321;
-			
-			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624322;
-			
-			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionMode = 2131624323;
-			
-			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActivityChooserView = 2131624324;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624275;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624325;
+			public const int ThemeOverlay_AppCompat = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_Button = 2131624326;
-			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ButtonBar = 2131624332;
-			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624333;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624326;
 			
 			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_Button_Borderless = 2131624327;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624327;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624328;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624329;
+			public const int ThemeOverlay_AppCompat_DayNight = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button_Colored = 2131624330;
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Small = 2131624331;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624331;
+			
+			// aapt resource value: 0x7F0E018C
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624332;
+			
+			// aapt resource value: 0x7F0E018D
+			public const int ThemeOverlay_AppCompat_Light = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624334;
+			public const int ThemeOverlay_MaterialComponents = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624335;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624336;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624337;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624338;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_EditText = 2131624339;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_ImageButton = 2131624340;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624340;
 			
 			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Light_ActionBar = 2131624341;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624341;
 			
 			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624342;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624342;
 			
 			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624343;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624343;
 			
 			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624344;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624344;
 			
 			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624345;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624345;
+			
+			// aapt resource value: 0x7F0E0154
+			public const int Theme_AppCompat = 2131624276;
+			
+			// aapt resource value: 0x7F0E0155
+			public const int Theme_AppCompat_CompactMenu = 2131624277;
+			
+			// aapt resource value: 0x7F0E0156
+			public const int Theme_AppCompat_DayNight = 2131624278;
+			
+			// aapt resource value: 0x7F0E0157
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624279;
+			
+			// aapt resource value: 0x7F0E0158
+			public const int Theme_AppCompat_DayNight_Dialog = 2131624280;
+			
+			// aapt resource value: 0x7F0E015B
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624283;
+			
+			// aapt resource value: 0x7F0E0159
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624281;
+			
+			// aapt resource value: 0x7F0E015A
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624282;
+			
+			// aapt resource value: 0x7F0E015C
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624284;
+			
+			// aapt resource value: 0x7F0E015D
+			public const int Theme_AppCompat_Dialog = 2131624285;
+			
+			// aapt resource value: 0x7F0E0160
+			public const int Theme_AppCompat_DialogWhenLarge = 2131624288;
+			
+			// aapt resource value: 0x7F0E015E
+			public const int Theme_AppCompat_Dialog_Alert = 2131624286;
+			
+			// aapt resource value: 0x7F0E015F
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131624287;
+			
+			// aapt resource value: 0x7F0E0161
+			public const int Theme_AppCompat_Empty = 2131624289;
+			
+			// aapt resource value: 0x7F0E0162
+			public const int Theme_AppCompat_Light = 2131624290;
+			
+			// aapt resource value: 0x7F0E0163
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131624291;
+			
+			// aapt resource value: 0x7F0E0164
+			public const int Theme_AppCompat_Light_Dialog = 2131624292;
+			
+			// aapt resource value: 0x7F0E0167
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624295;
+			
+			// aapt resource value: 0x7F0E0165
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624293;
+			
+			// aapt resource value: 0x7F0E0166
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624294;
+			
+			// aapt resource value: 0x7F0E0168
+			public const int Theme_AppCompat_Light_NoActionBar = 2131624296;
+			
+			// aapt resource value: 0x7F0E0169
+			public const int Theme_AppCompat_NoActionBar = 2131624297;
+			
+			// aapt resource value: 0x7F0E016A
+			public const int Theme_Design = 2131624298;
+			
+			// aapt resource value: 0x7F0E016B
+			public const int Theme_Design_BottomSheetDialog = 2131624299;
+			
+			// aapt resource value: 0x7F0E016C
+			public const int Theme_Design_Light = 2131624300;
+			
+			// aapt resource value: 0x7F0E016D
+			public const int Theme_Design_Light_BottomSheetDialog = 2131624301;
+			
+			// aapt resource value: 0x7F0E016E
+			public const int Theme_Design_Light_NoActionBar = 2131624302;
+			
+			// aapt resource value: 0x7F0E016F
+			public const int Theme_Design_NoActionBar = 2131624303;
+			
+			// aapt resource value: 0x7F0E0170
+			public const int Theme_MaterialComponents = 2131624304;
+			
+			// aapt resource value: 0x7F0E0171
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624305;
+			
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_MaterialComponents_Bridge = 2131624306;
+			
+			// aapt resource value: 0x7F0E0173
+			public const int Theme_MaterialComponents_CompactMenu = 2131624307;
+			
+			// aapt resource value: 0x7F0E0174
+			public const int Theme_MaterialComponents_Dialog = 2131624308;
+			
+			// aapt resource value: 0x7F0E0177
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624311;
+			
+			// aapt resource value: 0x7F0E0175
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131624309;
+			
+			// aapt resource value: 0x7F0E0176
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624310;
+			
+			// aapt resource value: 0x7F0E0178
+			public const int Theme_MaterialComponents_Light = 2131624312;
+			
+			// aapt resource value: 0x7F0E0179
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624313;
+			
+			// aapt resource value: 0x7F0E017A
+			public const int Theme_MaterialComponents_Light_Bridge = 2131624314;
+			
+			// aapt resource value: 0x7F0E017B
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624315;
+			
+			// aapt resource value: 0x7F0E017C
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624316;
+			
+			// aapt resource value: 0x7F0E017D
+			public const int Theme_MaterialComponents_Light_Dialog = 2131624317;
+			
+			// aapt resource value: 0x7F0E0180
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624320;
+			
+			// aapt resource value: 0x7F0E017E
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624318;
+			
+			// aapt resource value: 0x7F0E017F
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624319;
+			
+			// aapt resource value: 0x7F0E0181
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624321;
+			
+			// aapt resource value: 0x7F0E0182
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624322;
+			
+			// aapt resource value: 0x7F0E0183
+			public const int Theme_MaterialComponents_NoActionBar = 2131624323;
+			
+			// aapt resource value: 0x7F0E0184
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624324;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624346;
+			public const int Widget_AppCompat_ActionBar = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624347;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624347;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624348;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624349;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionButton = 2131624350;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624351;
+			public const int Widget_AppCompat_ActionButton = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624352;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624353;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624354;
+			public const int Widget_AppCompat_ActionMode = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624355;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624356;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624357;
-			
-			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624358;
-			
-			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624359;
-			
-			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624360;
-			
-			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_SearchView = 2131624361;
-			
-			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624362;
+			public const int Widget_AppCompat_Button = 2131624357;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_ListMenuView = 2131624363;
+			public const int Widget_AppCompat_ButtonBar = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_ListPopupWindow = 2131624364;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624364;
+			
+			// aapt resource value: 0x7F0E01A6
+			public const int Widget_AppCompat_Button_Borderless = 2131624358;
+			
+			// aapt resource value: 0x7F0E01A7
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624359;
+			
+			// aapt resource value: 0x7F0E01A8
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624360;
+			
+			// aapt resource value: 0x7F0E01A9
+			public const int Widget_AppCompat_Button_Colored = 2131624361;
+			
+			// aapt resource value: 0x7F0E01AA
+			public const int Widget_AppCompat_Button_Small = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_ListView = 2131624365;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_ListView_DropDown = 2131624366;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListView_Menu = 2131624367;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_PopupMenu = 2131624368;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624369;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_PopupWindow = 2131624370;
+			public const int Widget_AppCompat_EditText = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_ProgressBar = 2131624371;
+			public const int Widget_AppCompat_ImageButton = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624372;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_RatingBar = 2131624373;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624374;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_RatingBar_Small = 2131624375;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_SearchView = 2131624376;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624377;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_SeekBar = 2131624378;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624379;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_Spinner = 2131624380;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624381;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624382;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624383;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_TextView = 2131624384;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624385;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Toolbar = 2131624386;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624387;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_Compat_NotificationActionContainer = 2131624388;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_Compat_NotificationActionText = 2131624389;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_Design_AppBarLayout = 2131624390;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Design_BottomNavigationView = 2131624391;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Design_BottomSheet_Modal = 2131624392;
+			public const int Widget_AppCompat_Light_SearchView = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_CollapsingToolbar = 2131624393;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_FloatingActionButton = 2131624394;
+			public const int Widget_AppCompat_ListMenuView = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_NavigationView = 2131624395;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624396;
+			public const int Widget_AppCompat_ListView = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_Snackbar = 2131624397;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_TabLayout = 2131624398;
+			public const int Widget_AppCompat_ListView_Menu = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_TextInputLayout = 2131624399;
+			public const int Widget_AppCompat_PopupMenu = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624400;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624401;
+			public const int Widget_AppCompat_PopupWindow = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624402;
+			public const int Widget_AppCompat_ProgressBar = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624403;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624404;
+			public const int Widget_AppCompat_RatingBar = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_Button = 2131624405;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_Button_Icon = 2131624406;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624407;
+			public const int Widget_AppCompat_SearchView = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624408;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624409;
+			public const int Widget_AppCompat_SeekBar = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624410;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624411;
+			public const int Widget_AppCompat_Spinner = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624412;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624413;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624414;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_CardView = 2131624415;
-			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_ChipGroup = 2131624420;
+			public const int Widget_AppCompat_TextView = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Chip_Action = 2131624416;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624417;
+			public const int Widget_AppCompat_Toolbar = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624418;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624419;
+			public const int Widget_Compat_NotificationActionContainer = 2131624419;
+			
+			// aapt resource value: 0x7F0E01E4
+			public const int Widget_Compat_NotificationActionText = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624421;
+			public const int Widget_Design_AppBarLayout = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_NavigationView = 2131624422;
+			public const int Widget_Design_BottomNavigationView = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Snackbar = 2131624423;
+			public const int Widget_Design_BottomSheet_Modal = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624424;
+			public const int Widget_Design_CollapsingToolbar = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_TabLayout = 2131624425;
+			public const int Widget_Design_FloatingActionButton = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624426;
+			public const int Widget_Design_NavigationView = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624427;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624428;
+			public const int Widget_Design_Snackbar = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624429;
+			public const int Widget_Design_TabLayout = 2131624429;
 			
 			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624430;
+			public const int Widget_Design_TextInputLayout = 2131624430;
 			
 			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624431;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624431;
 			
 			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624432;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624432;
 			
 			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624433;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624434;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624434;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Toolbar = 2131624435;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_Support_CoordinatorLayout = 2131624436;
+			public const int Widget_MaterialComponents_Button = 2131624436;
+			
+			// aapt resource value: 0x7F0E01F5
+			public const int Widget_MaterialComponents_Button_Icon = 2131624437;
+			
+			// aapt resource value: 0x7F0E01F6
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624438;
+			
+			// aapt resource value: 0x7F0E01F7
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624439;
+			
+			// aapt resource value: 0x7F0E01F8
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624440;
+			
+			// aapt resource value: 0x7F0E01F9
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624441;
+			
+			// aapt resource value: 0x7F0E01FA
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624442;
+			
+			// aapt resource value: 0x7F0E01FB
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624443;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624445;
+			
+			// aapt resource value: 0x7F0E01FE
+			public const int Widget_MaterialComponents_CardView = 2131624446;
+			
+			// aapt resource value: 0x7F0E0203
+			public const int Widget_MaterialComponents_ChipGroup = 2131624451;
+			
+			// aapt resource value: 0x7F0E01FF
+			public const int Widget_MaterialComponents_Chip_Action = 2131624447;
+			
+			// aapt resource value: 0x7F0E0200
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624448;
+			
+			// aapt resource value: 0x7F0E0201
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624450;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624452;
+			
+			// aapt resource value: 0x7F0E0205
+			public const int Widget_MaterialComponents_NavigationView = 2131624453;
+			
+			// aapt resource value: 0x7F0E0206
+			public const int Widget_MaterialComponents_Snackbar = 2131624454;
+			
+			// aapt resource value: 0x7F0E0207
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624455;
+			
+			// aapt resource value: 0x7F0E0208
+			public const int Widget_MaterialComponents_TabLayout = 2131624456;
+			
+			// aapt resource value: 0x7F0E0209
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624457;
+			
+			// aapt resource value: 0x7F0E020A
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624458;
+			
+			// aapt resource value: 0x7F0E020B
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624459;
+			
+			// aapt resource value: 0x7F0E020C
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624460;
+			
+			// aapt resource value: 0x7F0E020D
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624461;
+			
+			// aapt resource value: 0x7F0E020E
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624462;
+			
+			// aapt resource value: 0x7F0E020F
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624463;
+			
+			// aapt resource value: 0x7F0E0210
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624464;
+			
+			// aapt resource value: 0x7F0E0211
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624465;
+			
+			// aapt resource value: 0x7F0E0212
+			public const int Widget_MaterialComponents_Toolbar = 2131624466;
+			
+			// aapt resource value: 0x7F0E0213
+			public const int Widget_Support_CoordinatorLayout = 2131624467;
 			
 			static Style()
 			{
@@ -6087,37 +9426,37 @@ namespace PocThomasMVVMCross.Android
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F0300A5,0x7F0300AA,0x7F0300AB,0x7F0300BF,0x7F0300E9,0x7F0300EE,0x7F0300F3,0x7F0300F4,0x7F0300F6,0x7F030100,0x7F03010A,0x7F030131,0x7F03013D,0x7F03014E,0x7F030152,0x7F030153,0x7F030182,0x7F030185,0x7F0301CB,0x7F0301D5 }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F03003D,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300B0,0x7F0300BD,0x7F0300BE,0x7F0300D4,0x7F030103,0x7F030108,0x7F03010D,0x7F03010E,0x7F030110,0x7F03011B,0x7F030127,0x7F03014F,0x7F03015E,0x7F030173,0x7F030181,0x7F030182,0x7F0301B7,0x7F0301BA,0x7F030207,0x7F030211 }
 			public static int[] ActionBar = new int[] {
-					2130903089,
-					2130903090,
-					2130903091,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
-					2130903191,
-					2130903205,
-					2130903210,
-					2130903211,
-					2130903231,
-					2130903273,
-					2130903278,
-					2130903283,
-					2130903284,
-					2130903286,
-					2130903296,
-					2130903306,
-					2130903345,
-					2130903357,
-					2130903374,
-					2130903378,
-					2130903379,
+					2130903099,
+					2130903100,
+					2130903101,
+					2130903197,
+					2130903198,
+					2130903199,
+					2130903200,
+					2130903201,
+					2130903202,
+					2130903216,
+					2130903229,
+					2130903230,
+					2130903252,
+					2130903299,
+					2130903304,
+					2130903309,
+					2130903310,
+					2130903312,
+					2130903323,
+					2130903335,
+					2130903375,
+					2130903390,
+					2130903411,
+					2130903425,
 					2130903426,
-					2130903429,
-					2130903499,
-					2130903509};
+					2130903479,
+					2130903482,
+					2130903559,
+					2130903569};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -6224,14 +9563,14 @@ namespace PocThomasMVVMCross.Android
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007F,0x7F0300E9,0x7F030185,0x7F0301D5 }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F03008A,0x7F030103,0x7F0301BA,0x7F030211 }
 			public static int[] ActionMode = new int[] {
-					2130903089,
-					2130903090,
-					2130903167,
-					2130903273,
-					2130903429,
-					2130903509};
+					2130903099,
+					2130903100,
+					2130903178,
+					2130903299,
+					2130903482,
+					2130903569};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -6251,10 +9590,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300C4,0x7F030101 }
+			// aapt resource value: { 0x7F0300DD,0x7F03011C }
 			public static int[] ActivityChooserView = new int[] {
-					2130903236,
-					2130903297};
+					2130903261,
+					2130903324};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -6262,16 +9601,16 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F030126,0x7F030127,0x7F03013A,0x7F03016A,0x7F03016B }
+			// aapt resource value: { 0x10100F2,0x7F03005D,0x7F03005E,0x7F030144,0x7F030145,0x7F03015B,0x7F03019E,0x7F03019F }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903123,
-					2130903124,
-					2130903334,
-					2130903335,
-					2130903354,
-					2130903402,
-					2130903403};
+					2130903133,
+					2130903134,
+					2130903364,
+					2130903365,
+					2130903387,
+					2130903454,
+					2130903455};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -6354,21 +9693,21 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300BF,0x7F0300C5,0x7F03011F }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300D4,0x7F0300DE,0x7F03013D }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903231,
-					2130903237,
-					2130903327};
+					2130903252,
+					2130903262,
+					2130903357};
 			
-			// aapt resource value: { 0x7F030178,0x7F030179,0x7F03017A,0x7F03017B }
+			// aapt resource value: { 0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903416,
-					2130903417,
-					2130903418,
-					2130903419};
+					2130903469,
+					2130903470,
+					2130903471,
+					2130903472};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -6397,10 +9736,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03011D,0x7F03011E }
+			// aapt resource value: { 0x7F03013B,0x7F03013C }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903325,
-					2130903326};
+					2130903355,
+					2130903356};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -6411,12 +9750,12 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030175,0x7F0301C9,0x7F0301CA }
+			// aapt resource value: { 0x1010119,0x7F0301AA,0x7F030205,0x7F030206 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903413,
-					2130903497,
-					2130903498};
+					2130903466,
+					2130903557,
+					2130903558};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -6430,12 +9769,12 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301C6,0x7F0301C7,0x7F0301C8 }
+			// aapt resource value: { 0x1010142,0x7F030202,0x7F030203,0x7F030204 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903494,
-					2130903495,
-					2130903496};
+					2130903554,
+					2130903555,
+					2130903556};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -6480,29 +9819,29 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300D8,0x7F0300DB,0x7F0300E3,0x7F030112,0x7F030120,0x7F0301A5,0x7F0301BF }
+			// aapt resource value: { 0x1010034,0x7F030036,0x7F030037,0x7F030038,0x7F030039,0x7F03003A,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300F1,0x7F0300F4,0x7F0300FC,0x7F030130,0x7F03013E,0x7F0301E1,0x7F0301FB }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903084,
-					2130903085,
-					2130903086,
-					2130903087,
-					2130903088,
-					2130903215,
-					2130903216,
-					2130903217,
-					2130903218,
-					2130903220,
-					2130903221,
-					2130903222,
-					2130903223,
-					2130903256,
-					2130903259,
-					2130903267,
-					2130903314,
-					2130903328,
-					2130903461,
-					2130903487};
+					2130903094,
+					2130903095,
+					2130903096,
+					2130903097,
+					2130903098,
+					2130903234,
+					2130903235,
+					2130903236,
+					2130903237,
+					2130903239,
+					2130903240,
+					2130903241,
+					2130903242,
+					2130903281,
+					2130903284,
+					2130903292,
+					2130903344,
+					2130903358,
+					2130903521,
+					2130903547};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -6567,16 +9906,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030055,0x7F030056,0x7F030060,0x7F030065,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F03009E,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AC,0x7F0300AE,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F3,0x7F0300FF,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030145,0x7F030146,0x7F030147,0x7F03014D,0x7F03014F,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030172,0x7F030173,0x7F030189,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301BB,0x7F0301BC,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301E1,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030027,0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F030035,0x7F030048,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005F,0x7F030060,0x7F03006B,0x7F030070,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F03009A,0x7F0300A9,0x7F0300B4,0x7F0300B9,0x7F0300BA,0x7F0300BF,0x7F0300C1,0x7F0300CD,0x7F0300CE,0x7F0300D0,0x7F0300D1,0x7F0300D3,0x7F03010D,0x7F03011A,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F030169,0x7F03016A,0x7F03016B,0x7F030172,0x7F030174,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030191,0x7F030194,0x7F030196,0x7F030197,0x7F0301A7,0x7F0301A8,0x7F0301C3,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F7,0x7F0301F8,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F03021F,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903040,
-					2130903041,
-					2130903042,
-					2130903043,
-					2130903044,
-					2130903045,
 					2130903046,
 					2130903047,
 					2130903048,
@@ -6584,12 +9917,12 @@ namespace PocThomasMVVMCross.Android
 					2130903050,
 					2130903051,
 					2130903052,
+					2130903053,
 					2130903054,
 					2130903055,
 					2130903056,
 					2130903057,
 					2130903058,
-					2130903059,
 					2130903060,
 					2130903061,
 					2130903062,
@@ -6601,99 +9934,105 @@ namespace PocThomasMVVMCross.Android
 					2130903068,
 					2130903069,
 					2130903070,
+					2130903071,
+					2130903072,
 					2130903073,
 					2130903074,
 					2130903075,
 					2130903076,
-					2130903077,
+					2130903079,
+					2130903081,
+					2130903082,
 					2130903083,
-					2130903102,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903119,
-					2130903120,
-					2130903125,
+					2130903084,
+					2130903093,
+					2130903112,
 					2130903126,
+					2130903127,
+					2130903128,
+					2130903129,
+					2130903130,
+					2130903135,
 					2130903136,
-					2130903141,
-					2130903173,
-					2130903174,
-					2130903175,
-					2130903176,
-					2130903177,
-					2130903178,
-					2130903179,
-					2130903180,
-					2130903181,
-					2130903183,
-					2130903198,
-					2130903207,
-					2130903208,
+					2130903147,
+					2130903152,
+					2130903184,
+					2130903185,
+					2130903186,
+					2130903187,
+					2130903188,
+					2130903189,
+					2130903190,
+					2130903191,
+					2130903192,
+					2130903194,
 					2130903209,
-					2130903212,
-					2130903214,
+					2130903220,
+					2130903225,
 					2130903226,
-					2130903227,
-					2130903228,
-					2130903229,
-					2130903230,
-					2130903283,
-					2130903295,
-					2130903330,
-					2130903331,
-					2130903332,
-					2130903333,
-					2130903336,
-					2130903337,
-					2130903338,
-					2130903339,
-					2130903340,
-					2130903341,
-					2130903342,
-					2130903343,
-					2130903344,
-					2130903365,
+					2130903231,
+					2130903233,
+					2130903245,
+					2130903246,
+					2130903248,
+					2130903249,
+					2130903251,
+					2130903309,
+					2130903322,
+					2130903360,
+					2130903361,
+					2130903362,
+					2130903363,
 					2130903366,
 					2130903367,
+					2130903368,
+					2130903369,
+					2130903370,
+					2130903371,
+					2130903372,
 					2130903373,
-					2130903375,
-					2130903382,
-					2130903383,
-					2130903384,
-					2130903385,
-					2130903394,
-					2130903395,
-					2130903396,
-					2130903397,
+					2130903374,
+					2130903401,
+					2130903402,
+					2130903403,
 					2130903410,
-					2130903411,
-					2130903433,
-					2130903472,
-					2130903473,
-					2130903474,
-					2130903475,
-					2130903477,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903483,
-					2130903484,
-					2130903511,
-					2130903512,
-					2130903513,
-					2130903514,
-					2130903521,
-					2130903523,
-					2130903524,
-					2130903525,
-					2130903526,
-					2130903527,
-					2130903528,
-					2130903529,
-					2130903530,
-					2130903531,
-					2130903532};
+					2130903412,
+					2130903429,
+					2130903430,
+					2130903431,
+					2130903432,
+					2130903441,
+					2130903444,
+					2130903446,
+					2130903447,
+					2130903463,
+					2130903464,
+					2130903491,
+					2130903532,
+					2130903533,
+					2130903534,
+					2130903535,
+					2130903537,
+					2130903538,
+					2130903539,
+					2130903540,
+					2130903543,
+					2130903544,
+					2130903571,
+					2130903572,
+					2130903573,
+					2130903574,
+					2130903583,
+					2130903586,
+					2130903587,
+					2130903588,
+					2130903589,
+					2130903590,
+					2130903591,
+					2130903592,
+					2130903593,
+					2130903594,
+					2130903595};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -7070,14 +10409,25 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030034,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300EF }
+			// aapt resource value: { 0x101030E,0x7F030196 }
+			public static int[] BackgroundStyle = new int[] {
+					16843534,
+					2130903446};
+			
+			// aapt resource value: 0
+			public const int BackgroundStyle_android_selectableItemBackground = 0;
+			
+			// aapt resource value: 1
+			public const int BackgroundStyle_selectableItemBackground = 1;
+			
+			// aapt resource value: { 0x7F03003E,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F030109 }
 			public static int[] BottomAppBar = new int[] {
-					2130903092,
-					2130903245,
-					2130903246,
-					2130903247,
-					2130903248,
-					2130903279};
+					2130903102,
+					2130903270,
+					2130903271,
+					2130903272,
+					2130903273,
+					2130903305};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -7097,18 +10447,18 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300BF,0x7F030104,0x7F030106,0x7F030108,0x7F030109,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030111,0x7F030139 }
+			// aapt resource value: { 0x7F0300D4,0x7F030121,0x7F030123,0x7F030125,0x7F030126,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012F,0x7F030159 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903231,
-					2130903300,
-					2130903302,
-					2130903304,
-					2130903305,
-					2130903309,
-					2130903310,
-					2130903311,
-					2130903313,
-					2130903353};
+					2130903252,
+					2130903329,
+					2130903331,
+					2130903333,
+					2130903334,
+					2130903338,
+					2130903339,
+					2130903340,
+					2130903343,
+					2130903385};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -7140,12 +10490,12 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030038,0x7F030039,0x7F03003B,0x7F03003C }
+			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030045,0x7F030046 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903096,
-					2130903097,
-					2130903099,
-					2130903100};
+					2130903106,
+					2130903107,
+					2130903109,
+					2130903110};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -7159,28 +10509,28 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F030030 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903088};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F030068,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903129,
-					2130903130,
-					2130903131,
-					2130903132,
-					2130903133,
-					2130903134,
-					2130903192,
-					2130903193,
-					2130903194,
-					2130903195,
-					2130903196};
+					2130903139,
+					2130903140,
+					2130903141,
+					2130903142,
+					2130903143,
+					2130903144,
+					2130903203,
+					2130903204,
+					2130903205,
+					2130903206,
+					2130903207};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -7221,51 +10571,78 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030062,0x7F030063,0x7F030064,0x7F030066,0x7F030067,0x7F030068,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030074,0x7F030075,0x7F030076,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F0300ED,0x7F0300F7,0x7F0300FB,0x7F03015C,0x7F030168,0x7F0301BD,0x7F0301C0 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F0300BC,0x7F0301BD,0x7F0301BE }
+			public static int[] CheckBoxPreference = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					2130903228,
+					2130903485,
+					2130903486};
+			
+			// aapt resource value: 2
+			public const int CheckBoxPreference_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int CheckBoxPreference_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int CheckBoxPreference_android_summaryOn = 0;
+			
+			// aapt resource value: 3
+			public const int CheckBoxPreference_disableDependentsState = 3;
+			
+			// aapt resource value: 4
+			public const int CheckBoxPreference_summaryOff = 4;
+			
+			// aapt resource value: 5
+			public const int CheckBoxPreference_summaryOn = 5;
+			
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030071,0x7F030072,0x7F030073,0x7F030075,0x7F030076,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007F,0x7F030080,0x7F030081,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F030107,0x7F030111,0x7F030116,0x7F03018B,0x7F03019B,0x7F0301F9,0x7F0301FC }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903138,
-					2130903139,
-					2130903140,
-					2130903142,
-					2130903143,
-					2130903144,
-					2130903146,
-					2130903147,
-					2130903148,
 					2130903149,
 					2130903150,
 					2130903151,
-					2130903156,
+					2130903153,
+					2130903154,
+					2130903155,
 					2130903157,
 					2130903158,
+					2130903159,
 					2130903160,
 					2130903161,
 					2130903162,
+					2130903167,
+					2130903168,
+					2130903169,
+					2130903171,
+					2130903172,
+					2130903173,
+					2130903174,
+					2130903175,
+					2130903176,
+					2130903177,
+					2130903303,
+					2130903313,
+					2130903318,
+					2130903435,
+					2130903451,
+					2130903545,
+					2130903548};
+			
+			// aapt resource value: { 0x7F03006C,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0301A0,0x7F0301A2 }
+			public static int[] ChipGroup = new int[] {
+					2130903148,
 					2130903163,
 					2130903164,
 					2130903165,
-					2130903166,
-					2130903277,
-					2130903287,
-					2130903291,
-					2130903388,
-					2130903400,
-					2130903485,
-					2130903488};
-			
-			// aapt resource value: { 0x7F030061,0x7F030070,0x7F030071,0x7F030072,0x7F03016C,0x7F03016D }
-			public static int[] ChipGroup = new int[] {
-					2130903137,
-					2130903152,
-					2130903153,
-					2130903154,
-					2130903404,
-					2130903405};
+					2130903456,
+					2130903458};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -7387,24 +10764,24 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030082,0x7F030083,0x7F03009D,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F03015D,0x7F03015F,0x7F03017D,0x7F0301CB,0x7F0301CC,0x7F0301D6 }
+			// aapt resource value: { 0x7F03008D,0x7F03008E,0x7F0300A8,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F03018C,0x7F03018E,0x7F0301B2,0x7F030207,0x7F030208,0x7F030212 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903170,
-					2130903171,
-					2130903197,
-					2130903238,
-					2130903239,
-					2130903240,
-					2130903241,
-					2130903242,
-					2130903243,
-					2130903244,
-					2130903389,
-					2130903391,
-					2130903421,
-					2130903499,
-					2130903500,
-					2130903510};
+					2130903181,
+					2130903182,
+					2130903208,
+					2130903263,
+					2130903264,
+					2130903265,
+					2130903266,
+					2130903267,
+					2130903268,
+					2130903269,
+					2130903436,
+					2130903438,
+					2130903474,
+					2130903559,
+					2130903560,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -7436,10 +10813,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030118,0x7F030119 }
+			// aapt resource value: { 0x7F030136,0x7F030137 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903320,
-					2130903321};
+					2130903350,
+					2130903351};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -7465,11 +10842,11 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030031 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903089};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -7480,12 +10857,12 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030051,0x7F030057,0x7F030058 }
+			// aapt resource value: { 0x1010107,0x7F03005B,0x7F030061,0x7F030062 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903121,
-					2130903127,
-					2130903128};
+					2130903131,
+					2130903137,
+					2130903138};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -7499,23 +10876,23 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030110,0x7F03017C }
+			// aapt resource value: { 0x7F03012E,0x7F0301B1 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903312,
-					2130903420};
+					2130903342,
+					2130903473};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030115,0x7F030116,0x7F030117,0x7F03011A,0x7F03011B,0x7F03011C }
+			// aapt resource value: { 0x10100B3,0x7F030133,0x7F030134,0x7F030135,0x7F030138,0x7F030139,0x7F03013A }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903317,
-					2130903318,
-					2130903319,
-					2130903322,
-					2130903323,
-					2130903324};
+					2130903347,
+					2130903348,
+					2130903349,
+					2130903352,
+					2130903353,
+					2130903354};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -7541,10 +10918,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042 }
+			// aapt resource value: { 0x7F03004B,0x7F03004C }
 			public static int[] DesignTheme = new int[] {
-					2130903105,
-					2130903106};
+					2130903115,
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -7552,16 +10929,67 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030084,0x7F0300B3,0x7F0300E6,0x7F030171,0x7F0301C2 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300BB,0x7F030160,0x7F030175 }
+			public static int[] DialogPreference = new int[] {
+					16843250,
+					16843251,
+					16843252,
+					16843253,
+					16843254,
+					16843255,
+					2130903221,
+					2130903222,
+					2130903223,
+					2130903227,
+					2130903392,
+					2130903413};
+			
+			// aapt resource value: 2
+			public const int DialogPreference_android_dialogIcon = 2;
+			
+			// aapt resource value: 5
+			public const int DialogPreference_android_dialogLayout = 5;
+			
+			// aapt resource value: 1
+			public const int DialogPreference_android_dialogMessage = 1;
+			
+			// aapt resource value: 0
+			public const int DialogPreference_android_dialogTitle = 0;
+			
+			// aapt resource value: 4
+			public const int DialogPreference_android_negativeButtonText = 4;
+			
+			// aapt resource value: 3
+			public const int DialogPreference_android_positiveButtonText = 3;
+			
+			// aapt resource value: 6
+			public const int DialogPreference_dialogIcon = 6;
+			
+			// aapt resource value: 7
+			public const int DialogPreference_dialogLayout = 7;
+			
+			// aapt resource value: 8
+			public const int DialogPreference_dialogMessage = 8;
+			
+			// aapt resource value: 9
+			public const int DialogPreference_dialogTitle = 9;
+			
+			// aapt resource value: 10
+			public const int DialogPreference_negativeButtonText = 10;
+			
+			// aapt resource value: 11
+			public const int DialogPreference_positiveButtonText = 11;
+			
+			// aapt resource value: { 0x7F030033,0x7F030034,0x7F030040,0x7F03008F,0x7F0300C6,0x7F030100,0x7F0301A6,0x7F0301FE }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903081,
-					2130903082,
-					2130903094,
-					2130903172,
-					2130903219,
-					2130903270,
-					2130903409,
-					2130903490};
+					2130903091,
+					2130903092,
+					2130903104,
+					2130903183,
+					2130903238,
+					2130903296,
+					2130903462,
+					2130903550};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -7587,28 +11015,35 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F0300BF }
+			// aapt resource value: { 0x7F0300D4 }
 			public static int[] DrawerLayout = new int[] {
-					2130903231};
+					2130903252};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300BF,0x7F0300D1,0x7F0300D2,0x7F0300ED,0x7F0300F5,0x7F030137,0x7F030151,0x7F03015C,0x7F030168,0x7F0301E0 }
+			// aapt resource value: { 0x7F03021E }
+			public static int[] EditTextPreference = new int[] {
+					2130903582};
+			
+			// aapt resource value: 0
+			public const int EditTextPreference_useSimpleSummaryProvider = 0;
+			
+			// aapt resource value: { 0x7F03003E,0x7F03003F,0x7F030047,0x7F0300D4,0x7F0300EA,0x7F0300EB,0x7F030107,0x7F03010F,0x7F030156,0x7F030180,0x7F03018B,0x7F03019B,0x7F03021D }
 			public static int[] FloatingActionButton = new int[] {
-					2130903092,
-					2130903093,
-					2130903101,
-					2130903231,
-					2130903249,
-					2130903250,
-					2130903277,
-					2130903285,
-					2130903351,
-					2130903377,
-					2130903388,
-					2130903400,
-					2130903520};
+					2130903102,
+					2130903103,
+					2130903111,
+					2130903252,
+					2130903274,
+					2130903275,
+					2130903303,
+					2130903311,
+					2130903382,
+					2130903424,
+					2130903435,
+					2130903451,
+					2130903581};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -7616,9 +11051,9 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030037 }
+			// aapt resource value: { 0x7F030041 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903095};
+					2130903105};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -7656,10 +11091,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03010B,0x7F030121 }
+			// aapt resource value: { 0x7F030128,0x7F03013F }
 			public static int[] FlowLayout = new int[] {
-					2130903307,
-					2130903329};
+					2130903336,
+					2130903359};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -7667,27 +11102,27 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1 }
+			// aapt resource value: { 0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA }
 			public static int[] FontFamily = new int[] {
-					2130903260,
-					2130903261,
-					2130903262,
-					2130903263,
-					2130903264,
-					2130903265};
+					2130903285,
+					2130903286,
+					2130903287,
+					2130903288,
+					2130903289,
+					2130903290};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DA,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0301DF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300F3,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F03021B }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903258,
-					2130903266,
-					2130903267,
-					2130903268,
-					2130903519};
+					2130903283,
+					2130903291,
+					2130903292,
+					2130903293,
+					2130903579};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -7737,11 +11172,11 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E5 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300FE }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903269};
+					2130903294};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -7840,17 +11275,17 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AB,0x7F0300AD,0x7F030138,0x7F030167 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300BE,0x7F0300C0,0x7F030158,0x7F03019A }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903211,
-					2130903213,
-					2130903352,
-					2130903399};
+					2130903230,
+					2130903232,
+					2130903384,
+					2130903450};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -7909,24 +11344,47 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F0300A0,0x7F0300F6,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F03015C,0x7F03017E,0x7F03017F }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300D9,0x7F0300DA,0x7F03021E }
+			public static int[] ListPreference = new int[] {
+					16842930,
+					16843256,
+					2130903257,
+					2130903258,
+					2130903582};
+			
+			// aapt resource value: 0
+			public const int ListPreference_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int ListPreference_android_entryValues = 1;
+			
+			// aapt resource value: 2
+			public const int ListPreference_entries = 2;
+			
+			// aapt resource value: 3
+			public const int ListPreference_entryValues = 3;
+			
+			// aapt resource value: 4
+			public const int ListPreference_useSimpleSummaryProvider = 4;
+			
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003E,0x7F03003F,0x7F0300AB,0x7F030110,0x7F030112,0x7F030113,0x7F030114,0x7F030117,0x7F030118,0x7F03018B,0x7F0301B3,0x7F0301B4 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903092,
-					2130903093,
-					2130903200,
-					2130903286,
-					2130903288,
-					2130903289,
-					2130903290,
-					2130903292,
-					2130903293,
-					2130903388,
-					2130903422,
-					2130903423};
+					2130903102,
+					2130903103,
+					2130903211,
+					2130903312,
+					2130903314,
+					2130903315,
+					2130903316,
+					2130903319,
+					2130903320,
+					2130903435,
+					2130903475,
+					2130903476};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -7976,10 +11434,10 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F03017E,0x7F03017F }
+			// aapt resource value: { 0x7F0301B3,0x7F0301B4 }
 			public static int[] MaterialCardView = new int[] {
-					2130903422,
-					2130903423};
+					2130903475,
+					2130903476};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -7987,40 +11445,40 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030069,0x7F030073,0x7F030077,0x7F030085,0x7F030086,0x7F03008C,0x7F03008D,0x7F03008E,0x7F0300BE,0x7F0300D9,0x7F030133,0x7F030134,0x7F03013E,0x7F03015E,0x7F03016E,0x7F0301A1,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B4,0x7F0301B9,0x7F0301BA,0x7F0301BE }
+			// aapt resource value: { 0x7F03004B,0x7F03004C,0x7F030074,0x7F03007E,0x7F030082,0x7F030090,0x7F030091,0x7F030097,0x7F030098,0x7F030099,0x7F0300D3,0x7F0300F2,0x7F030151,0x7F030152,0x7F03015F,0x7F03018D,0x7F0301A3,0x7F0301DD,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301F0,0x7F0301F5,0x7F0301F6,0x7F0301FA }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903105,
-					2130903106,
-					2130903145,
-					2130903155,
-					2130903159,
-					2130903173,
-					2130903174,
-					2130903180,
-					2130903181,
-					2130903182,
-					2130903230,
-					2130903257,
-					2130903347,
-					2130903348,
-					2130903358,
-					2130903390,
-					2130903406,
-					2130903457,
-					2130903462,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130903466,
-					2130903467,
-					2130903468,
-					2130903469,
-					2130903470,
-					2130903471,
-					2130903476,
-					2130903481,
-					2130903482,
-					2130903486};
+					2130903115,
+					2130903116,
+					2130903156,
+					2130903166,
+					2130903170,
+					2130903184,
+					2130903185,
+					2130903191,
+					2130903192,
+					2130903193,
+					2130903251,
+					2130903282,
+					2130903377,
+					2130903378,
+					2130903391,
+					2130903437,
+					2130903459,
+					2130903517,
+					2130903522,
+					2130903523,
+					2130903524,
+					2130903525,
+					2130903526,
+					2130903527,
+					2130903528,
+					2130903529,
+					2130903530,
+					2130903531,
+					2130903536,
+					2130903541,
+					2130903542,
+					2130903546};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -8145,7 +11603,7 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030091,0x7F0300FC,0x7F0300FD,0x7F03013F,0x7F030166,0x7F0301DB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030013,0x7F030025,0x7F030026,0x7F030032,0x7F03009C,0x7F030117,0x7F030118,0x7F030161,0x7F030199,0x7F030217 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -8160,16 +11618,16 @@ namespace PocThomasMVVMCross.Android
 					16843236,
 					16843237,
 					16843375,
-					2130903053,
-					2130903071,
-					2130903072,
-					2130903080,
-					2130903185,
-					2130903292,
-					2130903293,
-					2130903359,
-					2130903398,
-					2130903515};
+					2130903059,
+					2130903077,
+					2130903078,
+					2130903090,
+					2130903196,
+					2130903319,
+					2130903320,
+					2130903393,
+					2130903449,
+					2130903575};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -8240,7 +11698,7 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030150,0x7F030180 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03017F,0x7F0301B5 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -8249,8 +11707,8 @@ namespace PocThomasMVVMCross.Android
 					16843055,
 					16843056,
 					16843057,
-					2130903376,
-					2130903424};
+					2130903423,
+					2130903477};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -8279,20 +11737,75 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300BF,0x7F0300E8,0x7F030104,0x7F030105,0x7F030107,0x7F030109,0x7F03010C,0x7F03010F,0x7F030139 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F0300D9,0x7F0300DA }
+			public static int[] MultiSelectListPreference = new int[] {
+					16842930,
+					16843256,
+					2130903257,
+					2130903258};
+			
+			// aapt resource value: 0
+			public const int MultiSelectListPreference_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int MultiSelectListPreference_android_entryValues = 1;
+			
+			// aapt resource value: 2
+			public const int MultiSelectListPreference_entries = 2;
+			
+			// aapt resource value: 3
+			public const int MultiSelectListPreference_entryValues = 3;
+			
+			// aapt resource value: { 0x7F030000,0x7F030004 }
+			public static int[] MvxBinding = new int[] {
+					2130903040,
+					2130903044};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public const int MvxBinding_MvxLang = 1;
+			
+			// aapt resource value: { 0x7F030005 }
+			public static int[] MvxControl = new int[] {
+					2130903045};
+			
+			// aapt resource value: 0
+			public const int MvxControl_MvxTemplate = 0;
+			
+			// aapt resource value: { 0x7F030002 }
+			public static int[] MvxExpandableListView = new int[] {
+					2130903042};
+			
+			// aapt resource value: 0
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			// aapt resource value: { 0x7F030001,0x7F030003 }
+			public static int[] MvxListView = new int[] {
+					2130903041,
+					2130903043};
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxDropDownItemTemplate = 0;
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxItemTemplate = 1;
+			
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300D4,0x7F030102,0x7F030121,0x7F030122,0x7F030124,0x7F030126,0x7F030129,0x7F03012C,0x7F030159 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903231,
-					2130903272,
-					2130903300,
-					2130903301,
-					2130903303,
-					2130903305,
-					2130903308,
-					2130903311,
-					2130903353};
+					2130903252,
+					2130903298,
+					2130903329,
+					2130903330,
+					2130903332,
+					2130903334,
+					2130903337,
+					2130903340,
+					2130903385};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -8330,15 +11843,15 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030140 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030164 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903360};
+					2130903396};
 			
-			// aapt resource value: { 0x7F030177 }
+			// aapt resource value: { 0x7F0301AC }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903415};
+					2130903468};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -8352,10 +11865,296 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030141,0x7F030144 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002D,0x7F03002F,0x7F0300B2,0x7F0300B3,0x7F0300D5,0x7F0300D6,0x7F0300FF,0x7F030110,0x7F030115,0x7F030120,0x7F03012D,0x7F030131,0x7F030162,0x7F030171,0x7F030195,0x7F030198,0x7F0301A1,0x7F0301BC,0x7F030207,0x7F030221 }
+			public static int[] Preference = new int[] {
+					16842754,
+					16842765,
+					16842766,
+					16842994,
+					16843233,
+					16843238,
+					16843240,
+					16843241,
+					16843242,
+					16843243,
+					16843244,
+					16843245,
+					16843246,
+					16843491,
+					16844124,
+					16844129,
+					2130903085,
+					2130903087,
+					2130903218,
+					2130903219,
+					2130903253,
+					2130903254,
+					2130903295,
+					2130903312,
+					2130903317,
+					2130903328,
+					2130903341,
+					2130903345,
+					2130903394,
+					2130903409,
+					2130903445,
+					2130903448,
+					2130903457,
+					2130903484,
+					2130903559,
+					2130903585};
+			
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002E }
+			public static int[] PreferenceFragment = new int[] {
+					16842994,
+					16843049,
+					16843050,
+					2130903086};
+			
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002E }
+			public static int[] PreferenceFragmentCompat = new int[] {
+					16842994,
+					16843049,
+					16843050,
+					2130903086};
+			
+			// aapt resource value: 3
+			public const int PreferenceFragmentCompat_allowDividerAfterLastItem = 3;
+			
+			// aapt resource value: 1
+			public const int PreferenceFragmentCompat_android_divider = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceFragmentCompat_android_dividerHeight = 2;
+			
+			// aapt resource value: 0
+			public const int PreferenceFragmentCompat_android_layout = 0;
+			
+			// aapt resource value: 3
+			public const int PreferenceFragment_allowDividerAfterLastItem = 3;
+			
+			// aapt resource value: 1
+			public const int PreferenceFragment_android_divider = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceFragment_android_dividerHeight = 2;
+			
+			// aapt resource value: 0
+			public const int PreferenceFragment_android_layout = 0;
+			
+			// aapt resource value: { 0x10101E7,0x7F03011D,0x7F030163 }
+			public static int[] PreferenceGroup = new int[] {
+					16843239,
+					2130903325,
+					2130903395};
+			
+			// aapt resource value: 0
+			public const int PreferenceGroup_android_orderingFromXml = 0;
+			
+			// aapt resource value: 1
+			public const int PreferenceGroup_initialExpandedChildrenCount = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceGroup_orderingFromXml = 2;
+			
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030155,0x7F030157 }
+			public static int[] PreferenceImageView = new int[] {
+					16843039,
+					16843040,
+					2130903381,
+					2130903383};
+			
+			// aapt resource value: 1
+			public const int PreferenceImageView_android_maxHeight = 1;
+			
+			// aapt resource value: 0
+			public const int PreferenceImageView_android_maxWidth = 0;
+			
+			// aapt resource value: 2
+			public const int PreferenceImageView_maxHeight = 2;
+			
+			// aapt resource value: 3
+			public const int PreferenceImageView_maxWidth = 3;
+			
+			// aapt resource value: { 0x7F03006A,0x7F0300B8,0x7F0300CF,0x7F0300D2,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F030193,0x7F0301C1,0x7F0301C2 }
+			public static int[] PreferenceTheme = new int[] {
+					2130903146,
+					2130903224,
+					2130903247,
+					2130903250,
+					2130903414,
+					2130903415,
+					2130903416,
+					2130903417,
+					2130903418,
+					2130903419,
+					2130903420,
+					2130903421,
+					2130903422,
+					2130903443,
+					2130903489,
+					2130903490};
+			
+			// aapt resource value: 0
+			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
+			
+			// aapt resource value: 1
+			public const int PreferenceTheme_dialogPreferenceStyle = 1;
+			
+			// aapt resource value: 2
+			public const int PreferenceTheme_dropdownPreferenceStyle = 2;
+			
+			// aapt resource value: 3
+			public const int PreferenceTheme_editTextPreferenceStyle = 3;
+			
+			// aapt resource value: 4
+			public const int PreferenceTheme_preferenceCategoryStyle = 4;
+			
+			// aapt resource value: 5
+			public const int PreferenceTheme_preferenceCategoryTitleTextAppearance = 5;
+			
+			// aapt resource value: 6
+			public const int PreferenceTheme_preferenceFragmentCompatStyle = 6;
+			
+			// aapt resource value: 7
+			public const int PreferenceTheme_preferenceFragmentListStyle = 7;
+			
+			// aapt resource value: 8
+			public const int PreferenceTheme_preferenceFragmentStyle = 8;
+			
+			// aapt resource value: 9
+			public const int PreferenceTheme_preferenceInformationStyle = 9;
+			
+			// aapt resource value: 10
+			public const int PreferenceTheme_preferenceScreenStyle = 10;
+			
+			// aapt resource value: 11
+			public const int PreferenceTheme_preferenceStyle = 11;
+			
+			// aapt resource value: 12
+			public const int PreferenceTheme_preferenceTheme = 12;
+			
+			// aapt resource value: 13
+			public const int PreferenceTheme_seekBarPreferenceStyle = 13;
+			
+			// aapt resource value: 14
+			public const int PreferenceTheme_switchPreferenceCompatStyle = 14;
+			
+			// aapt resource value: 15
+			public const int PreferenceTheme_switchPreferenceStyle = 15;
+			
+			// aapt resource value: 16
+			public const int Preference_allowDividerAbove = 16;
+			
+			// aapt resource value: 17
+			public const int Preference_allowDividerBelow = 17;
+			
+			// aapt resource value: 11
+			public const int Preference_android_defaultValue = 11;
+			
+			// aapt resource value: 10
+			public const int Preference_android_dependency = 10;
+			
+			// aapt resource value: 2
+			public const int Preference_android_enabled = 2;
+			
+			// aapt resource value: 13
+			public const int Preference_android_fragment = 13;
+			
+			// aapt resource value: 0
+			public const int Preference_android_icon = 0;
+			
+			// aapt resource value: 15
+			public const int Preference_android_iconSpaceReserved = 15;
+			
+			// aapt resource value: 6
+			public const int Preference_android_key = 6;
+			
+			// aapt resource value: 3
+			public const int Preference_android_layout = 3;
+			
+			// aapt resource value: 8
+			public const int Preference_android_order = 8;
+			
+			// aapt resource value: 1
+			public const int Preference_android_persistent = 1;
+			
+			// aapt resource value: 5
+			public const int Preference_android_selectable = 5;
+			
+			// aapt resource value: 12
+			public const int Preference_android_shouldDisableView = 12;
+			
+			// aapt resource value: 14
+			public const int Preference_android_singleLineTitle = 14;
+			
+			// aapt resource value: 7
+			public const int Preference_android_summary = 7;
+			
+			// aapt resource value: 4
+			public const int Preference_android_title = 4;
+			
+			// aapt resource value: 9
+			public const int Preference_android_widgetLayout = 9;
+			
+			// aapt resource value: 18
+			public const int Preference_defaultValue = 18;
+			
+			// aapt resource value: 19
+			public const int Preference_dependency = 19;
+			
+			// aapt resource value: 20
+			public const int Preference_enableCopying = 20;
+			
+			// aapt resource value: 21
+			public const int Preference_enabled = 21;
+			
+			// aapt resource value: 22
+			public const int Preference_fragment = 22;
+			
+			// aapt resource value: 23
+			public const int Preference_icon = 23;
+			
+			// aapt resource value: 24
+			public const int Preference_iconSpaceReserved = 24;
+			
+			// aapt resource value: 25
+			public const int Preference_isPreferenceVisible = 25;
+			
+			// aapt resource value: 26
+			public const int Preference_key = 26;
+			
+			// aapt resource value: 27
+			public const int Preference_layout = 27;
+			
+			// aapt resource value: 28
+			public const int Preference_order = 28;
+			
+			// aapt resource value: 29
+			public const int Preference_persistent = 29;
+			
+			// aapt resource value: 30
+			public const int Preference_selectable = 30;
+			
+			// aapt resource value: 31
+			public const int Preference_shouldDisableView = 31;
+			
+			// aapt resource value: 32
+			public const int Preference_singleLineTitle = 32;
+			
+			// aapt resource value: 33
+			public const int Preference_summary = 33;
+			
+			// aapt resource value: 34
+			public const int Preference_title = 34;
+			
+			// aapt resource value: 35
+			public const int Preference_widgetLayout = 35;
+			
+			// aapt resource value: { 0x7F030165,0x7F030168 }
 			public static int[] RecycleListView = new int[] {
-					2130903361,
-					2130903364};
+					2130903397,
+					2130903400};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -8363,20 +12162,20 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030114,0x7F03015B,0x7F030170,0x7F030176 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F030132,0x7F03018A,0x7F0301A5,0x7F0301AB }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903251,
-					2130903252,
-					2130903253,
-					2130903254,
-					2130903255,
-					2130903316,
-					2130903387,
-					2130903408,
-					2130903414};
+					2130903276,
+					2130903277,
+					2130903278,
+					2130903279,
+					2130903280,
+					2130903346,
+					2130903434,
+					2130903461,
+					2130903467};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -8414,39 +12213,39 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F030102 }
+			// aapt resource value: { 0x7F03011E }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903298};
+					2130903326};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F03003A }
+			// aapt resource value: { 0x7F030044 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903098};
+					2130903108};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030078,0x7F030090,0x7F0300A6,0x7F0300E7,0x7F0300FE,0x7F030113,0x7F030154,0x7F030155,0x7F030160,0x7F030161,0x7F030181,0x7F030186,0x7F0301E2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030083,0x7F03009B,0x7F0300B1,0x7F030101,0x7F030119,0x7F030131,0x7F030183,0x7F030184,0x7F03018F,0x7F030190,0x7F0301B6,0x7F0301BB,0x7F030220 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903160,
-					2130903184,
-					2130903206,
-					2130903271,
-					2130903294,
-					2130903315,
-					2130903380,
-					2130903381,
-					2130903392,
-					2130903393,
-					2130903425,
-					2130903430,
-					2130903522};
+					2130903171,
+					2130903195,
+					2130903217,
+					2130903297,
+					2130903321,
+					2130903345,
+					2130903427,
+					2130903428,
+					2130903439,
+					2130903440,
+					2130903478,
+					2130903483,
+					2130903584};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -8499,16 +12298,47 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03016E,0x7F03016F }
-			public static int[] Snackbar = new int[] {
-					2130903406,
-					2130903407};
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030028,0x7F03015A,0x7F030192,0x7F03019C,0x7F03021C }
+			public static int[] SeekBarPreference = new int[] {
+					16842994,
+					16843062,
+					2130903080,
+					2130903386,
+					2130903442,
+					2130903452,
+					2130903580};
 			
-			// aapt resource value: { 0x101011F,0x7F0300BF,0x7F030135 }
+			// aapt resource value: 2
+			public const int SeekBarPreference_adjustable = 2;
+			
+			// aapt resource value: 0
+			public const int SeekBarPreference_android_layout = 0;
+			
+			// aapt resource value: 1
+			public const int SeekBarPreference_android_max = 1;
+			
+			// aapt resource value: 3
+			public const int SeekBarPreference_min = 3;
+			
+			// aapt resource value: 4
+			public const int SeekBarPreference_seekBarIncrement = 4;
+			
+			// aapt resource value: 5
+			public const int SeekBarPreference_showSeekBarValue = 5;
+			
+			// aapt resource value: 6
+			public const int SeekBarPreference_updatesContinuously = 6;
+			
+			// aapt resource value: { 0x7F0301A3,0x7F0301A4 }
+			public static int[] Snackbar = new int[] {
+					2130903459,
+					2130903460};
+			
+			// aapt resource value: { 0x101011F,0x7F0300D4,0x7F030153 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903231,
-					2130903349};
+					2130903252,
+					2130903379};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -8525,13 +12355,13 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03014E }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030173 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903374};
+					2130903411};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -8582,22 +12412,22 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030169,0x7F030174,0x7F030187,0x7F030188,0x7F03018A,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301DC,0x7F0301DD,0x7F0301DE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03019D,0x7F0301A9,0x7F0301BF,0x7F0301C0,0x7F0301C4,0x7F0301FF,0x7F030200,0x7F030201,0x7F030218,0x7F030219,0x7F03021A }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903401,
-					2130903412,
-					2130903431,
-					2130903432,
-					2130903434,
-					2130903491,
+					2130903453,
+					2130903465,
+					2130903487,
+					2130903488,
 					2130903492,
-					2130903493,
-					2130903516,
-					2130903517,
-					2130903518};
+					2130903551,
+					2130903552,
+					2130903553,
+					2130903576,
+					2130903577,
+					2130903578};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -8641,6 +12471,92 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300BC,0x7F0301BD,0x7F0301BE,0x7F0301C5,0x7F0301C6 }
+			public static int[] SwitchPreference = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
+					2130903228,
+					2130903485,
+					2130903486,
+					2130903493,
+					2130903494};
+			
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F0300BC,0x7F0301BD,0x7F0301BE,0x7F0301C5,0x7F0301C6 }
+			public static int[] SwitchPreferenceCompat = new int[] {
+					16843247,
+					16843248,
+					16843249,
+					16843627,
+					16843628,
+					2130903228,
+					2130903485,
+					2130903486,
+					2130903493,
+					2130903494};
+			
+			// aapt resource value: 2
+			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int SwitchPreferenceCompat_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchPreferenceCompat_android_summaryOn = 0;
+			
+			// aapt resource value: 4
+			public const int SwitchPreferenceCompat_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreferenceCompat_android_switchTextOn = 3;
+			
+			// aapt resource value: 5
+			public const int SwitchPreferenceCompat_disableDependentsState = 5;
+			
+			// aapt resource value: 6
+			public const int SwitchPreferenceCompat_summaryOff = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchPreferenceCompat_summaryOn = 7;
+			
+			// aapt resource value: 8
+			public const int SwitchPreferenceCompat_switchTextOff = 8;
+			
+			// aapt resource value: 9
+			public const int SwitchPreferenceCompat_switchTextOn = 9;
+			
+			// aapt resource value: 2
+			public const int SwitchPreference_android_disableDependentsState = 2;
+			
+			// aapt resource value: 1
+			public const int SwitchPreference_android_summaryOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchPreference_android_summaryOn = 0;
+			
+			// aapt resource value: 4
+			public const int SwitchPreference_android_switchTextOff = 4;
+			
+			// aapt resource value: 3
+			public const int SwitchPreference_android_switchTextOn = 3;
+			
+			// aapt resource value: 5
+			public const int SwitchPreference_disableDependentsState = 5;
+			
+			// aapt resource value: 6
+			public const int SwitchPreference_summaryOff = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchPreference_summaryOn = 7;
+			
+			// aapt resource value: 8
+			public const int SwitchPreference_switchTextOff = 8;
+			
+			// aapt resource value: 9
+			public const int SwitchPreference_switchTextOn = 9;
+			
 			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
 					16842754,
@@ -8656,33 +12572,33 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A2,0x7F0301A3,0x7F0301A4 }
+			// aapt resource value: { 0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DE,0x7F0301DF,0x7F0301E0 }
 			public static int[] TabLayout = new int[] {
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
-					2130903451,
-					2130903452,
-					2130903453,
-					2130903454,
-					2130903455,
-					2130903456,
-					2130903458,
-					2130903459,
-					2130903460};
+					2130903495,
+					2130903496,
+					2130903497,
+					2130903498,
+					2130903499,
+					2130903500,
+					2130903501,
+					2130903502,
+					2130903503,
+					2130903504,
+					2130903505,
+					2130903506,
+					2130903507,
+					2130903508,
+					2130903509,
+					2130903510,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903515,
+					2130903516,
+					2130903518,
+					2130903519,
+					2130903520};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -8759,7 +12675,7 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300DB,0x7F0300E3,0x7F0301A5,0x7F0301BF }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300F4,0x7F0300FC,0x7F0301E1,0x7F0301FB }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -8773,10 +12689,10 @@ namespace PocThomasMVVMCross.Android
 					16843108,
 					16843692,
 					16844165,
-					2130903259,
-					2130903267,
-					2130903461,
-					2130903487};
+					2130903284,
+					2130903292,
+					2130903521,
+					2130903547};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -8826,36 +12742,36 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300C2,0x7F0300C3,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300F0,0x7F0300F1,0x7F0300F2,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300DB,0x7F0300DC,0x7F030104,0x7F030105,0x7F030106,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903107,
-					2130903108,
-					2130903109,
-					2130903110,
-					2130903111,
-					2130903112,
-					2130903113,
-					2130903114,
-					2130903115,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903204,
-					2130903234,
-					2130903235,
-					2130903274,
-					2130903275,
-					2130903276,
-					2130903280,
-					2130903281,
-					2130903282,
-					2130903368,
-					2130903369,
-					2130903370,
-					2130903371,
-					2130903372};
+					2130903117,
+					2130903118,
+					2130903119,
+					2130903120,
+					2130903121,
+					2130903122,
+					2130903123,
+					2130903124,
+					2130903125,
+					2130903212,
+					2130903213,
+					2130903214,
+					2130903215,
+					2130903259,
+					2130903260,
+					2130903300,
+					2130903301,
+					2130903302,
+					2130903306,
+					2130903307,
+					2130903308,
+					2130903404,
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903408};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -8941,11 +12857,11 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300C0,0x7F0300C1 }
+			// aapt resource value: { 0x1010034,0x7F0300D7,0x7F0300D8 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903232,
-					2130903233};
+					2130903255,
+					2130903256};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -8956,38 +12872,38 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030080,0x7F030081,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030131,0x7F030132,0x7F030136,0x7F030139,0x7F03013B,0x7F03013C,0x7F03014E,0x7F030182,0x7F030183,0x7F030184,0x7F0301CB,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005C,0x7F03008B,0x7F03008C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F03014F,0x7F030150,0x7F030154,0x7F030159,0x7F03015C,0x7F03015D,0x7F030173,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F030207,0x7F030209,0x7F03020A,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903122,
-					2130903168,
-					2130903169,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
-					2130903191,
-					2130903345,
-					2130903346,
-					2130903350,
-					2130903353,
-					2130903355,
-					2130903356,
-					2130903374,
-					2130903426,
-					2130903427,
-					2130903428,
-					2130903499,
-					2130903501,
-					2130903502,
-					2130903503,
-					2130903504,
-					2130903505,
-					2130903506,
-					2130903507,
-					2130903508};
+					2130903132,
+					2130903179,
+					2130903180,
+					2130903197,
+					2130903198,
+					2130903199,
+					2130903200,
+					2130903201,
+					2130903202,
+					2130903375,
+					2130903376,
+					2130903380,
+					2130903385,
+					2130903388,
+					2130903389,
+					2130903411,
+					2130903479,
+					2130903480,
+					2130903481,
+					2130903559,
+					2130903561,
+					2130903562,
+					2130903563,
+					2130903564,
+					2130903565,
+					2130903566,
+					2130903567,
+					2130903568};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -9079,19 +12995,19 @@ namespace PocThomasMVVMCross.Android
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030142,0x7F030143,0x7F0301C1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030166,0x7F030167,0x7F0301FD }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903362,
-					2130903363,
-					2130903489};
+					2130903398,
+					2130903399,
+					2130903549};
 			
-			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
+			// aapt resource value: { 0x10100D4,0x7F03003E,0x7F03003F }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903092,
-					2130903093};
+					2130903102,
+					2130903103};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
