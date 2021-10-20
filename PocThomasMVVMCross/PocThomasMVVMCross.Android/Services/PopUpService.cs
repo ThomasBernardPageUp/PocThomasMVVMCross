@@ -23,11 +23,20 @@ namespace PocThomasMVVMCross.Android.Services
 
         public async Task ShowPopUp()
         {
-
-            /*var editText = LayoutInflater.Inflate(Resource.Layout.CustomDialog, null);
-            var ad = new AlertDialog.Builder(this).Create();
-            ad.SetView(editText);
-            ad.Show();*/
+            try
+            {
+                // LayoutInflater layoutInflater = LayoutInflater.FromContext(Application.Context);
+                // var editText = layoutInflater.Inflate(Resource.Layout.CustomDialog, null);
+                var ad = new AlertDialog.Builder(Application.Context).Create();
+                ad.SetTitle("HA");
+                // ad.SetView(editText);
+                ad.Show();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+           
         }
     }
 }
