@@ -13,7 +13,6 @@ namespace PocThomasMVVMCross.Core
             CreatableTypes().EndingWith("Service").AsInterfaces().RegisterAsLazySingleton();
 
             RegisterAppStart<ViewModels.FirstViewModel>();
-            // RegisterNavigationServiceAppStart<ViewModels.FirstViewModel>();
         }
     }
 }
