@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PocThomasMVVMCross.Android.Views
 {
@@ -18,7 +19,7 @@ namespace PocThomasMVVMCross.Android.Views
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.FirstView);
+            SetContentView(Resource.Layout.FirstView); // Show the first page
         }
     }
 }

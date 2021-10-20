@@ -1,5 +1,7 @@
-﻿using MvvmCross.IoC;
+﻿using MvvmCross;
+using MvvmCross.IoC;
 using MvvmCross.ViewModels;
+using PocThomasMVVMCross.Core.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
