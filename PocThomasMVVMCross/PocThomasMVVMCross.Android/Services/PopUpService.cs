@@ -4,6 +4,7 @@ using Android.Widget;
 using Plugin.CurrentActivity;
 using PocThomasMVVMCross.Core.Interfaces;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace PocThomasMVVMCross.Android.Services
@@ -11,13 +12,16 @@ namespace PocThomasMVVMCross.Android.Services
 
     public class PopUpService : IPopUpService
     {
+        public TaskCompletionSource<string> TaskCompletionSourceMail { get; set; }
+
         public async Task ClosePopUp()
         {
             throw new NotImplementedException();
         }
 
-        public async Task ShowPopUp(string title, string message, string entryContent)
+        public async Task<string> ShowPopUp(string title, string message, string entryContent)
         {
+            TaskCompletionSourceMail = new TaskCompletionSource<string>();
             try
             {
                 LayoutInflater layoutInflater = LayoutInflater.FromContext(CrossCurrentActivity.Current.Activity);
@@ -34,15 +38,37 @@ namespace PocThomasMVVMCross.Android.Services
                 EditText editTextContent = (EditText)alertView.FindViewWithTag("editTextContent");
                 editTextContent.Text = entryContent;
 
+                Button buttonOk = (Button)alertView.FindViewWithTag("buttonOk");
+                buttonOk.Click += delegate  {
+                    TaskCompletionSourceMail.SetResult(editTextContent.Text);
+                    alertDialog.Dismiss();
+                };
+                 
+
+
+
                 alertDialog.SetView(alertView);
                 alertDialog.Show();
 
-                return;
+                //new Thread(() =>
+                //{
+                //    while (alertDialog.IsShowing)
+                //    {
+
+                //    }
+                //    TaskCompletionSourceMail.SetResult(textViewTitle.Text);
+
+                //}).Start();
+                
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
+                TaskCompletionSourceMail.SetException(ex);
             }
+            return await TaskCompletionSourceMail.Task;
+
         }
     }
 }

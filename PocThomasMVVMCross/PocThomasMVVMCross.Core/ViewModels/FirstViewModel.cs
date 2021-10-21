@@ -34,9 +34,6 @@ namespace PocThomasMVVMCross.Core.ViewModels
         private MvxAsyncCommand _showPopUpAccountCommand;
         public ICommand ShowPopUpAccountCommand => _showPopUpAccountCommand;
 
-        private MvxAsyncCommand _createAccountCommand;
-        public ICommand CreateAccountCommand => _createAccountCommand;
-
         private IPopUpService _popUpService;
 
         public FirstViewModel(IPopUpService popUpService)
@@ -45,7 +42,6 @@ namespace PocThomasMVVMCross.Core.ViewModels
 
             _deleteCommand = new MvxAsyncCommand(DeleteName);
             _showPopUpAccountCommand = new MvxAsyncCommand(async () => await ShowPopUpAccount());
-            _createAccountCommand = new MvxAsyncCommand(CreateAccount);
         }
 
         private async Task DeleteName()
@@ -56,12 +52,16 @@ namespace PocThomasMVVMCross.Core.ViewModels
 
         private async Task ShowPopUpAccount()
         {
-             await _popUpService.ShowPopUp("Warning", string.Format("Hello {0} do you want to create an account with this mail ?", this.FullName), string.Format("{0}.{1}@pageup.fr", this.FirstName.ToLower(), this.LastName.ToLower()));
-        }
+            try
+            {
+                var mail = await _popUpService.ShowPopUp("Warning", string.Format("Hello {0} do you want to create an account with this mail ?", this.FullName), string.Format("{0}.{1}@pageup.fr", this.FirstName.ToLower(), this.LastName.ToLower()));
+                Console.WriteLine("Compte créé avec l'adresse " + mail);
 
-        private async Task CreateAccount()
-        {
-            var x = 1;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
 
     }

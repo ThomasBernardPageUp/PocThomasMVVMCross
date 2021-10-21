@@ -8,28 +8,41 @@ namespace PocThomasMVVMCross.Ios.Services
     public class PopUpService : IPopUpService
     {
         private UIAlertView _alertView = new UIAlertView();
+        public TaskCompletionSource<string> TaskCompletionSourceMail { get; set; }
+
 
         public PopUpService()
         {
-            _alertView.Title = "Alerte";
-            _alertView.Message = "Message de l'alerte";
-            _alertView.AddButton("Close");
+            _alertView.AlertViewStyle = UIAlertViewStyle.PlainTextInput;
+            
         }
 
         public async Task ClosePopUp()
         {
         }
 
-        public async Task ShowPopUp(string title, string message, string entryContent)
+        public async Task<string> ShowPopUp(string title, string message, string entryContent)
         {
+            TaskCompletionSource<string> taskCompletionSourceMail = new TaskCompletionSource<string>();
+
             try
             {
+                _alertView.Title = title;
+                _alertView.Message = message;
+                _alertView.GetTextField(0).Text = entryContent;
+
+                _alertView.AddButton("Ok");
+
+
                 _alertView.Show();
-            }
+                }
             catch(Exception ex)
             {
                 Console.WriteLine(ex);
+                taskCompletionSourceMail.SetException(ex);
             }
+
+            return await taskCompletionSourceMail.Task;
 
         }
     }
