@@ -60,7 +60,7 @@ namespace PocThomasMVVMCross.Ios.Views
             set.Bind(_textFieldLastName).To(vm => vm.LastName); // Bind the entry with prop
             set.Bind(_labelFullName).To(vm => vm.FullName); // Bind the label with prop
             set.Bind(_buttonReset).To(vm => vm.DeleteCommand);
-            set.Bind(_buttonCreateAccount).To(vm => vm.CreateAccountCommand);
+            set.Bind(_buttonCreateAccount).To(vm => vm.ShowPopUpAccountCommand);
 
             set.Apply();
         }

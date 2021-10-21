@@ -1,10 +1,12 @@
 ﻿using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
 using MvvmCross;
 using MvvmCross.Platforms.Android.Core;
 using MvvmCross.Platforms.Android.Views;
 using MvvmCross.ViewModels;
+using Plugin.CurrentActivity;
 using PocThomasMVVMCross.Android.Services;
 using PocThomasMVVMCross.Core;
 using PocThomasMVVMCross.Core.Interfaces;

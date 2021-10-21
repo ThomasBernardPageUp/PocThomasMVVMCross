@@ -1,14 +1,9 @@
 ﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Plugin.CurrentActivity;
 using PocThomasMVVMCross.Core.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace PocThomasMVVMCross.Android.Services
@@ -21,22 +16,33 @@ namespace PocThomasMVVMCross.Android.Services
             throw new NotImplementedException();
         }
 
-        public async Task ShowPopUp()
+        public async Task ShowPopUp(string title, string message, string entryContent)
         {
             try
             {
-                // LayoutInflater layoutInflater = LayoutInflater.FromContext(Application.Context);
-                // var editText = layoutInflater.Inflate(Resource.Layout.CustomDialog, null);
-                var ad = new AlertDialog.Builder(Application.Context).Create();
-                ad.SetTitle("HA");
-                // ad.SetView(editText);
-                ad.Show();
+                LayoutInflater layoutInflater = LayoutInflater.FromContext(CrossCurrentActivity.Current.Activity);
+                View alertView = layoutInflater.Inflate(Resource.Layout.CustomDialog, null);
+                AlertDialog alertDialog = new AlertDialog.Builder(CrossCurrentActivity.Current.Activity).Create();
+
+
+                TextView textViewMessage = (TextView)alertView.FindViewWithTag("textViewMessage");
+                textViewMessage.Text = message;
+
+                TextView textViewTitle = (TextView)alertView.FindViewWithTag("textViewTitle");
+                textViewTitle.Text = title;
+
+                EditText editTextContent = (EditText)alertView.FindViewWithTag("editTextContent");
+                editTextContent.Text = entryContent;
+
+                alertDialog.SetView(alertView);
+                alertDialog.Show();
+
+                return;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
-           
         }
     }
 }

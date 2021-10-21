@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -7,24 +8,24 @@
     android:padding="10dp"
     >
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    
-    <TextView
-        android:layout_width="200dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="First name :"
-        android:textSize="30dp"/>
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:textSize="40dp"
-    local:MvxBind="Text FirstName"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="First name :"
+            android:textSize="30dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="40dp"
+            local:MvxBind="Text FirstName"
  />
-    
-</LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,42 +33,42 @@
         android:orientation="horizontal">
 
         <TextView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Last name :"
-        android:textSize="30dp"/>
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Last name :"
+            android:textSize="30dp"/>
 
 
 
-           <EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textSize="40dp"
-    local:MvxBind="Text LastName"
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            local:MvxBind="Text LastName"
  />
     </LinearLayout>
 
-       <LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Full name :"
-        android:textSize="30dp"/>
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Full name :"
+            android:textSize="30dp"/>
 
 
 
-           <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text FullName"
-        android:background="@android:color/darker_gray"
-            android:enabled="false"/>
- />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            local:MvxBind="Text FullName"
+            android:background="@android:color/darker_gray"
+            android:enabled="false"
+            android:id="@+id/textView2" />
     </LinearLayout>
 
 
@@ -80,13 +81,13 @@
         local:MvxBind="Click DeleteCommand"
         />
 
-     <Button
+    <Button
         android:background="@android:color/holo_green_dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Create your account"
-        local:MvxBind="Click CreateAccountCommand"
+        local:MvxBind="Click ShowPopUpAccountCommand"
         />
 
 

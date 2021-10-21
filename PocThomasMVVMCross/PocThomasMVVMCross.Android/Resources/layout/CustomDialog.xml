@@ -11,20 +11,28 @@
         android:layout_height="wrap_content"
         android:text="Title"
         android:textAlignment="center"
-        android:textSize="40dp"/>
+        android:textSize="40dp"
+        android:tag="textViewTitle"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" Content of the alert"
-        android:textSize="20dp"/>
+        android:text="Content of the alert"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:tag="textViewMessage"
+        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextName"
+        android:tag="editTextContent"
     />
-
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        local:MvxBind="Click CreateAccountCommand"/>
 
 </LinearLayout>

@@ -20,7 +20,7 @@ namespace PocThomasMVVMCross.Ios.Services
         {
         }
 
-        public async Task ShowPopUp()
+        public async Task ShowPopUp(string title, string message, string entryContent)
         {
             try
             {

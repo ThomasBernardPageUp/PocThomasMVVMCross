@@ -7,7 +7,7 @@ namespace PocThomasMVVMCross.Core.Interfaces
 {
     public interface IPopUpService
     {
-        Task ShowPopUp();
+        Task ShowPopUp(string title, string message, string entryContent);
         Task ClosePopUp();
     }
 }
