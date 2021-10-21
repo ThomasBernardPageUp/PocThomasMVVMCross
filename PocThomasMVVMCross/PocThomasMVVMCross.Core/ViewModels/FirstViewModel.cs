@@ -52,6 +52,7 @@ namespace PocThomasMVVMCross.Core.ViewModels
         private async void CreateAccount()
         {
             await _popUpService.ShowPopUp();
+            Console.WriteLine("OK, la pop up a été validée");
         }
 
     }
