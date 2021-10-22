@@ -36,6 +36,10 @@ namespace PocThomasMVVMCross.Android.Services
                 LayoutInflater layoutInflater = LayoutInflater.FromContext(CrossCurrentActivity.Current.Activity);
                 View alertView = layoutInflater.Inflate(Resource.Layout.CustomDialog, null);
                 _alertDialog = new AlertDialog.Builder(CrossCurrentActivity.Current.Activity).Create();
+                _alertDialog.DismissEvent += delegate { 
+                    if(TaskCompletionSourceMail.Task.Status == TaskStatus.WaitingForActivation)
+                        TaskCompletionSourceMail.SetException(new Exception("AlertDialog closed")); 
+                };
 
 
                 _textViewMessage = (TextView)alertView.FindViewWithTag("textViewMessage");
