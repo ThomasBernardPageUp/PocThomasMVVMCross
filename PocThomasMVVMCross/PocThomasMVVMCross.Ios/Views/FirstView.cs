@@ -17,37 +17,40 @@ namespace PocThomasMVVMCross.Ios.Views
 
         public FirstView() : base("FirstView", null)
         {
+
         }
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
-
             
-            _textFieldFirstName.Frame = new CGRect(0, 140, View.Bounds.Width, 50);
+            _textFieldFirstName.Frame = new CGRect(10, 140, View.Bounds.Width - 45, 50);
+            _textFieldFirstName.BorderStyle = UITextBorderStyle.RoundedRect;
             _textFieldFirstName.Placeholder = "Enter your first name";
             Add(_textFieldFirstName); // Add to the view
-            
 
-            _textFieldLastName.Frame = new CGRect(0, 200, View.Bounds.Width, 50);
+            _textFieldLastName.Frame = new CGRect(10, 200, View.Bounds.Width - 45, 50);
+            _textFieldLastName.BorderStyle = UITextBorderStyle.RoundedRect;
             _textFieldLastName.Placeholder = "Enter your last name";
             Add(_textFieldLastName); // Add to the view
 
             _labelFullName.Frame = new CGRect(0, 300, View.Bounds.Width, 50);
-            _labelFullName.BackgroundColor = UIColor.Red;
+            _labelFullName.BackgroundColor = UIColor.SystemBlueColor;
             Add(_labelFullName); // Add to the view
 
             _buttonReset.SetTitle("Reset", UIControlState.Normal);
+            _buttonReset.SetTitleColor(UIColor.White, UIControlState.Normal);
             _buttonReset.Frame = new RectangleF(50, 400, 300, 50);
-            _buttonReset.BackgroundColor = UIColor.Red;
+            _buttonReset.BackgroundColor = UIColor.SystemRedColor;
             Add(_buttonReset);
             
 
 
             _buttonCreateAccount.SetTitle("Create your account", UIControlState.Normal);
             _buttonCreateAccount.Frame = new RectangleF(50, 500, 300, 50);
-            _buttonCreateAccount.BackgroundColor = UIColor.Blue;
+            _buttonCreateAccount.SetTitleColor(UIColor.White, UIControlState.Normal) ;
+            _buttonCreateAccount.BackgroundColor = UIColor.SystemBlueColor;
             Add(_buttonCreateAccount);
 
 
