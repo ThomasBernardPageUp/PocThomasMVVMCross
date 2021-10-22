@@ -14,52 +14,44 @@ namespace PocThomasMVVMCross.Android.Services
     {
         public TaskCompletionSource<string> TaskCompletionSourceMail { get; set; }
 
+        private AlertDialog _alertDialog;
+        private TextView _textViewMessage;
+        private TextView _textViewTitle;
+        private EditText _editTextContent;
+        private Button _buttonClose;
+
+
         public async Task ClosePopUp()
         {
-            throw new NotImplementedException();
+            TaskCompletionSourceMail.SetResult(_editTextContent.Text);
+            _alertDialog.Dismiss();
         }
 
         public async Task<string> ShowPopUp(string title, string message, string entryContent)
         {
             TaskCompletionSourceMail = new TaskCompletionSource<string>();
+
             try
             {
                 LayoutInflater layoutInflater = LayoutInflater.FromContext(CrossCurrentActivity.Current.Activity);
                 View alertView = layoutInflater.Inflate(Resource.Layout.CustomDialog, null);
-                AlertDialog alertDialog = new AlertDialog.Builder(CrossCurrentActivity.Current.Activity).Create();
+                _alertDialog = new AlertDialog.Builder(CrossCurrentActivity.Current.Activity).Create();
 
 
-                TextView textViewMessage = (TextView)alertView.FindViewWithTag("textViewMessage");
-                textViewMessage.Text = message;
+                _textViewMessage = (TextView)alertView.FindViewWithTag("textViewMessage");
+                _textViewMessage.Text = message;
 
-                TextView textViewTitle = (TextView)alertView.FindViewWithTag("textViewTitle");
-                textViewTitle.Text = title;
+                _textViewTitle = (TextView)alertView.FindViewWithTag("textViewTitle");
+                _textViewTitle.Text = title;
 
-                EditText editTextContent = (EditText)alertView.FindViewWithTag("editTextContent");
-                editTextContent.Text = entryContent;
+                _editTextContent = (EditText)alertView.FindViewWithTag("editTextContent");
+                _editTextContent.Text = entryContent;
 
-                Button buttonOk = (Button)alertView.FindViewWithTag("buttonOk");
-                buttonOk.Click += delegate  {
-                    TaskCompletionSourceMail.SetResult(editTextContent.Text);
-                    alertDialog.Dismiss();
-                };
-                 
+                _buttonClose = (Button)alertView.FindViewWithTag("buttonOk");
+                _buttonClose.Click += delegate  { ClosePopUp(); };
 
-
-
-                alertDialog.SetView(alertView);
-                alertDialog.Show();
-
-                //new Thread(() =>
-                //{
-                //    while (alertDialog.IsShowing)
-                //    {
-
-                //    }
-                //    TaskCompletionSourceMail.SetResult(textViewTitle.Text);
-
-                //}).Start();
-                
+                _alertDialog.SetView(alertView);
+                _alertDialog.Show();
 
             }
             catch (Exception ex)
