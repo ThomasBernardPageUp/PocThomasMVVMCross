@@ -25,9 +25,6 @@ namespace PocThomasMVVMCross.Ios.Views
             // Perform any additional setup after loading the view, typically from a nib.
 
             
-
-
-            
             _textFieldFirstName.Frame = new CGRect(0, 140, View.Bounds.Width, 50);
             _textFieldFirstName.Placeholder = "Enter your first name";
             Add(_textFieldFirstName); // Add to the view

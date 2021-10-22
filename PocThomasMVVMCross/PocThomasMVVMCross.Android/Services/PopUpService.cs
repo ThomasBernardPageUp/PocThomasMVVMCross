@@ -23,7 +23,7 @@ namespace PocThomasMVVMCross.Android.Services
 
         public async Task ClosePopUp()
         {
-            TaskCompletionSourceMail.SetResult(_editTextContent.Text);
+            TaskCompletionSourceMail.SetResult(_editTextContent.Text ?? "");
             _alertDialog.Dismiss();
         }
 

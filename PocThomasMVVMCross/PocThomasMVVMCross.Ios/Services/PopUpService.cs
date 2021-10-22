@@ -19,11 +19,12 @@ namespace PocThomasMVVMCross.Ios.Services
 
         public async Task ClosePopUp()
         {
+            TaskCompletionSourceMail.SetResult(_alertView.GetTextField(0).Text);
         }
 
         public async Task<string> ShowPopUp(string title, string message, string entryContent)
         {
-            TaskCompletionSource<string> taskCompletionSourceMail = new TaskCompletionSource<string>();
+            TaskCompletionSourceMail = new TaskCompletionSource<string>();
 
             try
             {
@@ -32,18 +33,18 @@ namespace PocThomasMVVMCross.Ios.Services
                 _alertView.GetTextField(0).Text = entryContent;
 
                 _alertView.AddButton("Ok");
-
-
+                _alertView.Dismissed += (sender, args) => ClosePopUp();
                 _alertView.Show();
-                }
+            }
             catch(Exception ex)
             {
                 Console.WriteLine(ex);
-                taskCompletionSourceMail.SetException(ex);
+                TaskCompletionSourceMail.SetException(ex);
             }
 
-            return await taskCompletionSourceMail.Task;
+            return await TaskCompletionSourceMail.Task;
 
         }
+
     }
 }
